@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "5Oae8oA39ese0u5KwNTahfiVOdcBVemzEjFkuUKRHvU=",
+  "Source": "KIVO",
+  "BasePath": "_content/KIVO",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "KIVO\\wwwroot",
+      "Source": "KIVO",
+      "ContentRoot": "C:\\Hakaton2024\\KIVO\\kivo\\wwwroot\\",
+      "BasePath": "_content/KIVO",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css",
+      "SourceId": "KIVO",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/KIVO",
+      "RelativePath": "KIVO.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css"
+    },
+    {
+      "Identity": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
+      "SourceId": "KIVO",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/KIVO",
+      "RelativePath": "KIVO.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css"
+    }
+  ]
+}
