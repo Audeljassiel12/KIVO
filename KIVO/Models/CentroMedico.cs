@@ -19,6 +19,8 @@ namespace KIVO.Models
         public DateTime FechaRegistro { get; set; } // Fecha en que se registró el centro
         public TiposCentroMedico TipoCentroMedico { get; set; }  // tipos de centro medico
 
+        public List<HorarioAtencion>? horarioAtencions{ get; set; }
+
         
 
         

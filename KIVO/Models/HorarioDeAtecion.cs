@@ -26,6 +26,8 @@ namespace KIVO.Models
     
     // Horario de cierre
     public TimeSpan HoraCierre { get; set; }
+    public CentroMedico? CentroMedico { get; set; }
+    public int CentroMedicoId { get; set; }
 }
 
 }
