@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Hakaton2024\\KIVO\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CentroMedico.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\CentroMedico.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
+              "RelativeToolTip": "KIVO\\Models\\CentroMedico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:28:09.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:27:24.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:15.863Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -18,6 +91,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:18.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
