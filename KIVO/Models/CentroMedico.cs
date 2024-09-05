@@ -20,7 +20,8 @@ namespace KIVO.Models
         public TiposCentroMedico TipoCentroMedico { get; set; }  // tipos de centro medico
 
         public List<HorarioAtencion>? horarioAtencions{ get; set; }
-
+        public List<Doctor>? Doctors { get; set; }   
+        public List<PaCiente>? PaCientes { get; set; }
         
 
         
