@@ -18,13 +18,20 @@ namespace KIVO.Models
         public string? Descripcion { get; set; } // Descripción del centro médico
         public DateTime FechaRegistro { get; set; } // Fecha en que se registró el centro
         public TiposCentroMedico TipoCentroMedico { get; set; }  // tipos de centro medico
+    
+         public int? CuidadId {get;set;}  // fk a cuidad
+         public int? DepartamentoId {get; set; }
 
+        public Cuidad? Cuidad{ get; set; }
+        public Departamento? Departamento {get;set;}
         public List<HorarioAtencion>? horarioAtencions{ get; set; }
+      
         public List<Doctor>? Doctors { get; set; }   
         public List<PaCiente>? PaCientes { get; set; }
         public List<Cita>? Citas { get; set; }
         
-        public List<Suscripcion> Suscripcions{ get; set; }
+        public List<Suscripcion>? Suscripcions{ get; set; }
+
 
         
 
