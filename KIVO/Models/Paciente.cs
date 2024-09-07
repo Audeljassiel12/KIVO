@@ -10,7 +10,7 @@ namespace KIVO.Models
     public int Id { get; set; }
 
     public string Nombres { get; set; } = null!;
-
+    public int CentroMedicoId { get; set; }
     public string Apellidos { get; set; } = null!;
 
     public DateTime FechaNacimiento { get; set; }
@@ -31,8 +31,10 @@ namespace KIVO.Models
 
     public DateTime FechaRegistro { get; set; }
 
+
+    public CentroMedico? CentroMedico{ get; set; }
+
     
   
 }
-
 }
