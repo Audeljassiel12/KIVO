@@ -31,7 +31,9 @@ namespace KIVO.Models
         public List<Cita>? Citas { get; set; }
         
         public List<Suscripcion>? Suscripcions{ get; set; }
-
+        public List<CentroMedicoConfiguracion>? CentroMedicoConfiguracions {get;set; }
+        public List<CentroMedicoSubConfiguracion>? centroMedicoSubConfiguracions { get; set; }
+        public List<InvitacionDoctor>? InvitacionDoctors {get;set;} 
 
         
 
