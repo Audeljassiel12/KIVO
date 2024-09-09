@@ -113,13 +113,13 @@ En resumen, este proyecto busca cerrar la brecha entre los servicios de salud p√
 2. Clona el repositorio con el siguiente comando:
 
     ```bash
-    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    git clone https://github.com/Audeljassiel12/KIVO
     ```
 
 3. Accede a la carpeta del proyecto:
 
     ```bash
-    cd nombre-del-repositorio
+    cd KIVO
     ```
 
 ### **2. Configuraci√≥n de Visual Studio**:
