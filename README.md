@@ -132,13 +132,8 @@ En resumen, este proyecto busca cerrar la brecha entre los servicios de salud p�
 - Verificar que las dependencias de **Entity Framework**, **AutoMapper**, y **ASP.NET Identity** estén correctamente instaladas.
 
 ### **4. Configuración de Base de Datos**:
-- Ejecutar una instancia de **SQL Server**.
-- Actualizar la cadena de conexión en el archivo `appsettings.json`.
-- Ejecutar las migraciones de **Entity Framework** con el siguiente comando:
-
-    ```bash
-    dotnet ef database update
-    ```
+- Uso de sql server Local en el mismo proyecto en la fase de desarrollo
+- Uso sql server en azure en la face de publicacion 
 
 ### **5. Configuración de jQuery y Librerías Front-End**:
 - Asegurarse de tener la última versión de **jQuery** instalada.
