@@ -17,6 +17,10 @@ namespace KIVO.Models
         
         // ancla a centromedico
         public CentroMedico? CentroMedico { get; set; }
+        // ancla a planSuscripcion
+        public PlanSuscripcion? PlanSuscripcion { get; set; }
+        
+        public int PlanSuscripcionID { get; set; }
 
       
     }

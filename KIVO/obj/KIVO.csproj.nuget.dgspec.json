@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj": {}
+    "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj": {}
   },
   "projects": {
-    "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj": {
+    "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
+        "projectUniqueName": "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj",
         "projectName": "KIVO",
-        "projectPath": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
+        "projectPath": "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj",
         "packagesPath": "C:\\Users\\audel\\.nuget\\packages\\",
-        "outputPath": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\",
+        "outputPath": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\audel\\AppData\\Roaming\\NuGet\\NuGet.Config",

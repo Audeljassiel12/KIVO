@@ -12,6 +12,9 @@ namespace KIVO.Models
 
         // anclas  
         public List<CentroMedico>? CentroMedicos{ get; set; }
+        public List<Paciente>? Pacientes { get; set; }
+
+        public List<Cuidad>? Ciudades { get; set; } 
 
        
     }

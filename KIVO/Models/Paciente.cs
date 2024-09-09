@@ -1,16 +1,20 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace KIVO.Models
 {
-   public class PaCiente
+   public class Paciente
 {
-    public int Id { get; set; }
+  
+    public User? User { get; set; }
+    [ForeignKey("UserId"),Key]
+    public string UserId { get; set; } = null!;
 
     public string Nombres { get; set; } = null!;
-    public int CentroMedicoId { get; set; }
     public string Apellidos { get; set; } = null!;
 
     public DateTime FechaNacimiento { get; set; }
@@ -33,6 +37,13 @@ namespace KIVO.Models
 
 
     public CentroMedico? CentroMedico{ get; set; }
+     public int CentroMedicoId { get; set; }
+
+    public Cuidad? Ciudad { get; set; }
+    public int CiudadId { get; set; }
+    public Departamento? Departamento { get; set; }
+    public int DepartamentoId { get; set; }
+
 
     
   

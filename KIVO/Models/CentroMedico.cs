@@ -27,7 +27,7 @@ namespace KIVO.Models
         public List<HorarioAtencion>? horarioAtencions{ get; set; }
       
         public List<Doctor>? Doctors { get; set; }   
-        public List<PaCiente>? PaCientes { get; set; }
+        public List<Paciente>? PaCientes { get; set; }
         public List<Cita>? Citas { get; set; }
         
         public List<Suscripcion>? Suscripcions{ get; set; }

@@ -24,14 +24,18 @@ namespace KIVO.Models
         public DateTime FechaCita { get; set; }
         public string Motivo { get; set; } = null!;
         public EstadoDeCita EstadoDeCita  { get; set; } // FK a EstadoCita
-         public int CentroMedicoId {get; set; }  // Fk a cntroMedio
-         public int SignosVitalesId {get; set; } // Fk a SignosVitales  
-       
-
+        
         // Anclas Relacion 
-
-         public CentroMedico? centroMedico{ get; set; }
          public  SignosVitales? SignosVitales { get; set; }
+          public int SignosVitalesId {get; set; } // Fk a SignosVitales  
+          public Paciente? Paciente { get; set; }
+          public int PacienteId {get; set; } // Fk a Paciente
+          public Doctor? Doctor { get; set; }
+          public int DoctorId {get; set; } // Fk a Doctor
+          public CentroMedico? CentroMedico { get; set; } 
+          public int CentroMedicoId {get; set; } // Fk a CentroMedico
+
+
  
        
     }

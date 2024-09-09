@@ -14,5 +14,8 @@ namespace KIVO.Models
         
         public List<CentroMedico>? CentroMedicos { get; set; }
     
+       public List<Paciente>? Pacientes { get; set; }
+       public Departamento? Departamento { get; set; }
+       public int DepartamentoId { get; set; }
     }
 }

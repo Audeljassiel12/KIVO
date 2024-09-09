@@ -141,3 +141,4 @@ C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\refint\KIVO.dll
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\KIVO.pdb
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\KIVO.genruntimeconfig.cache
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\ref\KIVO.dll
+C:\Hakaton2024\KIVO\KIVO\obj\Debug\net8.0\KIVO.sourcelink.json
