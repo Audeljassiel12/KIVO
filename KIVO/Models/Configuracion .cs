@@ -8,10 +8,10 @@ namespace KIVO.Models
    public class Configuracion
 {
     public int Id { get; set; }
-    public string Nombre { get; set; }
+    public string Nombre { get; set; } = null!;
     public bool EsActivable { get; set; }
-    public ICollection<SubConfiguracion> SubConfiguraciones { get; set; }
-    public ICollection<CentroMedicoConfiguracion> CentroMedicoConfiguraciones { get; set; }
+    public ICollection<SubConfiguracion>? SubConfiguraciones { get; set; }
+    public ICollection<CentroMedicoConfiguracion>? CentroMedicoConfiguraciones { get; set; }
 }
 
 }

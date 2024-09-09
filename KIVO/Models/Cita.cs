@@ -25,11 +25,13 @@ namespace KIVO.Models
         public string Motivo { get; set; } = null!;
         public EstadoDeCita EstadoDeCita  { get; set; } // FK a EstadoCita
          public int CentroMedicoId {get; set; }  // Fk a cntroMedio
+         public int SignosVitalesId {get; set; } // Fk a SignosVitales  
        
 
         // Anclas Relacion 
 
          public CentroMedico? centroMedico{ get; set; }
+         public  SignosVitales? SignosVitales { get; set; }
  
        
     }
