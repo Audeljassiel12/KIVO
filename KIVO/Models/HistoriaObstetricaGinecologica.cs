@@ -7,7 +7,7 @@ namespace KIVO.Models
 {
    public class HistoriaObstetricaGinecologica
 {
-    public int HistoriaObstetricaGinecologicaId { get; set; }
+    public int Id { get; set; }
 
     public int PacienteId { get; set; }
     public Paciente? Paciente { get; set; }

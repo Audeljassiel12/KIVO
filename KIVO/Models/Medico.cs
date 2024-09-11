@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace KIVO.Models
 {
-       public class Doctor
+       public class Medico
     {
         public int Id { get; set; }
         public string Nombres { get; set; } = null!;

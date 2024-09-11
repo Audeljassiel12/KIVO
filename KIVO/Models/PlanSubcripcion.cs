@@ -7,7 +7,7 @@ namespace KIVO.Models
 {
     public class PlanSuscripcion
     {
-        public int PlanSuscripcionID { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; } = null!;
         public decimal Precio { get; set; }
         public string Descripcion { get; set; } = null!;

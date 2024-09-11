@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KIVO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d3167c434805f3da83e88014e2a84a97e0ade56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a33412c11b75f8445a2c01a8e520356bb98c4db9")]
 [assembly: System.Reflection.AssemblyProductAttribute("KIVO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KIVO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,10 +30,37 @@ namespace KIVO.Models
           public int SignosVitalesId {get; set; } // Fk a SignosVitales  
           public Paciente? Paciente { get; set; }
           public int PacienteId {get; set; } // Fk a Paciente
-          public Doctor? Doctor { get; set; }
-          public int DoctorId {get; set; } // Fk a Doctor
+          public Medico? Medico { get; set; }
+          public int MedicoId {get; set; } // Fk a Doctor
           public CentroMedico? CentroMedico { get; set; } 
           public int CentroMedicoId {get; set; } // Fk a CentroMedico
+
+
+        // Relacion de RecetaMedica
+        public Receta? Receta { get; set; }
+        public int? RecetaId { get; set; } // Fk a Receta
+
+        
+        // Relacion de ExploracionTopografica
+        public ExploracionTopografica? ExploracionTopografica { get; set; }
+        public int? ExploracionTopograficaId { get; set; } // Fk a ExploracionTopografica
+
+        // Relacion de ResultadoLaboratorio
+        public ResultadoLaboratorio? ResultadoLaboratorio { get; set; }
+        public int? ResultadoLaboratorioId { get; set; } // Fk a ResultadoLaboratorio
+
+        // Relacion de Nutricion
+        public Nutricion? Nutricion { get; set; }
+        public int? NutricionId { get; set; } // Fk a Nutricion
+
+        // Relacion de ExamenFisico
+
+        public List<NotaDeEncuentro>? NotaDeEncuentros { get;}   
+        
+
+
+
+          
 
 
  

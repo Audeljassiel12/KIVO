@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace KIVO.Models
 {    public class SignosVitales
     {
-        public int SignosVitalesID { get; set; } // Clave primaria
+        public int Id { get; set; } // Clave primaria
 
         // Campos para cada signo vital
         public double? Estatura { get; set; }

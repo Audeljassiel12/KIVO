@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace KIVO.Models
 { public class Suscripcion
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public int CentroMedicoId { get; set; } // FK de CentroMedico
         public int PlanSuscripcionId { get; set; } // FK a PlanSuscripcion
         public DateTime FechaInicio { get; set; } 

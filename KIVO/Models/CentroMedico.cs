@@ -26,13 +26,15 @@ namespace KIVO.Models
         public Departamento? Departamento {get;set;}
         public List<HorarioAtencion>? horarioAtencions{ get; set; }
       
-        public List<Doctor>? Doctors { get; set; }   
+        public List<Medico>? medicos { get; set; }   
         public List<Paciente>? PaCientes { get; set; }
         public List<Cita>? Citas { get; set; }
         
         public List<Suscripcion>? Suscripcions{ get; set; }
       
         public List<InvitacionDoctor>? InvitacionDoctors {get;set;} 
+
+        public List<Producto>? Productos{ get; set; }
 
         
 
