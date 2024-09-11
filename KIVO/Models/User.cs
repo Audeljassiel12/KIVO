@@ -8,6 +8,8 @@ namespace KIVO.Models
 {
     public class User:IdentityUser
     {
-        
+        public Paciente? Paciente{ get; set; }
+
+        public Medico? Medico{ get; set; }
     }
 }
