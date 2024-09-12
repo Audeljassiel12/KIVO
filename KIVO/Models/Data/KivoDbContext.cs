@@ -10,5 +10,6 @@ namespace KIVO.Models.Data
     public class KivoDbContext:IdentityDbContext<User>
     {
         
+        
     }
 }

@@ -11,7 +11,9 @@ namespace KIVO.Repository.IRepository
     Task<IEnumerable<T>> GetAllAsync();
     Task AddAsync(T entity);
     void Update(T entity);
+  
     void Delete(T entity);
+
    
 }
 

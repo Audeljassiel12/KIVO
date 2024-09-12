@@ -26,10 +26,14 @@ namespace KIVO.Repository
         }
         public void Delete(T entity)
         {
+            int nono = 2; 
+            int n = nono;
             if (entity == null)
                 throw new ArgumentNullException(nameof(entity));
             EntityDeSet.Remove(entity);
+           
         }
+        
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await EntityDeSet.ToListAsync();

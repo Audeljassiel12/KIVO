@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5Oae8oA39ese0u5KwNTahfiVOdcBVemzEjFkuUKRHvU=",
+  "Hash": "inK9SmAamLJ5myANlSlUX9uZe713Zn8lyonGzI8y/jU=",
   "Source": "KIVO",
   "BasePath": "_content/KIVO",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KIVO\\wwwroot",
       "Source": "KIVO",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\kivo\\wwwroot\\",
+      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css",
+      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css",
       "SourceId": "KIVO",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css"
+      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
+      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
       "SourceId": "KIVO",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO.bundle.scp.css",
       "AssetKind": "All",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css"
     }
   ]
 }
