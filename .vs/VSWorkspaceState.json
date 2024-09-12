@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\KIVO",
-    "\\KIVO\\Models"
+    "\\KIVO\\Models",
+    "\\KIVO\\Views"
   ],
-  "SelectedNode": "\\KIVO\\Models\\HorarioDeAtecion.cs",
+  "SelectedNode": "\\KIVO\\Models\\Paciente.cs",
   "PreviewInSolutionExplorer": false
 }
