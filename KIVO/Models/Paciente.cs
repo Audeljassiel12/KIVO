@@ -13,9 +13,11 @@ namespace KIVO.Models
     public User? User { get; set; }
     [ForeignKey("UserId"),Key]
     public string UserId { get; set; } = null!;
-        [Required(ErrorMessage =" funciono")] //jajdajldkjldkaj  
-
+        [Required(ErrorMessage ="Sus dos {0} son requeridos")] //jajdajldkjldkaj  
+        [StringLength(maximumLength:16,MinimumLength = 13,ErrorMessage = "Sus dos {0} no cumplen por el limite de caracteres establecidos")]
     public string Nombres { get; set; } = null!;
+    [Required(ErrorMessage ="Sus dos {0} son requeridos")] //segundo 
+        [StringLength(maximumLength:40,MinimumLength = 30,ErrorMessage = "Sus dos {0} no cumplen por el limite de caracteres establecidos")]
     public string Apellidos { get; set; } = null!;
 
     public DateTime FechaNacimiento { get; set; }
