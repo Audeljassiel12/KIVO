@@ -20,7 +20,6 @@ namespace KIVO.Models
         [StringLength(maximumLength:10,MinimumLength = 8,ErrorMessage = "El numero de {0} no cumple con los limites de caracteres establecidos.")]
 
         public string Telefono { get; set; } = null!; 
-        [Required(ErrorMessage ="Es necesario el nombre de su centro medico")] 
         [StringLength(maximumLength:120,MinimumLength = 70,ErrorMessage = "El centro medico no cumpe con los caracteres estimados.")]
 
         public CentroMedico? CentroMedico { get; set; }

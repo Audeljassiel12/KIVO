@@ -25,16 +25,13 @@ namespace KIVO.Models
         [Required(ErrorMessage ="El {0} es requerido")] 
         [StringLength(maximumLength:1,MinimumLength = 1,ErrorMessage = "Valor no valido. ingrese 'M' para Masculino o 'F' para Femenino.")]
     public string Sexo { get; set; } = null!;
-        [Required(ErrorMessage ="La {0} de su adomicilio es requerido")]  
         [StringLength(maximumLength:200,MinimumLength = 100,ErrorMessage = "La {0} es demaciada larga por favor ingrese una mas detallada.")]
-    public string? Dirección { get; set; } 
-        [Required(ErrorMessage ="Su numero{0} es requerido")] 
+    public string? Dirección { get; set; }  
         [StringLength(maximumLength:10,MinimumLength = 8,ErrorMessage = "El numero de {0} no cumple con los limites de caracteres establecidos.")]
-    public string? Teléfono { get; set; }
+    public string? Teléfono { get; set; } 
         [Required(ErrorMessage ="Su correo electronico es requerido")]  
         [StringLength(maximumLength:70,MinimumLength = 20,ErrorMessage = "Su correo electronico sobrepasa el limite de caracteres establecidos. ")]
     public string Email { get; set; } = null!;
-        [Required(ErrorMessage ="Su tipo de sangre es requerido")]  
         [StringLength(maximumLength:3,MinimumLength = 2,ErrorMessage = "Su tipo de sangre debe de tener entre {1} y {2} caracteres.")]
     public string? TipoSangre { get; set; } 
         [StringLength(maximumLength:15,MinimumLength = 10,ErrorMessage = "Su estado civil no cumple con los caracteres determinados.")]

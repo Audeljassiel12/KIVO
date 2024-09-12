@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -11,6 +12,8 @@ namespace KIVO.Models
 
     // Relación con la Cita o Paciente
     public int CitaId { get; set; }
+    [StringLength(maximumLength: 300, MinimumLength = 150, ErrorMessage = "Los detalles de la cita no cumplen con el límite de caracteres establecidos (entre {1} y {2} caracteres).")]
+
     public Cita? Cita { get; set; }  // Relación con la consulta en la que se generan los cargos
 
     // Detalles de los cargos
