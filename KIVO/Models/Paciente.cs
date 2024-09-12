@@ -13,8 +13,13 @@ namespace KIVO.Models
     public User? User { get; set; }
     [ForeignKey("UserId"),Key]
     public string UserId { get; set; } = null!;
+<<<<<<< Updated upstream
         [required(ErrorMessage =" funciono")] //// hafakjfkja oiau adfjakadaa 
 
+=======
+        [Required(ErrorMessage =" funciono")] 
+       
+>>>>>>> Stashed changes
     public string Nombres { get; set; } = null!;
     public string Apellidos { get; set; } = null!;
 
