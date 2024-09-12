@@ -10,10 +10,11 @@ namespace KIVO.Models
    public class Paciente
 {
   
-    public User? User { get; set; }
+   
+     public string? Id { get; set; }
+     public User? User { get; set; }
     [ForeignKey("UserId"),Key]
     public string UserId { get; set; } = null!;
-
     public string Nombres { get; set; } = null!;
     public string Apellidos { get; set; } = null!;
 
