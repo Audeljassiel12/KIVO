@@ -13,11 +13,7 @@ namespace KIVO.Models
     public User? User { get; set; }
     [ForeignKey("UserId"),Key]
     public string UserId { get; set; } = null!;
-
-
-
-        [Required(ErrorMessage =" funciono")] 
-       
+        [required(ErrorMessage =" funciono")] //jajdajldkjldkaj
 
     public string Nombres { get; set; } = null!;
     public string Apellidos { get; set; } = null!;
