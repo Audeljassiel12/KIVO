@@ -10,7 +10,7 @@ namespace KIVO.Models
     {
         public int Id { get; set; } // Primary Key
         [Required(ErrorMessage ="Su {0} es requerido")] 
-        [StringLength(maximumLength:60,MinimumLength = 30,ErrorMessage = "El nombre de su {0} no cumple con los limites de caracteres establecidos.")]
+        [StringLength(maximumLength:50,MinimumLength = 3,ErrorMessage = "El nombre de su {0} no cumple con los limites de caracteres establecidos.")]
         public string Nombre { get; set; } = null!;
 
         // anclas  

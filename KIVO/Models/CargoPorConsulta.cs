@@ -12,7 +12,7 @@ namespace KIVO.Models
 
     // Relación con la Cita o Paciente
     public int CitaId { get; set; }
-    [StringLength(maximumLength: 300, MinimumLength = 150, ErrorMessage = "Los detalles de la cita no cumplen con el límite de caracteres establecidos (entre {1} y {2} caracteres).")]
+    [StringLength(maximumLength: 10, MinimumLength = 7, ErrorMessage = "Los detalles de la cita no cumplen con el límite de caracteres establecidos (entre {1} y {2} caracteres).")]
 
     public Cita? Cita { get; set; }  // Relación con la consulta en la que se generan los cargos
 
