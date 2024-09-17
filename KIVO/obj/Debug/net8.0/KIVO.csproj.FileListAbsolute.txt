@@ -142,3 +142,9 @@ C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\KIVO.pdb
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\KIVO.genruntimeconfig.cache
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\ref\KIVO.dll
 C:\Hakaton2024\KIVO\KIVO\obj\Debug\net8.0\KIVO.sourcelink.json
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\PhoneNumbers.dll
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Microsoft.VisualStudio.Web.BrowserLink.12.0.dll
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Microsoft.VisualStudio.Web.BrowserLink.dll
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Twilio.dll
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

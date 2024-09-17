@@ -1,0 +1,37 @@
+﻿<div id="seleccion-organizacion" class="row">
+    <div class="col-md-6">
+        <div class="card" style="cursor:pointer;" onclick="mostrarFormulario('consultorio')">
+            <div class="card-body">
+                <h5 class="card-title">Consultorio</h5>
+                <p class="card-text">Seleccione esta opción si tiene un consultorio médico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card" style="cursor:pointer;" onclick="mostrarFormulario('clinica')">
+            <div class="card-body">
+                <h5 class="card-title">Centro Médico</h5>
+                <p class="card-text">Seleccione esta opción si tiene una clínica o centro médico.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="formulario-seleccionado" style="margin-top:20px;">
+    <!-- Aquí se cargará dinámicamente el formulario -->
+</div>
+
+<script>
+    function mostrarFormulario(tipo) {
+        // Ocultar las fichas de selección
+        document.getElementById('seleccion-organizacion').style.display = 'none';
+
+        // Cargar el formulario seleccionado
+        fetch(`/Account/CargarFormulario?tipoOrganizacion=${tipo}`)
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('formulario-seleccionado').innerHTML = data;
+            })
+            .catch(error => console.error('Error al cargar el formulario:', error));
+    }
+</script>

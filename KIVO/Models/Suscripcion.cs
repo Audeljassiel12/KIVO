@@ -20,7 +20,7 @@ namespace KIVO.Models
         // ancla a planSuscripcion
         public PlanSuscripcion? PlanSuscripcion { get; set; }
         
-        public int PlanSuscripcionID { get; set; }
+       
 
       
     }

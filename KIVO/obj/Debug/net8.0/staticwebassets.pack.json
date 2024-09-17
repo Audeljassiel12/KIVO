@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
+      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
       "PackagePath": "staticwebassets\\KIVO.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
+      "PackagePath": "staticwebassets\\js\\verifyIdentity.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KIVO.Microsoft.AspNetCore.StaticWebAssets.props",

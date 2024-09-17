@@ -8,6 +8,10 @@ namespace KIVO.Models
 {
     public class User:IdentityUser
     {
-        
+        public Paciente? Paciente{ get; set; }
+
+        public Medico? Medico{ get; set; }
+        public string VerificationCode {get;set;} = null!;
+           public DateTime? VerificationCodeExpiry { get; set; }
     }
 }
