@@ -30,7 +30,7 @@ namespace KIVO.Models
         public double? PerimetroAbdominal { get; set; }
 
         // Relación con Cita
-        public int CitaID { get; set; } // Clave foránea a Cita
+        public int CitaId { get; set; } // Clave foránea a Cita
         public Cita? Cita { get; set; } // Navegación hacia Cita
     }
 

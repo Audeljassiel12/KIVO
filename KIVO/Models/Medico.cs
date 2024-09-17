@@ -7,13 +7,14 @@ namespace KIVO.Models
 {
        public class Medico
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Nombres { get; set; } = null!;
         public string Apellidos { get; set; } = null!; 
        
         public string Telefono { get; set; } = null!; 
         public CentroMedico? CentroMedico { get; set; }
         public int CentroMedicoId {get; set; } 
+        public List<Cita> Citas { get; set; }
       
     
      

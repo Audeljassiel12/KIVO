@@ -3,16 +3,39 @@
   "WorkspaceRootPath": "C:\\Hakaton2024\\KIVO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\kivo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\kivo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\horariodeatecion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\horariodeatecion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,6 +44,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +57,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CentroMedico.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\CentroMedico.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
-              "RelativeToolTip": "KIVO\\Models\\CentroMedico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:28:09.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "KIVO\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "KIVO\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:27:24.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:29.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:15.863Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -94,7 +69,149 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KIVO",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
+              "RelativeDocumentMoniker": "KIVO\\KIVO.csproj",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
+              "RelativeToolTip": "KIVO\\KIVO.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-17T22:09:54.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALkUAAAAAAAAAAAgwNMUAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-17T22:06:17.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "KIVO\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
+              "RelativeToolTip": "KIVO\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T22:03:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "KIVO\\appsettings.Development.json",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
+              "RelativeToolTip": "KIVO\\appsettings.Development.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T22:01:32.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.json",
+              "RelativeDocumentMoniker": "KIVO\\appsettings.json",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.json",
+              "RelativeToolTip": "KIVO\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T22:01:24.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
+              "RelativeDocumentMoniker": "KIVO\\Program.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
+              "RelativeToolTip": "KIVO\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:52:21.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HorarioDeAtecion.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HorarioDeAtecion.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\HorarioDeAtecion.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HorarioDeAtecion.cs",
+              "RelativeToolTip": "KIVO\\Models\\HorarioDeAtecion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:05:03.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CentroMedico.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\CentroMedico.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
+              "RelativeToolTip": "KIVO\\Models\\CentroMedico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:28:09.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:27:24.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:29.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:15.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\_ViewImports.cshtml",
@@ -102,12 +219,7 @@
               "RelativeToolTip": "KIVO\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:18.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-09-03T17:25:18.871Z"
             }
           ]
         }

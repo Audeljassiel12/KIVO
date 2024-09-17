@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj": {}
+    "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj": {}
   },
   "projects": {
-    "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj": {
+    "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj",
+        "projectUniqueName": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
         "projectName": "KIVO",
-        "projectPath": "C:\\Hakaton2024\\KIVO\\kivo\\KIVO.csproj",
+        "projectPath": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
         "packagesPath": "C:\\Users\\audel\\.nuget\\packages\\",
-        "outputPath": "C:\\Hakaton2024\\KIVO\\kivo\\obj\\",
+        "outputPath": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\audel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -67,6 +71,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.BrowserLink": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.BrowserLink.12.0": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "libphonenumber-csharp": {
+              "target": "Package",
+              "version": "[8.13.45, )"
             }
           },
           "imports": [
