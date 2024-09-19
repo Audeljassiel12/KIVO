@@ -4,10 +4,27 @@ body{
     overflow: hidden; /* Esto evitará el scroll en la página completa */
 }
 
-img {
+.sandia {
     width: 450px;
     height: auto;
     position: relative;
     top: -13px;
     left: -175px;
 }
+
+.fabian {
+    width: 95px;
+    height: auto;
+    margin-left: 795px;
+    margin-top: -550px;
+}
+
+.inicio {
+    margin-top: 20px;
+    margin-left: 670px;
+    color: white;
+    font-size: 25px;
+    max-width: 400px;
+    text-align: center;
+}
+
