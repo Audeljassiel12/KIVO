@@ -1,20 +1,15 @@
-body {
-    background-color: rgb(241, 233, 228);
+
+img {
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: -40px;
 }
 
 
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;    /* Centra verticalmente */
-   
-}
-
-.image-container img {
-    width: 395px;
-    height: 402px;
-    object-fit: cover; /* Asegura que la imagen se ajuste al tamaño */
-}
+.image-container {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+} 

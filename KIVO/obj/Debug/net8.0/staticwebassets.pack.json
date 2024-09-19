@@ -5,68 +5,60 @@
       "PackagePath": "staticwebassets\\KIVO.bundle.scp.css"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ISOLOGO_WH.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ISOLOGO_WH.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ISOLOGO_1_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LINEA_ACUA-.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\LINEA_ACUA-.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ISOLOGO_BLANCO.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LINEA_ROJO-.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\LINEA_ROJO-.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LINEA_ACUA_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LOGO2_WH.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\LOGO2_WH.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LINEA_ROJO_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LOGO_ESLOGAN_WH.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\LOGO_ESLOGAN_WH.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO2_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LOGO_WH.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\LOGO_WH.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\MANOS-.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\MANOS-.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGIBAL_LOGO2.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ORIGIBAL_LOGO2.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGINAL_ISOLOGO.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ORIGINAL_ISOLOGO.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGINAL_LOGO.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ORIGINAL_LOGO.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\MANOS_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\MANOS_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGINAL_LOGO_ESLOGAN.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ORIGINAL_LOGO_ESLOGAN.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ROBOT FELIZ.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ROBOT FELIZ.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ROBOT PERFIL.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ROBOT PERFIL.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT_COLOR.svg"
     },
     {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ROBOT.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\ROBOT.png"
-    },
-    {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\Recurso 40-.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\Recurso 40-.png"
-    },
-    {
-      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\UnityWork-07.png",
-      "PackagePath": "staticwebassets\\RECURSOS\\UnityWork-07.png"
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\UnityWork-07.png"
     },
     {
       "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\css\\index.css",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N/d6PtcnPPZNOPf4U7dSm10rywy4zqOTh9URHgkRg10=",
+  "Hash": "Fm1t0IyomL/28F4T/jDx3S1/n3AULzxv4WOGT0TP33Y=",
   "Source": "KIVO",
   "BasePath": "_content/KIVO",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\js\\verifyIdentity.js"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ISOLOGO_WH.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ISOLOGO_WH.png",
+      "RelativePath": "KIVO_SVG/ISOLOGO_1_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ISOLOGO_WH.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LINEA_ACUA-.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/LINEA_ACUA-.png",
+      "RelativePath": "KIVO_SVG/ISOLOGO_BLANCO.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\LINEA_ACUA-.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LINEA_ROJO-.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/LINEA_ROJO-.png",
+      "RelativePath": "KIVO_SVG/LINEA_ACUA_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\LINEA_ROJO-.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LOGO_ESLOGAN_WH.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/LOGO_ESLOGAN_WH.png",
+      "RelativePath": "KIVO_SVG/LINEA_ROJO_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\LOGO_ESLOGAN_WH.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LOGO_WH.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/LOGO_WH.png",
+      "RelativePath": "KIVO_SVG/LOGO_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\LOGO_WH.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\LOGO2_WH.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/LOGO2_WH.png",
+      "RelativePath": "KIVO_SVG/LOGO_ESLOGAN_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\LOGO2_WH.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\MANOS-.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/MANOS-.png",
+      "RelativePath": "KIVO_SVG/LOGO_VAR1_BLANCO.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\MANOS-.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGIBAL_LOGO2.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ORIGIBAL_LOGO2.png",
+      "RelativePath": "KIVO_SVG/LOGO_VAR2_BLANCO.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ORIGIBAL_LOGO2.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGINAL_ISOLOGO.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ORIGINAL_ISOLOGO.png",
+      "RelativePath": "KIVO_SVG/LOGO2_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ORIGINAL_ISOLOGO.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGINAL_LOGO_ESLOGAN.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\MANOS_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ORIGINAL_LOGO_ESLOGAN.png",
+      "RelativePath": "KIVO_SVG/MANOS_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ORIGINAL_LOGO_ESLOGAN.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\MANOS_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ORIGINAL_LOGO.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ORIGINAL_LOGO.png",
+      "RelativePath": "KIVO_SVG/ROBOT FELIZ_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ORIGINAL_LOGO.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\Recurso 40-.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/Recurso 40-.png",
+      "RelativePath": "KIVO_SVG/ROBOT PERFIL_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\Recurso 40-.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ROBOT FELIZ.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ROBOT FELIZ.png",
+      "RelativePath": "KIVO_SVG/ROBOT_COLOR.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ROBOT FELIZ.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg"
     },
     {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ROBOT PERFIL.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ROBOT PERFIL.png",
+      "RelativePath": "KIVO_SVG/UnityWork-07.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,45 +356,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ROBOT PERFIL.png"
-    },
-    {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\ROBOT.png",
-      "SourceId": "KIVO",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
-      "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/ROBOT.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\ROBOT.png"
-    },
-    {
-      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\RECURSOS\\UnityWork-07.png",
-      "SourceId": "KIVO",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
-      "BasePath": "_content/KIVO",
-      "RelativePath": "RECURSOS/UnityWork-07.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RECURSOS\\UnityWork-07.png"
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\UnityWork-07.png"
     }
   ]
 }
