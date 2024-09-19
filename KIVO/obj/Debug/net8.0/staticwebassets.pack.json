@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\css\\segundo.css",
+      "PackagePath": "staticwebassets\\css\\segundo.css"
+    },
+    {
       "Id": "C:\\Haka\\KIVO\\kivo\\wwwroot\\js\\verifyIdentity.js",
       "PackagePath": "staticwebassets\\js\\verifyIdentity.js"
     },

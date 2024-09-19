@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to right,#2A8D96,#2C2C6E,#CE4740);
+    margin: 0; /* Elimina el margen del body */
+    overflow: hidden; /* Esto evitará el scroll en la página completa */
+}
+
+img {
+    width: 450px;
+    height: auto;
+    position: relative;
+    top: -13px;
+    left: -175px;
+}
