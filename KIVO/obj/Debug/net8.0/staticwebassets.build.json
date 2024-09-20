@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bnYzKaiPmX/4c7a6mG9QC5jvTvY7lVeb17Wsa8ci5W0=",
+  "Hash": "olA5NkDyT1xmOjeO0wxz5N9QBi/qExkhUKqv3oYugS0=",
   "Source": "KIVO",
   "BasePath": "_content/KIVO",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\segundo.css"
+    },
+    {
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\css\\tercer.css",
+      "SourceId": "KIVO",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
+      "BasePath": "_content/KIVO",
+      "RelativePath": "css/tercer.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tercer.css"
     },
     {
       "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\js\\verifyIdentity.js",
