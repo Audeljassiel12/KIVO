@@ -18,5 +18,15 @@ namespace KIVO.Controllers
         {
             return View();
         }
+
+        public IActionResult Index4() 
+        {
+            return View();
+        }
+
+        public IActionResult Index5() 
+        {
+            return View();
+        }
     }
 }
