@@ -1,47 +1,74 @@
-
 @model KIVO.Models.Dto.InputModel
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "";
 
 }
 
+<link rel="stylesheet" href="/css/registrarse.css">
 <h2>@ViewData["Title"]</h2>
 
+<body>
+    
+        <div class="imagen-esquina">
+      <img src="/KIVO_SVG/ESQ_INICIAR.svg" alt=""> 
+    </div>
 <div class="row">
     <div class="col-md-4">
         <form asp-controller="Account" asp-action="Registrarse" method="post">
-            <h4>Create a new account.</h4>
-            <hr />
-            <div asp-validation-summary="All" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nombres"></label>
-                <input asp-for="Nombres" class="form-control" />
-                <span asp-validation-for="Nombres" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ConfirmPassword"></label>
-                <input asp-for="ConfirmPassword" class="form-control" />
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-            </div>
+           
 
-            <div class="form-group">
-                <label asp-for="CellPhone"></label>
-                <input asp-for="CellPhone" class="form-control" />
-                <span asp-validation-for="CellPhone" class="text-danger"></span>
-            </div>
-            <button type="submit" class="btn btn-default">Register</button>
+            <section class="formulario">
+
+      
+                <section class="cajas_texto">
+                    <div class="cajas">
+                        <h3>REGÍSTRATE</h3>
+
+                        <div class="form-group">
+                            <input asp-for="Nombres" class="form-control" placeholder="Nombre Completo" required />
+                            <span asp-validation-for="Nombres" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="Email" class="form-control" type="email" placeholder="Correo Electrónico"
+                                required />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="Password" class="form-control" type="password" placeholder="Contraseña"
+                                required />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="ConfirmPassword" class="form-control" type="password"
+                                placeholder="Confirmar contraseña" required />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input asp-for="CellPhone" class="form-control" type="tel"
+                                placeholder="Número de teléfono" />
+                            <span asp-validation-for="CellPhone" class="text-danger"></span>
+                        </div>
+
+                        <button id="btnReg" type="submit" class="btn btn-default">REGISTRARSE</button>
+                        <div class="opcion">
+                            <hr>
+                            <div class="text">O</div>
+                            <hr>
+                        </div>
+                        <button id="google" type="submit" class="btn btn-default"><img src="/KIVO_SVG/GOOGLE.svg"
+                                alt="Logo de Google"> Iniciar sesión con Google</button>
+
+                                <h4>¿Ya tienes una cuenta?</h4>
+                    </div>
+                </section>
+
+                <section class="imagen">
+                    <img src="/KIVO_SVG/ISOLOGO_1_COLOR.svg" alt="">
+                </section>
+            </section>
         </form>
     </div>
 </div>
-
+</body>
 @TempData["Error"]

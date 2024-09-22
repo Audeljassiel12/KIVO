@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KIVO
 build_property.RootNamespace = KIVO
-build_property.ProjectDir = C:\Haka\KIVO\KIVO\
+build_property.ProjectDir = C:\Users\HP\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\Desktop\KIVO\KIVO\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Haka\KIVO\KIVO
+build_property.MSBuildProjectDirectory = C:\Users\HP\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\Desktop\KIVO\KIVO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/GoogleResponse.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Account/GoogleResponse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxHb29nbGVSZXNwb25zZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/Login.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/RegistrarOrganizacion.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Account/RegistrarOrganizacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXJPcmdhbml6YWNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/Registrarse.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Account/Registrarse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/VerificarNumero.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Account/VerificarNumero.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZmljYXJOdW1lcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/_FormularioConsultorio.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Account/_FormularioConsultorio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfRm9ybXVsYXJpb0NvbnN1bHRvcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index2.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Home/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index3.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Home/Index3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index4.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Home/Index4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index5.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Home/Index5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Shared/Error.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/_ViewImports.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/_ViewStart.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Shared/_Layout.cshtml]
+[C:/Users/HP/OneDrive - \#BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León/Desktop/KIVO/KIVO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dlj8vp4xrk

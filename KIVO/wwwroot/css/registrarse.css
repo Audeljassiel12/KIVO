@@ -1,0 +1,149 @@
+@import url('/KIVO/wwwroot/fuentes/font.css');
+* { 
+    font-family: 'nunito';
+}
+
+body {
+    color: brown;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Regresado a 20px */
+}
+
+h3 {
+    color: #2C2C6E;
+    margin-top: -10px;
+    font-weight: 800;
+}
+
+h4 {
+    color: #2C2C6E;
+    font-weight: 800;
+    font-size: 12px; /* Aumentado de 13px a 14px */
+}
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px; /* Aumentado de 100px a 150px */
+    background-color: #f3f3f37c;
+    padding: 35px; /* Aumentado de 15px a 25px */
+    border-radius: 15px; /* Se mantiene igual */
+}
+
+.cajas .form-group {
+    margin-bottom: 20px; /* Aumentado de 15px a 20px */
+}
+
+.cajas input, #btnReg {
+    width: 330px; /* Aumentado de 280px a 300px */
+}
+
+.cajas button {
+    margin-top: 10px;
+    border-radius: 8px; /* Aumentado de 8px a 10px */
+    border: none;
+    height: 35px; /* Se mantiene igual */
+    background-color: #2C2C6E;
+    color: aliceblue;
+    font-weight: 800;
+    transition: background-color 0.8s; /* Cambiado a 'background' */
+    font-size: 12px;
+    
+}
+#btnReg:hover {
+
+    background: linear-gradient(to right,#2A8D96,#2C2C6E,#CE4740);
+ 
+}
+
+#google {
+    margin-top: 20px; /* Se mantiene igual */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e7f0;
+    border-radius: 10px; /* Se mantiene igual */
+    color: #2C2C6E;
+    font-weight: 700;
+    padding: 8px 16px; /* Se mantiene igual */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 300px;
+}
+
+#google:hover {
+    background-color: #c0c3ff !important; 
+}
+
+button img {
+    width: 20px; /* Se mantiene igual */
+    margin-right: 8px; /* Se mantiene igual */
+}
+
+.cajas input {
+    border-radius: 8px; /* Se mantiene igual */
+    border: 2px solid #2c2c6e4d;
+    background-color: transparent;
+    font-size: 12px; /* Se mantiene igual */
+    height: 40px; /* Aumentado de 35px a 40px */
+}
+
+input::placeholder {
+    padding-left: 10px;
+    color: #2c2c6e81;
+    font-weight: 700;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%; /* Se mantiene igual */
+    margin-right: 50px;
+}
+
+.imagen img {
+    width: 25%; /* Aumentado de 20% a 25% */
+    margin-top: 80px; /* Aumentado de 60px a 80px */
+}
+
+.opcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 120px; /* Aumentado de 100px a 120px */
+    height: 0.8px;
+    background-color: #2C2C6E;
+    margin: 0;
+    border-radius: 50px;
+}
+
+.text {
+    margin: 0 8px; /* Aumentado de 6px a 8px */
+    font-weight: bold;
+    color: #2C2C6E;
+    font-size: 12px; /* Aumentado de 13px a 14px */
+}
+
+.imagen-esquina {
+    position: absolute; /* Posicionamiento absoluto */
+    top: -40px; /* Distancia desde la parte superior */
+    right: -20px; /* Distancia desde la derecha */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    justify-content:right ;
+}
+
