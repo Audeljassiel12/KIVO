@@ -609,6 +609,263 @@ namespace KIVO.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("EspecialidadMedicas");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nombre = "Cardiología"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nombre = "Pediatría"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nombre = "Dermatología"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nombre = "Oftalmología"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Nombre = "Neurología"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Nombre = "Ginecología"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Nombre = "Psiquiatría"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Nombre = "Ortopedia"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Nombre = "Neumología"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Nombre = "Endocrinología"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Nombre = "Gastroenterología"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Nombre = "Oncología"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Nombre = "Urología"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Nombre = "Nefrología"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Nombre = "Hematología"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Nombre = "Infectología"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Nombre = "Reumatología"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Nombre = "Otorrinolaringología"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Nombre = "Cirugía General"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Nombre = "Cirugía Plástica"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            Nombre = "Medicina Interna"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            Nombre = "Medicina Familiar"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            Nombre = "Medicina del Deporte"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            Nombre = "Geriatría"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            Nombre = "Traumatología"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            Nombre = "Neurocirugía"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            Nombre = "Anestesiología"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            Nombre = "Radiología"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            Nombre = "Patología"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            Nombre = "Neonatología"
+                        },
+                        new
+                        {
+                            Id = 31,
+                            Nombre = "Allergología"
+                        },
+                        new
+                        {
+                            Id = 32,
+                            Nombre = "Medicina Nuclear"
+                        },
+                        new
+                        {
+                            Id = 33,
+                            Nombre = "Toxicología"
+                        },
+                        new
+                        {
+                            Id = 34,
+                            Nombre = "Fisiatría"
+                        },
+                        new
+                        {
+                            Id = 35,
+                            Nombre = "Cuidados Paliativos"
+                        },
+                        new
+                        {
+                            Id = 36,
+                            Nombre = "Enfermería"
+                        },
+                        new
+                        {
+                            Id = 37,
+                            Nombre = "Radiología"
+                        },
+                        new
+                        {
+                            Id = 38,
+                            Nombre = "Técnico de Laboratorio"
+                        },
+                        new
+                        {
+                            Id = 39,
+                            Nombre = "Farmacia"
+                        },
+                        new
+                        {
+                            Id = 40,
+                            Nombre = "Fisioterapia"
+                        },
+                        new
+                        {
+                            Id = 41,
+                            Nombre = "Nutrición"
+                        },
+                        new
+                        {
+                            Id = 42,
+                            Nombre = "Psicología"
+                        },
+                        new
+                        {
+                            Id = 43,
+                            Nombre = "Trabajador Social"
+                        },
+                        new
+                        {
+                            Id = 44,
+                            Nombre = "Administración de Salud"
+                        },
+                        new
+                        {
+                            Id = 45,
+                            Nombre = "Odontología"
+                        },
+                        new
+                        {
+                            Id = 46,
+                            Nombre = "Terapia Ocupacional"
+                        },
+                        new
+                        {
+                            Id = 47,
+                            Nombre = "Logopedia"
+                        },
+                        new
+                        {
+                            Id = 48,
+                            Nombre = "Alumnos/Internos"
+                        },
+                        new
+                        {
+                            Id = 49,
+                            Nombre = "Urgencias Médicas"
+                        },
+                        new
+                        {
+                            Id = 50,
+                            Nombre = "Paramédicos"
+                        },
+                        new
+                        {
+                            Id = 51,
+                            Nombre = "Gestión Administrativa"
+                        });
                 });
 
             modelBuilder.Entity("KIVO.Models.ExploracionTopografica", b =>
@@ -942,7 +1199,7 @@ namespace KIVO.Migrations
                     b.Property<int>("CentroMedicoId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("EspecialidadMedicaId")
+                    b.Property<int>("EspecialidadMedicoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombres")
@@ -957,7 +1214,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("CentroMedicoId");
 
-                    b.HasIndex("EspecialidadMedicaId");
+                    b.HasIndex("EspecialidadMedicoId");
 
                     b.ToTable("Medicos");
                 });
@@ -1097,8 +1354,11 @@ namespace KIVO.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DuracionEnMeses")
+                    b.Property<int>("DuracionEnDias")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsFree")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -1110,6 +1370,35 @@ namespace KIVO.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("PlanSuscripcions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Descripcion = "Este es un plan gratuito con acceso limitado.",
+                            DuracionEnDias = 30,
+                            IsFree = true,
+                            Nombre = "Plan Básico",
+                            Precio = 0m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Descripcion = "Acceso a todas las funcionalidades por 1 mes.",
+                            DuracionEnDias = 30,
+                            IsFree = false,
+                            Nombre = "Plan Estándar",
+                            Precio = 29.99m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Descripcion = "Acceso ilimitado por 3 meses.",
+                            DuracionEnDias = 90,
+                            IsFree = false,
+                            Nombre = "Plan Premium",
+                            Precio = 99.99m
+                        });
                 });
 
             modelBuilder.Entity("KIVO.Models.Producto", b =>
@@ -1365,6 +1654,9 @@ namespace KIVO.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("HaConfiguradoOrganizacion")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -1373,6 +1665,9 @@ namespace KIVO.Migrations
 
                     b.Property<string>("MedicoId")
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Nombres")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -1393,6 +1688,9 @@ namespace KIVO.Migrations
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("SelecionoPlan")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -1726,11 +2024,15 @@ namespace KIVO.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("KIVO.Models.EspecialidadMedica", null)
+                    b.HasOne("KIVO.Models.EspecialidadMedica", "EspecialidadMedico")
                         .WithMany("Medicos")
-                        .HasForeignKey("EspecialidadMedicaId");
+                        .HasForeignKey("EspecialidadMedicoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("CentroMedico");
+
+                    b.Navigation("EspecialidadMedico");
                 });
 
             modelBuilder.Entity("KIVO.Models.NotaDeEncuentro", b =>

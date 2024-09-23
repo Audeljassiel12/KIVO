@@ -15,6 +15,8 @@ namespace KIVO.Models
         public CentroMedico? CentroMedico { get; set; }
         public int CentroMedicoId {get; set; } 
         public List<Cita> Citas { get; set; }
+        public EspecialidadMedica? EspecialidadMedico { get;set; }
+        public int EspecialidadMedicoId {get;set; }
       
     
      

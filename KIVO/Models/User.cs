@@ -13,5 +13,9 @@ namespace KIVO.Models
         public Medico? Medico{ get; set; }
         public string VerificationCode {get;set;} = null!;
            public DateTime? VerificationCodeExpiry { get; set; }
+        public string? Nombres { get; set; } 
+        public bool HaConfiguradoOrganizacion 
+            { get; set; }
+        public bool SelecionoPlan { get; set; }
     }
 }

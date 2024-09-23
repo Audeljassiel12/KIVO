@@ -1,41 +1,65 @@
 ﻿@model KIVO.Models.ViewModels.VerifyIdentityViewModel
 @{
     ViewData["Title"] = "Verifica tu Identidad";
+    Layout = null; 
 }
 
-<h2>@(Model.IsGoogleLogin ? "Ingresa tu Número de Teléfono" : "Verifica tu Identidad")</h2>
-<p>
-   
-    @(Model.IsGoogleLogin
-            ? "Por favor, ingresa tu número de teléfono a continuación para completar la configuración."
-            : $"Por favor, ingresa el código que recibiste por WhatsApp o SMS al   {Model.PhoneNumber} , esto nos ayuda a verificar tu identidad y asegurar los datos de tus pacientes.")
-</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/verifyIdentity.css"> <!-- Indiana csss personalisado crelo en esa carpeta  -->
+</head>
+<body>
+    <div class="container">
+        <h2>@(Model.IsGoogleLogin ? "Ingresa tu Número de Teléfono" : "Verifica tu Identidad")</h2>
+        <p>
+            @(!Model.IsGoogleLogin
+                ? "Por favor, ingresa tu número de teléfono a continuación para completar la configuración."
+                : $"Por favor, ingresa el código que recibiste por WhatsApp o SMS al {Model.PhoneNumber}, esto nos ayuda a verificar tu identidad y asegurar los datos de tus pacientes.")
+        </p>
 
-<form asp-action="VerificarNumeroPost" method="post">
+        <!-- Contenedor para mensajes -->
+        <div id="message-container"></div>
 
+        <form asp-action="VerificarNumeroPost" method="post">
+            <div class="form-group">
+                <label for="PhoneNumber">Celular</label>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="89412101" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
 
-    <div class="form-group">
-        <label for="PhoneNumber">Celular</label>
-        <input asp-for="PhoneNumber" class="form-control" placeholder="89412101" />
-        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-    </div>
+            <div class="form-group">
+                <label for="VerificationCode">Código de Verificación</label>
+                <input asp-for="VerificationCode" class="form-control" placeholder="Ingresa el código" />
+                <span asp-validation-for="VerificationCode" class="text-danger"></span>
+            </div>
 
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Siguiente</button>
+                <button type="button" class="btn btn-secondary" onclick="resendCode()">Reenviar Código</button>
+            </div>
+        </form>
+        @if (TempData["Error"] != null)
+        {
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    showMessage('@Html.Raw(TempData["Error"])', 'danger');
+                });
+            </script>
+        }
 
-    <div class="form-group">
-        <label for="VerificationCode">Código de Verificación</label>
-        <input asp-for="VerificationCode" class="form-control" placeholder="Ingresa el código" />
-        <span asp-validation-for="VerificationCode" class="text-danger"></span>
-    </div>
+        @if (TempData["Success"] != null)
+        {
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    showMessage('@Html.Raw(TempData["Success"])', 'success');
+                });
+            </script>
+        }
 
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary">Siguiente</button>
-      
-            <button type="button" class="btn btn-secondary" onclick="resendCode()">Reenviar Código</button>
-       
-    </div>
-
-</form>
-
-@TempData["Error"];
-
-<script src="~/js/verifyIdentity.js"></script>
+    <script src="~/js/verifyIdentity.js"></script>
+</body>
+</html>

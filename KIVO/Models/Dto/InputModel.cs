@@ -7,30 +7,26 @@ using System.Threading.Tasks;
 
 namespace KIVO.Models.Dto
 {
-   public class InputModel
-        {
-            [Required(ErrorMessage = "El campo {0} es obligatorio.")]
-            [Display(Name = "Nombres")]
-            public string Nombres { get; set; }  = null!;
-      
-            [Required(ErrorMessage = "El campo {0} es obligatorio.")]
-            [EmailAddress(ErrorMessage = "El campo {0} debe ser una dirección de correo electrónico válida.")]
-            [Display(Name = "Correo electrónico")]
-            public string Email { get; set; }
+    public class InputModel
+    {
+        [Required(ErrorMessage = "El nombre es obligatorio.")]
+        public string Nombres { get; set; }
 
-        [Required(ErrorMessage = "El campo {0} es obligatorio.")]
-        [StringLength(100, ErrorMessage = "El campo {0} debe tener al menos {2} y un máximo de {1} caracteres.", MinimumLength = 6)]
-        [DataType(DataType.Password)]
-        [Display(Name = "Contraseña")]
-        public string Password { get; set; } = null!; 
+        [Required(ErrorMessage = "El correo es obligatorio.")]
+        [EmailAddress(ErrorMessage = "Correo no válido.")]
+        public string Email { get; set; }
 
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirmar contraseña")]
-        [Compare("Password", ErrorMessage = "La contraseña y la contraseña de confirmación no coinciden.")]
-        public string ConfirmPassword { get; set; } = null!; 
+        [Required(ErrorMessage = "La contraseña es obligatoria.")]
+        [StringLength(100, ErrorMessage = "La contraseña debe tener al menos {2} caracteres y un máximo de {1} caracteres.", MinimumLength = 8)]
+        [RegularExpression(@"^(?=.*[a-zA-Z])(?=.*\W).+$", ErrorMessage = "La contraseña debe contener al menos una letra y un carácter especial.")]
+        public string Password { get; set; }
+        [Required(ErrorMessage = "Confirma la contraseña.")]
+        [Compare("Password", ErrorMessage = "Las contraseñas no coinciden.")]
+        public string ConfirmPassword { get; set; }
 
+        [Required(ErrorMessage = "El número de teléfono es obligatorio.")]
+        [Phone(ErrorMessage = "Número de teléfono no válido.")]
+        public string CellPhone { get; set; }
+    }
 
-        [ValidarNumero(CodigoPais ="Ni")]
-        public string CellPhone { get; set; } = null!;
-        }
 }

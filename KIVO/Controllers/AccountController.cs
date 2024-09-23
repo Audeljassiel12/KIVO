@@ -43,6 +43,11 @@ namespace KIVO.Controllers
 
         public IActionResult Registrarse()
         {
+             if (User.Identity.IsAuthenticated)
+    {
+        // Redirigir a la página principal si el usuario ya está logueado
+        return RedirectToAction("Index", "Home");
+    }
 
             return View();
         }
@@ -75,10 +80,16 @@ namespace KIVO.Controllers
         }
         public IActionResult Login()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                // Redirigir a la página principal si el usuario ya está logueado
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(InputModelLogin Input)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(InputModelLogin Input, string returnUrl = null)
         {
             // Verificar si el modelo es válido
             if (!ModelState.IsValid)
@@ -97,7 +108,16 @@ namespace KIVO.Controllers
             if (result.Succeeded)
             {
                 _logger.LogInformation("Usuario ha iniciado sesión correctamente.");
-                return RedirectToAction("Index", "Home");
+                // Redirigir al usuario a la página original o a la página por defecto
+                if (Url.IsLocalUrl(returnUrl))
+                {
+                    return Redirect(returnUrl); // Redirige a la URL original
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home"); // Redirige a la página de inicio
+                }
+               
             }
 
             if (result.RequiresTwoFactor)
@@ -122,88 +142,33 @@ namespace KIVO.Controllers
         }
 
 
-
         [AllowAnonymous]
         public async Task<IActionResult> GoogleResponse()
         {
-            var info = await signInManager.GetExternalLoginInfoAsync();
-            if (info == null)
+
+            // Bloquear el acceso a usuarios ya autenticados
+            if (User.Identity.IsAuthenticated)
             {
-                TempData["ErrorMessage"] = "No se pudo obtener la información de inicio de sesión externo.";
+                // Redirigir a una página de inicio u otra acción si ya está autenticado
+                return RedirectToAction("Index", "Home");
+            }
+
+            var authResult = await accountServices.HandleGoogleResponseAsync();
+
+            if (!authResult.IsSuccess)
+            {
+                // Redirigir a la vista de verificación si el número no está confirmado
+                if (authResult.ErrorType == AuthErrorType.PhoneNotConfirmed)
+                {
+                    return RedirectToAction("VerificarNumero");
+                }
+
+                TempData["ErrorMessage"] = authResult.Message;
                 return RedirectToAction("Error");
             }
 
-            var result = await signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, false);
-            if (result.Succeeded)
-            {
-                var user = await _userManager.FindByLoginAsync(info.LoginProvider, info.ProviderKey);
-                if (user == null)
-                {
-                    return RedirectToAction(nameof(Login));
-                }
 
-                if (user.PhoneNumberConfirmed)
-                {
-                    string[] userInfo = {
-                info.Principal.FindFirst(ClaimTypes.Name)?.Value,
-                info.Principal.FindFirst(ClaimTypes.Email)?.Value
-            };
-                    return View(userInfo);
-                }
-                else
-                {
-                    TempData["Message"] = "Por favor verifica tu número de teléfono.";
-                    return RedirectToAction(nameof(VerificarNumero));
-                }
-            }
-            else
-            {
-                var emailClaim = info.Principal.FindFirst(ClaimTypes.Email);
-                if (emailClaim == null)
-                {
-                    TempData["ErrorMessage"] = "No se pudo obtener el correo del proveedor externo.";
-                    return RedirectToAction("Error");
-                }
-
-                var email = emailClaim.Value;
-                var user = new User
-                {
-                    Email = email,
-                    UserName = email,
-                    VerificationCode = AccountServices.GenerateVerificationCode()
-                };
-
-                try
-                {
-                    var existingUser = await _userManager.FindByEmailAsync(user.Email);
-                    if (existingUser != null)
-                    {
-                        TempData["ErrorMessage"] = "El usuario ya está registrado.";
-                        return RedirectToAction("Error");
-                    }
-
-                    var identResult = await _userManager.CreateAsync(user);
-                    if (!identResult.Succeeded)
-                    {
-                        TempData["ErrorMessage"] = string.Join(", ", identResult.Errors.Select(e => e.Description));
-                        return RedirectToAction("Error");
-                    }
-
-                    identResult = await _userManager.AddLoginAsync(user, info);
-                    if (!identResult.Succeeded)
-                    {
-                        TempData["ErrorMessage"] = string.Join(", ", identResult.Errors.Select(e => e.Description));
-                        return RedirectToAction("Error");
-                    }
-
-                    return RedirectToAction("VerificarNumero");
-                }
-                catch (Exception ex)
-                {
-                    TempData["ErrorMessage"] = ex.Message;
-                    return RedirectToAction("Error");
-                }
-            }
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult AccessDenied()
@@ -261,15 +226,12 @@ namespace KIVO.Controllers
             }
 
             // Si la verificación es exitosa, redirigir al home o donde sea necesario
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("RegistrarOrg","Centromedico") ;
 
 
 
         }
-        public IActionResult RegistrarOrganizacion()
-        {
-            return View();
-        }
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ResendVerificationCode([FromBody] PhoneNumberModel model)
@@ -291,6 +253,7 @@ namespace KIVO.Controllers
 
             }
             user.VerificationCode = AccountServices.GenerateVerificationCode();
+            user.VerificationCodeExpiry = DateTime.UtcNow.AddMinutes(10);
             var updateResult = await _userManager.UpdateAsync(user);
 
             if (!updateResult.Succeeded)
@@ -324,20 +287,7 @@ namespace KIVO.Controllers
 
 
 
-        [HttpGet]
-        public ActionResult CargarFormulario(string tipoOrganizacion)
-        {
-            if (tipoOrganizacion == "consultorio")
-            {
-                return PartialView("_FormularioConsultorio");
-            }
-            else if (tipoOrganizacion == "clinica")
-            {
-                return PartialView("_FormularioClinica");
-            }
-
-            return BadRequest();
-        }
+      
 
         public IActionResult Full()
         {

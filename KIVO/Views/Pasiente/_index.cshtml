@@ -1,0 +1,10 @@
+﻿@model  List<KIVO.Models.Paciente>
+
+
+<!-- Lista de resultados -->
+<ul id="resultadosBusqueda">
+    @foreach (var paciente in Model)
+    {
+        <li data-id="@paciente.Id" class="paciente-item">@paciente.Nombres</li>
+    }
+</ul>

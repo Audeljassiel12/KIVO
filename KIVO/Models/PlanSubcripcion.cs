@@ -11,7 +11,8 @@ namespace KIVO.Models
         public string Nombre { get; set; } = null!;
         public decimal Precio { get; set; }
         public string Descripcion { get; set; } = null!;
-        public int DuracionEnMeses { get; set; } // Duración en meses
+        public int DuracionEnDias { get; set; } // Duración en meses
+        public bool IsFree { get; set; }    
 
         // Relación con Suscripciones
         public ICollection<Suscripcion>? Suscripciones { get; set; }

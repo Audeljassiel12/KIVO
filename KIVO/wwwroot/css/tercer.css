@@ -1,0 +1,54 @@
+body{
+    margin: 0; /* Elimina el margen del body */
+    overflow: hidden; /* Esto evitará el scroll en la página completa */
+}
+
+img{
+    width: 950px;
+    height: auto;
+    margin-top: -60px;
+    margin-left: -50px;
+}
+
+.fabi {
+    margin-left: 350px;
+    margin-top: -90px;
+}
+
+.lopez {
+    width: 170px;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegúrate de que sea un bloque */
+    margin-top: -570;
+    margin-left: 1020px;
+}
+
+.fabo {
+    width: 300px;
+    margin: auto;
+    margin-top: -135;
+    margin-left: 809px;
+}
+
+
+.titulo {
+    color: #2C2C6E; /* Color del título */
+    font-size: 32px;
+    font-family: 'Nunito',font-size;
+    font-weight: 1500;
+    text-align: center;
+    margin-left: -350px;
+    margin-top: -390px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    color: #2C2C6E;
+    font-size: 20px;
+    font-family: 'Nunito',font-size;
+    text-align: left;
+    margin-left: 280px;
+    margin-top: -15;
+
+}
+

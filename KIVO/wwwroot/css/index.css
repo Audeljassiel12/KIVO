@@ -1,0 +1,15 @@
+
+img {
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: -40px;
+}
+
+
+.image-container {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+} 

@@ -1,0 +1,40 @@
+﻿
+<h2>Selecciona tu Plan</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h3>Plan Gratuito</h3>
+    </div>
+    <div class="card-body">
+        <p>Disfruta de todas las características de nuestro servicio de forma gratuita durante 90 días.</p>
+        <ul>
+            <li>Acceso completo a todas las funcionalidades</li>
+            <li>Soporte al cliente</li>
+            <li>Sin compromisos</li>
+        </ul>
+       
+    </div>
+    <div class="card-footer">
+        <form asp-action="PlanesSubcriopnesConfi" method="post">
+            <input type="hidden" name="confirmar" value="true" />
+            <button type="submit" class="btn btn-primary">Finalizar Selección</button>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <h4>Importante</h4>
+    <p>Recuerda que al finalizar, podrás cambiar de plan en cualquier momento. ¡Disfruta de tu prueba gratuita!</p>
+</div>
+@TempData["Error"]
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const checkbox = document.getElementById("terminosCheckbox");
+        const submitButton = document.getElementById("finalizarButton");
+
+        checkbox.addEventListener("change", function() {
+            submitButton.disabled = !checkbox.checked; // Habilitar o deshabilitar el botón
+        });
+    });
+</script>

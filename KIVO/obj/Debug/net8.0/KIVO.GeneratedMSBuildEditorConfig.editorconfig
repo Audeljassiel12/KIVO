@@ -38,16 +38,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZmljYXJOdW1lcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hakaton2024/KIVO/KIVO/Views/Account/_FormularioConsultorio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfRm9ybXVsYXJpb0NvbnN1bHRvcmlvLmNzaHRtbA==
+[C:/Hakaton2024/KIVO/KIVO/Views/Centromedico/RegistrarOrganizacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VudHJvbWVkaWNvXFJlZ2lzdHJhck9yZ2FuaXphY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Hakaton2024/KIVO/KIVO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Hakaton2024/KIVO/KIVO/Views/Home/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Home/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Home/Index4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Home/Index5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Home/_About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Pasiente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Pasiente/_index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVudGVcX2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Hakaton2024/KIVO/KIVO/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Suscripcion/PlanesSubcriopnesConfi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VzY3JpcGNpb25cUGxhbmVzU3ViY3Jpb3BuZXNDb25maS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Hakaton2024/KIVO/KIVO/Views/_ViewImports.cshtml]

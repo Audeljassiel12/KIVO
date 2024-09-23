@@ -1,0 +1,31 @@
+body{
+    margin: 0; /* Elimina el margen del body */
+    overflow: hidden; /* Esto evitará el scroll en la página completa */
+}
+
+img {
+    width: 410px;
+    height: auto;
+    margin-top: 30;
+    margin-left: -9px;
+}
+
+.fab {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0; 
+}
+
+.jos {
+    position: absolute;  /* Posición absoluta para superponer */
+    top: 188px;  /* Ajusta la posición según sea necesario */
+    left: 800px;
+    width: 300px;  /* Tamaño de la imagen superpuesta */
+    height: auto;
+    z-index: 10;  /* Mayor z-index para estar sobre la imagen de fondo */
+}
+
+
