@@ -1,54 +1,56 @@
 body{
     margin: 0; /* Elimina el margen del body */
     overflow: hidden; /* Esto evitará el scroll en la página completa */
+    background-color: #fffafaec;
 }
-
-img{
+/* Imagen general */
+img {
     width: 950px;
     height: auto;
     margin-top: -60px;
     margin-left: -50px;
 }
 
+/* Estilo para la clase .fabi */
 .fabi {
-    margin-left: 350px;
-    margin-top: -90px;
+    margin-left: 300px;
+    margin-top: -65px;
 }
 
+/* Estilo para la clase .lopez */
 .lopez {
-    width: 170px;
+    width: 190px;
     margin: 0 auto; /* Centra la imagen horizontalmente */
-    display: block; /* Asegúrate de que sea un bloque */
-    margin-top: -570;
-    margin-left: 1020px;
+    display: block;
+    margin-top: -590px; /* Se agregó la unidad px */
+    margin-left: 1010px; /* Se agregó la unidad px */
 }
 
+/* Estilo para la clase .fabo */
 .fabo {
     width: 300px;
     margin: auto;
-    margin-top: -135;
-    margin-left: 809px;
+    margin-top: -170px; /* Se agregó la unidad px */
+    margin-left: 790px; /* Se agregó la unidad px */
 }
 
-
+/* Estilo para el título */
 .titulo {
-    color: #2C2C6E; /* Color del título */
+    color: #2C2C6E;
     font-size: 32px;
-    font-family: 'Nunito',font-size;
+    font-family: 'Nunito', sans-serif; /* Eliminado 'font-size' incorrecto */
     font-weight: 1500;
     text-align: center;
     margin-left: -350px;
-    margin-top: -390px;
+    margin-top: -300px;
 }
 
 /* Subtítulo */
 .subtitulo {
     color: #2C2C6E;
     font-size: 20px;
-    font-family: 'Nunito',font-size;
+    font-family: 'Nunito', sans-serif; /* Eliminado 'font-size' incorrecto */
     text-align: left;
     margin-left: 280px;
-    margin-top: -15;
-
+    margin-top: -15px; /* Se agregó la unidad px */
 }
-
