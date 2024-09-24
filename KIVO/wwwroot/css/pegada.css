@@ -1,0 +1,207 @@
+/* Estilos compartidos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evitar scroll cuando se cambian las secciones */
+}
+
+/* Sección general */
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 1s ease-in-out;
+    opacity: 0; /* Oculta por defecto */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Para asegurar que solo la sección activa esté visible */
+}
+
+/* Sección activa */
+.section.active {
+    opacity: 1;
+    z-index: 10;
+}
+
+/* Estilos para la Sección 1 */
+#section-1 .unity {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: -50px;
+    margin-left: -1050px;
+}
+
+#section-1 img {
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Estilos para la Sección 2 */
+#section-2 {
+    background: linear-gradient(to right, #2A8D96, #2C2C6E, #CE4740);
+}
+
+#section-2 .robot {
+    width: 50vw;
+    position: relative;
+    top: -70px;
+    left: -330px;
+}
+
+#section-2 .robot img {
+    width: 300px;
+    height: auto;
+}
+
+#section-2 .fabian {
+    width: 100px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: -450px;
+}
+
+#section-2 .inicio {
+    margin-top: 20px;
+    margin-left: 550px;
+    color: white;
+    font-size: 30px;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    #section-2 .robot {
+        width: 80vw;
+    }
+
+    #section-2 .fabian {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #section-2 .inicio {
+        margin-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* Estilos para la Sección 3 */
+#section-3 {
+    background-color: #fffafaec;
+}
+
+#section-3 img {
+    width: 950px;
+    height: auto;
+    margin-top: -60px;
+    margin-left: -50px;
+}
+
+#section-3 .imagen-abajo {
+    width: 700px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+#section-3 .imagen-celular {
+    width: 190px;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block;
+    margin-top: -560px; /* Se agregó la unidad px */
+    margin-left: 1010px; /* Se agregó la unidad px */
+    justify-content: center;
+}
+
+#section-3 .imagen-robot {
+    width: 300px;
+    margin: auto;
+    margin-top: -150px; /* Se agregó la unidad px */
+    margin-left: 790px; /* Se agregó la unidad px */
+}
+
+#section-3 .titulo-citas {
+    color: #2C2C6E;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1400;
+    text-align: center;
+    margin-left: -350px;
+    margin-top: -340px;
+}
+
+#section-3 .subtitulo-citas {
+    color: #2C2C6E;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    margin-left: -290px;
+    margin-top: -15px;
+}
+
+/* Estilos para la Sección 4 */
+#section-4 {
+    position: relative; 
+} 
+
+/* Imagen de fondo */
+#section-4 .background-image {
+    width: 410px; 
+    height: auto;
+    margin-top: 30px;
+    margin-left: -900px;
+}
+
+/* Imagen en la esquina superior */
+#section-4 .top-corner-image {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+/* Imagen del robot */
+#section-4 .robot-image {
+    position: absolute;
+    top: 218px;
+    left: 800px;
+    width: 300px;
+    height: auto;
+    z-index: 10; /* Para que esté sobre la imagen de fondo */
+}
+
+/* Estilos para el h1 */
+#section-4 h1 {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translateX(-50%);
+    color: #2C2C6E;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Estilos para el párrafo */
+#section-4 p {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translateX(-50%);
+    color: #2C2C6E;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}

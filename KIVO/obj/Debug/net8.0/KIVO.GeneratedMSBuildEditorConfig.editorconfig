@@ -9,91 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KIVO
 build_property.RootNamespace = KIVO
-build_property.ProjectDir = C:\Haka\KIVO\KIVO\
+build_property.ProjectDir = C:\Haka\KIVO\kivo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Haka\KIVO\KIVO
+build_property.MSBuildProjectDirectory = C:\Haka\KIVO\kivo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/GoogleResponse.cshtml]
+[C:/Haka/KIVO/kivo/Views/Account/GoogleResponse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxHb29nbGVSZXNwb25zZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/Login.cshtml]
+[C:/Haka/KIVO/kivo/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/RegistrarOrganizacion.cshtml]
+[C:/Haka/KIVO/kivo/Views/Account/RegistrarOrganizacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXJPcmdhbml6YWNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/Registrarse.cshtml]
+[C:/Haka/KIVO/kivo/Views/Account/Registrarse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Account/VerificarNumero.cshtml]
+[C:/Haka/KIVO/kivo/Views/Account/VerificarNumero.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZmljYXJOdW1lcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Centromedico/RegistrarOrganizacion.cshtml]
+[C:/Haka/KIVO/kivo/Views/Centromedico/RegistrarOrganizacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VudHJvbWVkaWNvXFJlZ2lzdHJhck9yZ2FuaXphY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/About.cshtml]
+[C:/Haka/KIVO/kivo/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index.cshtml]
+[C:/Haka/KIVO/kivo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Home/Index2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Haka/KIVO/KIVO/Views/Home/Index3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Haka/KIVO/KIVO/Views/Home/Index4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Haka/KIVO/KIVO/Views/Home/Index5.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Haka/KIVO/KIVO/Views/Home/_About.cshtml]
+[C:/Haka/KIVO/kivo/Views/Home/_About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Pasiente/Index.cshtml]
+[C:/Haka/KIVO/kivo/Views/Pasiente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVudGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Pasiente/_index.cshtml]
+[C:/Haka/KIVO/kivo/Views/Pasiente/_index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVudGVcX2luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Shared/Error.cshtml]
+[C:/Haka/KIVO/kivo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Suscripcion/PlanesSubcriopnesConfi.cshtml]
+[C:/Haka/KIVO/kivo/Views/Suscripcion/PlanesSubcriopnesConfi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VzY3JpcGNpb25cUGxhbmVzU3ViY3Jpb3BuZXNDb25maS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/_ViewImports.cshtml]
+[C:/Haka/KIVO/kivo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/_ViewStart.cshtml]
+[C:/Haka/KIVO/kivo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Haka/KIVO/KIVO/Views/Shared/_Layout.cshtml]
+[C:/Haka/KIVO/kivo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dlj8vp4xrk
