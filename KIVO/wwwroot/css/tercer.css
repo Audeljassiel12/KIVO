@@ -13,8 +13,10 @@ img {
 
 /* Estilo para la clase .fabi */
 .fabi {
-    margin-left: 300px;
-    margin-top: -65px;
+    width: 700px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: -60px;
 }
 
 /* Estilo para la clase .lopez */
@@ -22,19 +24,19 @@ img {
     width: 190px;
     margin: 0 auto; /* Centra la imagen horizontalmente */
     display: block;
-    margin-top: -590px; /* Se agregó la unidad px */
+    margin-top: -520px; /* Se agregó la unidad px */
     margin-left: 1010px; /* Se agregó la unidad px */
 }
 
-/* Estilo para la clase .fabo */
+/* Estilo para la clase  */
 .fabo {
     width: 300px;
     margin: auto;
-    margin-top: -170px; /* Se agregó la unidad px */
+    margin-top: -180px; /* Se agregó la unidad px */
     margin-left: 790px; /* Se agregó la unidad px */
 }
 
-/* Estilo para el título */
+/* Estilos para el título y el subtitulo */
 .titulo {
     color: #2C2C6E;
     font-size: 32px;
@@ -42,10 +44,10 @@ img {
     font-weight: 1500;
     text-align: center;
     margin-left: -350px;
-    margin-top: -300px;
+    margin-top: -340px;
 }
 
-/* Subtítulo */
+
 .subtitulo {
     color: #2C2C6E;
     font-size: 20px;

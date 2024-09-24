@@ -1,22 +1,27 @@
 body{
     background: linear-gradient(to right,#2A8D96,#2C2C6E,#CE4740);
     margin: 0; /* Elimina el margen del body */
-    overflow: hidden; /* Esto evitará el scroll en la página completa */
+    
 }
 
-.sandia {
-    width: 450px;
-    height: auto;
+.robot {
+    width: 50vw; /* Ancho basado en el 50% del ancho de la ventana */
     position: relative;
-    top: -13px;
-    left: -175px;
+    top: 30px;
+    left: 0;
 }
+
+.robot img {
+    width: 300px; /* Asegura que la imagen ocupe el 100% del contenedor */
+    height: auto;
+}
+
 
 .fabian {
     width: 95px;
     height: auto;
     margin-left: 795px;
-    margin-top: -550px;
+    margin-top: -360px;
 }
 
 .inicio {
@@ -27,4 +32,3 @@ body{
     max-width: 400px;
     text-align: center;
 }
-

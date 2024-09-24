@@ -1,5 +1,5 @@
 
-img {
+.unity {
     width: 150px;
     height: auto;
     position: relative;
@@ -7,9 +7,10 @@ img {
 }
 
 
-.image-container {
+.image-segunda {
     width: 150px;
     margin: 0 auto;
     display: block;
     height: auto;
+    margin-top: 45px;
 } 

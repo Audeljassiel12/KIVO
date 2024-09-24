@@ -1,17 +1,17 @@
 body{
     margin: 0; /* Elimina el margen del body */
     overflow: hidden; /* Esto evitará el scroll en la página completa */
-    background-color: #fffafaec;
+    background-color: #f7f6f8;
 }
-
-img {
+/*ES el estilo del coloranaranjado que esta en la esquina*/
+.contorno {
     width: 950px;
     height: auto;
-    margin-top: -10;
+    margin-top: -10px;
     margin-left: -10px;
 }
-
-.jos {
+/*Es el estilo de la esquina color azul*/
+.prueba {
     position: absolute;
     top: -1%; /* Ajusta la posición vertical */
     margin-left: -15%; /* Ajusta la posición horizontal */
@@ -19,13 +19,30 @@ img {
      height: auto;
      transform: rotate(180deg); /* Gira la imagen 180 grados */
 }
-
-.r {
+/*Este es el estilo del robot con ensima de la conpu*/
+.robot {
     display: block;         /* Hace que la imagen sea un bloque */
     margin-left: auto;      /* Centra la imagen horizontalmente */
     margin-left: 33%;     /* Centra la imagen horizontalmente */
     max-width: 28%;         /* Reduce el tamaño de la imagen proporcionalmente */
     height: auto; 
-    margin-top: -600;          /* Mantiene la proporción de la imagen */
+    margin-top: -600px;          /* Mantiene la proporción de la imagen */
     
+}
+
+/*Aqui comienza los estilos tanto del h1 como del p*/
+
+.text-contenedor h1{
+    color: #2C2C6E;
+    margin-top: 5px;
+    margin-left: 300px;
+    font-size: 30px;
+
+}
+
+.text-contenedor p{
+    color: #2C2C6E;
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: -20px;
 }

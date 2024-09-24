@@ -2,15 +2,15 @@ body{
     margin: 0; /* Elimina el margen del body */
     overflow: hidden; /* Esto evitará el scroll en la página completa */
 }
-
-img {
+/*Esta es la imagen de la de abajo*/
+.opuesto {
     width: 410px;
     height: auto;
-    margin-top: 30;
+    margin-top: 30px;
     margin-left: -9px;
 }
-
-.fab {
+/*Esta es la imagen de la esquinas de arriba*/
+.arriba {
     width: 700px;
     height: auto;
     position: absolute;
@@ -18,14 +18,37 @@ img {
     right: 0;
     margin: 0; 
 }
-
-.jos {
+/*Esta es la imagen del robot tenga cuidado*/
+.robotcel {
     position: absolute;  /* Posición absoluta para superponer */
-    top: 188px;  /* Ajusta la posición según sea necesario */
+    top: 218px;  /* Ajusta la posición según sea necesario */
     left: 800px;
     width: 300px;  /* Tamaño de la imagen superpuesta */
     height: auto;
     z-index: 10;  /* Mayor z-index para estar sobre la imagen de fondo */
 }
 
+/*Aqui ba el diseño de el h1 y el parrafo  */
 
+.image-container h1 {
+    position: absolute; /* Posiciona el h1 encima de las imágenes */
+    top: 15%; /* Ajusta la posición vertical */
+    left: 40%; /* Centra el texto horizontalmente */
+    transform: translateX(-50%); /* Ajusta la posición para centrar el texto */
+    color: #2C2C6E; /* Color blanco para destacar sobre la imagen */
+    font-size: 30px; /* Tamaño del texto */
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold; /* Negrita */
+    line-height: 1.2; /* Ajusta el espacio entre líneas */
+}
+
+.image-container p {
+    position: absolute; /* Posiciona el párrafo encima de las imágenes */
+    top: 30%; /* Ajusta la posición vertical */
+    left: 38%; /* Centra el texto horizontalmente */
+    transform: translateX(-50%); /* Ajusta la posición para centrar el texto */
+    color: #2C2C6E; /* Color blanco para destacar sobre la imagen */
+    font-size: 20px; /* Tamaño del texto */
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
