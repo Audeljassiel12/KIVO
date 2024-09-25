@@ -1,0 +1,151 @@
+﻿@{
+    Layout = null; 
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Pago</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .form-control {
+            max-width: 400px;
+        }
+
+        .text-danger {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Suscripción</h2>
+        <div class="row">
+            <!-- Sección de Pago -->
+            <div class="col-md-6">
+                <h4 class="mb-3">Pago Seguro con Tarjeta de Crédito</h4>
+                <button id="checkout-button" class="btn btn-primary btn-block">Pagar $32.99 USD</button>
+            </div>
+
+            <!-- Resumen de la Orden -->
+            <div class="col-md-6">
+                <h4 class="mb-3">Resumen del Pedido</h4>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 class="my-0">Plan</h6>
+                            <small class="text-muted">Nimbo Chat PRO, Agenda PRO, Clinical PRO, ERP, Marketing Suite PRO</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 class="my-0">Ciclo de Pago</h6>
+                            <small class="text-muted">Mensual</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 class="my-0">Número de Usuarios</h6>
+                            <input type="number" class="form-control" id="userCount" name="userCount" value="5" min="1" required>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 class="my-0">Precio Original</h6>
+                            <small class="text-muted" id="originalPrice">$500.00 USD</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 class="my-0">Descuento</h6>
+                            <small class="text-muted">94%</small>
+                        </div>
+                        <strong class="text-danger" id="discountAmount">-$468.00</strong>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>Total a pagar</span>
+                        <strong id="total">$32.00 USD</strong>
+                    </li>
+                </ul>
+                <p class="text-muted">¿Necesitas una factura? <a href="#">Contáctanos</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script>
+        // Variables de precio
+        const firstUserPrice = 100.00; // Precio del primer usuario
+        const additionalUserPrice = 80.00; // Precio por cada usuario adicional
+        const discountPercentage = 0.94; // 94% de descuento
+
+        // Elementos del DOM
+        const userCountInput = document.getElementById('userCount');
+        const totalElement = document.getElementById('total');
+        const originalPriceElement = document.getElementById('originalPrice');
+        const discountAmountElement = document.getElementById('discountAmount');
+        const checkoutButton = document.getElementById('checkout-button');
+
+        // Función para actualizar el total a pagar
+        function updateTotal() {
+            const userCount = parseInt(userCountInput.value);
+            let total = firstUserPrice; // Comienza con el precio del primer usuario
+
+            if (userCount > 1) {
+                // Agregar el precio de los usuarios adicionales
+                total += (userCount - 1) * additionalUserPrice;
+            }
+
+            // Calcular el precio original
+            const originalPrice = firstUserPrice + (userCount - 1) * additionalUserPrice;
+            originalPriceElement.innerText = `$${originalPrice.toFixed(2)} USD`;
+
+            // Calcular el descuento
+            const discountAmount = originalPrice * discountPercentage;
+            discountAmountElement.innerText = `-$${discountAmount.toFixed(2)}`; // Actualiza el monto del descuento
+
+            // Aplicar el descuento al total
+            total -= discountAmount;
+
+            // Actualizar el DOM con el nuevo total
+            totalElement.innerText = `$${total.toFixed(2)} USD`;
+
+            // Actualizar el texto del botón de pago
+            checkoutButton.innerText = `Pagar $${total.toFixed(2)} USD`;
+            checkoutButton.setAttribute('data-total', total.toFixed(2));
+        }
+
+        // Escuchar cambios en el número de usuarios
+        userCountInput.addEventListener('input', updateTotal);
+
+        // Inicializar con valores actuales
+        updateTotal();
+
+        // Stripe Configuration
+        const stripe = Stripe('pk_test_51Q2etcB7yCB8tXwR5XnNJSQ9gqyYpyWHNVrnJOxFQeSP3O3hiLHkaa8rtKKm7mEgdaWamBhpqIIyBIPP2q7WA6EU00vXphMCPd'); // Cambia esto a tu clave publicable de Stripe
+        checkoutButton.addEventListener('click', function () {
+            const userCount = userCountInput.value;
+            const total = checkoutButton.getAttribute('data-total');
+            fetch('/Configuracion/CrearSesionPago', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ userCount: userCount, total: total }) // Enviar el número de usuarios y total al servidor
+            })
+                .then(response => response.json())
+                .then(sessionData => {
+                    return stripe.redirectToCheckout({ sessionId: sessionData.sessionId });
+                })
+                .then(result => {
+                    if (result.error) {
+                        alert(result.error.message);
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

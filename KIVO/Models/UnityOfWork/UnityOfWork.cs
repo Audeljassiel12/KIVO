@@ -14,12 +14,14 @@ namespace KIVO.Models.UnityOfWork
 
         public UnityOfWork(IMedicoRepository medicoRepository,
             KivoDbContext dbContext,
-            ICentroMedicoRepository centroMedicoRepository ,ISuscripcionRepository suscripcionRepository)
+            ICentroMedicoRepository centroMedicoRepository ,ISuscripcionRepository suscripcionRepository
+            ,IEspesialidadRepository espesialidadRepository)
         {
             this.medicoRepository = medicoRepository;
             this.dbContext = dbContext;
             this.centroMedicoRepository = centroMedicoRepository;
-            this.suscripcionRepository = suscripcionRepository; 
+            this.suscripcionRepository = suscripcionRepository;
+            this.espesialidadRepository = espesialidadRepository;
         }
        
         public IMedicoRepository medicoRepository { get; }
@@ -31,6 +33,8 @@ namespace KIVO.Models.UnityOfWork
         public ISuscripcionRepository suscripcionRepository  {get;}
 
         public DbSet<User> users => dbContext.Users;
+
+       public  IEspesialidadRepository  espesialidadRepository { get; }
 
         public void Dispose()
         {

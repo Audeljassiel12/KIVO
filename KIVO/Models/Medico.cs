@@ -11,12 +11,12 @@ namespace KIVO.Models
         public string Nombres { get; set; } = null!;
         public string Apellidos { get; set; } = null!; 
        
-        public string Telefono { get; set; } = null!; 
+        public string? Telefono { get; set; } = null!; 
         public CentroMedico? CentroMedico { get; set; }
         public int CentroMedicoId {get; set; } 
         public List<Cita> Citas { get; set; }
         public EspecialidadMedica? EspecialidadMedico { get;set; }
-        public int EspecialidadMedicoId {get;set; }
+        public int? EspecialidadMedicoId {get;set; }
       
     
      

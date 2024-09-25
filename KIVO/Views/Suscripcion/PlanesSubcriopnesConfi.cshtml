@@ -12,12 +12,13 @@
             <li>Soporte al cliente</li>
             <li>Sin compromisos</li>
         </ul>
-       
+
     </div>
     <div class="card-footer">
         <form asp-action="PlanesSubcriopnesConfi" method="post">
             <input type="hidden" name="confirmar" value="true" />
             <button type="submit" class="btn btn-primary">Finalizar Selección</button>
+            <a asp-action="RegistrarOrganizacion" asp-controller="Centromedico">regresar</a>
         </form>
     </div>
 </div>
@@ -29,11 +30,11 @@
 @TempData["Error"]
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         const checkbox = document.getElementById("terminosCheckbox");
         const submitButton = document.getElementById("finalizarButton");
 
-        checkbox.addEventListener("change", function() {
+        checkbox.addEventListener("change", function () {
             submitButton.disabled = !checkbox.checked; // Habilitar o deshabilitar el botón
         });
     });

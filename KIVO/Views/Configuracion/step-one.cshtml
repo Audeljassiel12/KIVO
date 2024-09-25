@@ -1,0 +1,96 @@
+﻿@model KIVO.Models.ViewModels.EntidadCentroMedicoViewModel
+@{
+    Layout = "_Configuracion";
+}
+<form id="formCentroMedico" asp-action="step-one" method="post">
+    <div class="form-group">
+        <label asp-for="NombreEntidad">Nombre de la clínica o centro médico</label>
+        @Html.TextBoxFor(m => m.NombreEntidad, new { @class = "form-control", required = "required", id = "nombreEntidad" })
+        @Html.ValidationMessageFor(m => m.NombreEntidad, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Direccion">Dirección</label>
+        @Html.TextBoxFor(m => m.Direccion, new { @class = "form-control", maxlength = "200", id = "direccion" })
+        @Html.ValidationMessageFor(m => m.Direccion, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DepartamentoId">Departamento</label>
+        @Html.DropDownListFor(m => m.DepartamentoId, new SelectList(Model.Departamentos, "Value", "Text"), "Seleccione un departamento", new { @class = "form-control", required = "required", id = "departamentoId" })
+        @Html.ValidationMessageFor(m => m.DepartamentoId, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MunicipioId">Municipio</label>
+        @Html.DropDownListFor(m => m.MunicipioId, new SelectList(Enumerable.Empty<SelectListItem>(), "Value", "Text"), "Seleccione un municipio", new { @class = "form-control", required = "required", id = "municipioId" })
+        @Html.ValidationMessageFor(m => m.MunicipioId, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" id="btnSiguiente" class="btn btn-primary" disabled>Siguiente</button>
+
+    <!-- Mensaje de error -->
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+</form>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Inicializa la validación del formulario
+            $('#formCentroMedico').validate({
+                errorClass: 'text-danger', // Clase para errores
+                errorElement: 'span', // Elemento donde se mostrará el error
+                onkeyup: false, // Desactiva la validación al escribir
+                onfocusout: function (element) {
+                    $(element).valid(); // Valida el campo al perder el foco
+                },
+                submitHandler: function (form) {
+                    form.submit(); // Envía el formulario si es válido
+                }
+            });
+
+            // Cargar municipios según el departamento seleccionado
+            $('#departamentoId').change(function () {
+                var departamentoId = $(this).val();
+                $('#municipioId').empty().append('<option value="">Seleccione un municipio</option>');
+
+                if (departamentoId === "") {
+                    return;
+                }
+
+                $.ajax({
+                    url: '/Cuidad/GetCiudadesByDepartamento', // Cambia a la acción correcta en el controlador
+                    type: 'GET',
+                    data: { departamentoId: departamentoId },
+                    success: function (municipios) {
+                        $.each(municipios, function (index, municipio) {
+                            $('#municipioId').append('<option value="' + municipio.value + '">' + municipio.text + '</option>');
+                        });
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.error("Error en la solicitud AJAX: ", textStatus, errorThrown);
+                    }
+                });
+            });
+
+            // Manejar el evento de cambio en el campo de texto
+            $('input, select').on('input change', function () {
+                $(this).valid(); // Valida el campo al cambiar
+                toggleSubmitButton(); // Verifica si habilitar o deshabilitar el botón
+            });
+
+            // Función para habilitar o deshabilitar el botón de envío
+            function toggleSubmitButton() {
+                var isValid = $("#formCentroMedico").valid(); // Verifica si el formulario es válido
+                $('#btnSiguiente').prop('disabled', !isValid); // Habilita o deshabilita el botón
+            }
+        });
+    </script>
+}

@@ -174,6 +174,7 @@ namespace KIVO.Models.Data
     new EspecialidadMedica { Id = 50, Nombre = "Paramédicos" },
     new EspecialidadMedica { Id = 51, Nombre = "Gestión Administrativa" }
 );
+
   modelBuilder.Entity<PlanSuscripcion>().HasData(
             new PlanSuscripcion
             {
@@ -203,7 +204,23 @@ namespace KIVO.Models.Data
                 IsFree = false
             }
         );
+
+            // Sembrar datos iniciales para Departamento
+            modelBuilder.Entity<Departamento>().HasData(
+                new Departamento { Id = 1, Nombre = "Departamento 1" },
+                new Departamento { Id = 2, Nombre = "Departamento 2" },
+                new Departamento { Id = 3, Nombre = "Departamento 3" }
+            );
+
+            // Sembrar datos iniciales para Cuidad
+            modelBuilder.Entity<Cuidad>().HasData(
+                new Cuidad { Id = 1, Nombre = "Ciudad 1", DepartamentoId = 1 },
+                new Cuidad { Id = 2, Nombre = "Ciudad 2", DepartamentoId = 2 },
+                new Cuidad { Id = 3, Nombre = "Ciudad 3", DepartamentoId = 3 }
+            );
+
         }
+
 
 
 

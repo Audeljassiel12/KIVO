@@ -3,64 +3,304 @@
   "WorkspaceRootPath": "C:\\Hakaton2024\\KIVO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\verificarnumero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\verificarnumero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\viewmodels\\entidadcentromedicoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\viewmodels\\entidadcentromedicoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\inputmodellogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\inputmodellogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\centromedicorepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\centromedicorepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\configuracion\\step-three.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\configuracion\\step-three.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\wwwroot\\js\\verifyidentity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\wwwroot\\js\\verifyidentity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\configuracion\\step-one.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\configuracion\\step-one.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\configuracion\\step-two.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\configuracion\\step-two.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\_configuracion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\_configuracion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\configuracion\\step-four.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\configuracion\\step-four.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\suscripcion\\planessubcriopnesconfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\suscripcion\\planessubcriopnesconfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\services\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\services\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\home\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\home\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\unityofwork\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\unityofwork\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\pasiente\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\pasiente\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\medico\\addinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\medico\\addinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\medicodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\medicodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\centromedico\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\centromedico\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\historialpostnatalid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\historialpostnatalid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\configuracion\\pago.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\configuracion\\pago.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\pagorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\pagorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\phonenumbermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\phonenumbermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\cuidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\cuidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\verificarnumero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\verificarnumero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\centromedicocontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\centromedicocontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\unityofwork\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\unityofwork\\unityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\genericorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\genericorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\especialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\especialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\kivodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\kivodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\unityofwork\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\unityofwork\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\signosvitales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\signosvitales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\icentromedicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\icentromedicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\filter\\organizacionconfiguradafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\filter\\organizacionconfiguradafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\extencionmetodos\\httprequestextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\extencionmetodos\\httprequestextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\cuidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\cuidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\services\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\services\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\cuidadrepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\cuidadrepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\resetamedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\resetamedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\reseta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\reseta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\plansubcripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\plansubcripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\pasientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\pasientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\iplansuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\iplansuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\pasienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\pasienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dieta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dieta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\diagnostico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\antesedentesfamiliarespatologicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\antesedentesfamiliarespatologicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\exploraciontopografica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\exploraciontopografica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\espesialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\espesialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\enfermedadeshereditarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\enfermedadeshereditarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\dto\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\dto\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\icuidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\icuidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\idepartamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\wwwroot\\js\\verifyidentity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\wwwroot\\js\\verifyidentity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\home\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\home\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\pasiente\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\pasiente\\_index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -75,20 +315,8 @@
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\cuidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\cuidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\migrations\\20240920043901_bool-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\migrations\\20240920043901_bool-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\viewmodels\\entidadmedicaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\viewmodels\\entidadmedicaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\viewmodels\\organizacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,56 +327,12 @@
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\viewmodels\\pacienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\pasientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\pasientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\centromedicocontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\centromedicocontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\kivodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\kivodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\unityofwork\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\unityofwork\\iunityofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\centromedicorepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\centromedicorepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\genericorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\genericorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\miiddleware\\ phonenumberverificationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\miiddleware\\ phonenumberverificationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\filter\\organizacionconfiguradafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\filter\\organizacionconfiguradafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\validaciones\\verificarestadousuarioattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\validaciones\\verificarestadousuarioattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\controllers\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\controllers\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\migrations\\20240920235410_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,14 +343,6 @@
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\suscripcion\\planessubcriopnesconfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\suscripcion\\planessubcriopnesconfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\account\\googleresponse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\account\\googleresponse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -175,24 +351,8 @@
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\isuscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\suscripcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\suscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\reseta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\reseta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\notadeencuentro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -211,68 +371,24 @@
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\plansuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\iplansuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\iplansuscripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\plansubcripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\plansubcripcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\pasienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\pasienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\validaciones\\ validarnumeroattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\validaciones\\ validarnumeroattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\espesialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\espesialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\pasiente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\pasiente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\extencionmetodos\\httprequestextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\extencionmetodos\\httprequestextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\services\\services\\whatsappmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\services\\services\\whatsappmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\services\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\services\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\centromedico\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\centromedico\\registrarorganizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\repository\\especialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\repository\\especialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\iespesialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\iespesialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\data\\repository\\irepository\\icentromedicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\data\\repository\\irepository\\icentromedicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\kivo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -304,6 +420,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\migrations\\20240919051057_bool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\migrations\\20240919051057_bool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\migrations\\20240923171921_departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\migrations\\20240923171921_departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -313,7 +437,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -326,692 +450,188 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Registrarse.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Registrarse.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\Registrarse.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Registrarse.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Account\\Registrarse.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAABLAAAAAAAAAA==",
+              "Title": "step-three.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-three.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-three.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-three.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-three.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T13:26:54.023Z"
+              "WhenOpened": "2024-09-24T18:32:25.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegistrarOrganizacion.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "step-one.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-one.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-one.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-one.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-one.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T04:27:27.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VerificarNumero.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\VerificarNumero.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\VerificarNumero.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\VerificarNumero.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Account\\VerificarNumero.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T06:02:50.676Z",
+              "WhenOpened": "2024-09-24T02:09:17.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T17:39:26.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "KIVO\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "KIVO\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:27:24.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:15.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T22:42:47.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "verifyIdentity.js",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
-              "RelativeDocumentMoniker": "KIVO\\wwwroot\\js\\verifyIdentity.js",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
-              "RelativeToolTip": "KIVO\\wwwroot\\js\\verifyIdentity.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-22T19:59:20.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "KIVO\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "KIVO\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAvwMkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T02:52:02.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountServices.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\AccountServices.cs",
-              "RelativeDocumentMoniker": "KIVO\\Services\\Services\\AccountServices.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\AccountServices.cs",
-              "RelativeToolTip": "KIVO\\Services\\Services\\AccountServices.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAvwFkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:39:06.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_About.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\_About.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Home\\_About.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\_About.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Home\\_About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T21:09:42.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "KIVO\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
-              "RelativeToolTip": "KIVO\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-17T22:03:36.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_index.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\_index.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Pasiente\\_index.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\_index.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Pasiente\\_index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T21:29:13.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "InputModel.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModel.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\InputModel.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModel.cs",
-              "RelativeToolTip": "KIVO\\Models\\Dto\\InputModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T13:26:29.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UnityOfWork.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
-              "RelativeToolTip": "KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAvwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:08:30.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "jquery.validate.js",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-              "RelativeDocumentMoniker": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-              "RelativeToolTip": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-22T17:21:35.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "additional-methods.js",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeDocumentMoniker": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "RelativeToolTip": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-22T17:21:33.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T21:08:24.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Cuidad.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cuidad.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Cuidad.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cuidad.cs",
-              "RelativeToolTip": "KIVO\\Models\\Cuidad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:43:09.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CentroMedicoContoller.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CentroMedicoContoller.cs",
-              "RelativeDocumentMoniker": "KIVO\\Controllers\\CentroMedicoContoller.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CentroMedicoContoller.cs",
-              "RelativeToolTip": "KIVO\\Controllers\\CentroMedicoContoller.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwFsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T22:29:41.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
-              "RelativeDocumentMoniker": "KIVO\\Program.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
-              "RelativeToolTip": "KIVO\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T21:52:21.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240920043901_bool-2.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920043901_bool-2.cs",
-              "RelativeDocumentMoniker": "KIVO\\Migrations\\20240920043901_bool-2.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920043901_bool-2.cs",
-              "RelativeToolTip": "KIVO\\Migrations\\20240920043901_bool-2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T04:39:03.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PacienteViewModel.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
-              "RelativeToolTip": "KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T06:23:45.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PasienteController.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\PasienteController.cs",
-              "RelativeDocumentMoniker": "KIVO\\Controllers\\PasienteController.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\PasienteController.cs",
-              "RelativeToolTip": "KIVO\\Controllers\\PasienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T05:46:40.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrganizacionViewModel.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
-              "RelativeToolTip": "KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:32:09.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EntidadMedicaViewModel.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
-              "RelativeToolTip": "KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T02:52:58.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "KivoDbContext.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\KivoDbContext.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\KivoDbContext.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\KivoDbContext.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\KivoDbContext.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA7wAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T05:26:12.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IUnityOfWork.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
-              "RelativeToolTip": "KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:08:13.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medico.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Medico.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medico.cs",
-              "RelativeToolTip": "KIVO\\Models\\Medico.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA2wA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T02:56:17.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CentroMedico.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\CentroMedico.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
-              "RelativeToolTip": "KIVO\\Models\\CentroMedico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:28:09.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "CentroMedicoRepositoy.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
               "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
               "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T03:01:39.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputModelLogin.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModelLogin.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\InputModelLogin.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModelLogin.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\InputModelLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T03:01:39.307Z"
+              "WhenOpened": "2024-09-23T05:36:36.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": " PhoneNumberVerificationMiddleware.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
-              "RelativeDocumentMoniker": "KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
-              "RelativeToolTip": "KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EntidadCentroMedicoViewModel.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadCentroMedicoViewModel.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\EntidadCentroMedicoViewModel.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadCentroMedicoViewModel.cs",
+              "RelativeToolTip": "KIVO\\Models\\ViewModels\\EntidadCentroMedicoViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:02:31.092Z"
+              "WhenOpened": "2024-09-23T22:13:16.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "GenericoRepository.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowA4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T05:27:53.526Z"
+              "DocumentIndex": 5,
+              "Title": "step-two.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-two.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-two.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-two.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-two.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T02:39:09.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\User.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\User.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\User.cs",
-              "RelativeToolTip": "KIVO\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:54:05.548Z"
+              "DocumentIndex": 6,
+              "Title": "_Configuracion.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Configuracion.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Configuracion.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Configuracion.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Shared\\_Configuracion.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:15.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "OrganizacionConfiguradaFilter.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
-              "RelativeDocumentMoniker": "KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
-              "RelativeToolTip": "KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T04:52:54.665Z"
+              "DocumentIndex": 7,
+              "Title": "step-four.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-four.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-four.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-four.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-four.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T22:56:39.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "20240920235410_intial.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920235410_intial.cs",
-              "RelativeDocumentMoniker": "KIVO\\Migrations\\20240920235410_intial.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920235410_intial.cs",
-              "RelativeToolTip": "KIVO\\Migrations\\20240920235410_intial.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T23:54:13.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "VerificarEstadoUsuarioAttribute.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
-              "RelativeDocumentMoniker": "KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
-              "RelativeToolTip": "KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:33:33.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Suscripcion.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\Suscripcion.cs",
-              "RelativeDocumentMoniker": "KIVO\\Controllers\\Suscripcion.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\Suscripcion.cs",
-              "RelativeToolTip": "KIVO\\Controllers\\Suscripcion.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:44:31.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 8,
               "Title": "PlanesSubcriopnesConfi.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
               "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
               "RelativeToolTip": "KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAIBJwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T23:18:13.224Z"
+              "WhenOpened": "2024-09-20T23:18:13.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "KIVO\\appsettings.Development.json",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
-              "RelativeToolTip": "KIVO\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-17T22:01:32.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 9,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "KIVO\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:18.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T17:25:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:18.871Z"
+              "WhenOpened": "2024-09-19T21:16:59.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "GoogleResponse.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\GoogleResponse.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\GoogleResponse.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\GoogleResponse.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Account\\GoogleResponse.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
+              "RelativeDocumentMoniker": "KIVO\\Program.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
+              "RelativeToolTip": "KIVO\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:52:21.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddInfo.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Medico\\AddInfo.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Medico\\AddInfo.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Medico\\AddInfo.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Medico\\AddInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T04:33:35.808Z"
+              "WhenOpened": "2024-09-23T05:34:57.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ISuscripcionRepository.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:41:28.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "SuscripcionRepository.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:41:59.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Reseta.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Reseta.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Reseta.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Reseta.cs",
-              "RelativeToolTip": "KIVO\\Models\\Reseta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:10:14.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Paciente.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Paciente.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Paciente.cs",
-              "RelativeToolTip": "KIVO\\Models\\Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:10:10.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "NotaDeEncuentro.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\NotaDeEncuentro.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\NotaDeEncuentro.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\NotaDeEncuentro.cs",
-              "RelativeToolTip": "KIVO\\Models\\NotaDeEncuentro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:10:08.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Medicamento.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medicamento.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Medicamento.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medicamento.cs",
-              "RelativeToolTip": "KIVO\\Models\\Medicamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:10:07.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Producto.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Producto.cs",
-              "RelativeToolTip": "KIVO\\Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:51:21.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Suscripcion.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Suscripcion.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Suscripcion.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Suscripcion.cs",
-              "RelativeToolTip": "KIVO\\Models\\Suscripcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:12:45.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ValidarSuscripcionCentroMedicoAttribute.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
-              "RelativeDocumentMoniker": "KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
-              "RelativeToolTip": "KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:10:52.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "PlanSuscripcion.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:37:51.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "IPlanSuscripcion.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T21:34:43.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "PlanSubcripcion.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\PlanSubcripcion.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\PlanSubcripcion.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\PlanSubcripcion.cs",
-              "RelativeToolTip": "KIVO\\Models\\PlanSubcripcion.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:12:37.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "PasienteRepository.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAABQwBIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T06:33:23.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": " ValidarNumeroAttribute .cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
-              "RelativeDocumentMoniker": "KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
-              "RelativeToolTip": "KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:24:03.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Espesialidad.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Espesialidad.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Espesialidad.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Espesialidad.cs",
-              "RelativeToolTip": "KIVO\\Models\\Espesialidad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T02:56:25.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.json",
               "RelativeDocumentMoniker": "KIVO\\appsettings.json",
@@ -1023,43 +643,967 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 15,
+              "Title": "MedicoDo.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\MedicoDo.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\MedicoDo.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\MedicoDo.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\MedicoDo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:16:31.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InputModel.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModel.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\InputModel.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModel.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\InputModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:26:29.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Cita.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cita.cs",
+              "RelativeToolTip": "KIVO\\Models\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:34:38.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegistrarOrganizacion.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T04:27:32.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HistorialPostnatalId.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HistorialPostnatalId.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\HistorialPostnatalId.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HistorialPostnatalId.cs",
+              "RelativeToolTip": "KIVO\\Models\\HistorialPostnatalId.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:15:01.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConfiguracionController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\ConfiguracionController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\ConfiguracionController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\ConfiguracionController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\ConfiguracionController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAQwMcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:11:32.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pago.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\Pago.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\Pago.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\Pago.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Configuracion\\Pago.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T19:01:17.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PagoRequestDto.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\PagoRequestDto.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\PagoRequestDto.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\PagoRequestDto.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\PagoRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T20:35:01.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PhoneNumberModel.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\PhoneNumberModel.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\PhoneNumberModel.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\PhoneNumberModel.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\PhoneNumberModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T19:06:17.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\ServiceResult.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\ServiceResult.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T19:06:11.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAtwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T02:52:02.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Registrarse.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Registrarse.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\Registrarse.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Registrarse.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Account\\Registrarse.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T13:26:54.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CentroMedico.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\CentroMedico.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
+              "RelativeToolTip": "KIVO\\Models\\CentroMedico.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA3wAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:28:09.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CuidadController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CuidadController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\CuidadController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CuidadController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\CuidadController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:25:10.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VerificarNumero.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\VerificarNumero.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\VerificarNumero.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\VerificarNumero.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Account\\VerificarNumero.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T06:02:50.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CentroMedicoContoller.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CentroMedicoContoller.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\CentroMedicoContoller.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CentroMedicoContoller.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\CentroMedicoContoller.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwE0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T22:29:41.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UnityOfWork.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
+              "RelativeToolTip": "KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:08:30.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GenericoRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T05:27:53.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EspecialidadRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T05:28:51.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SuscripcionRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:41:59.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\DepartamentoRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\DepartamentoRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\DepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:26:01.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "KivoDbContext.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\KivoDbContext.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\KivoDbContext.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\KivoDbContext.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\KivoDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T05:26:12.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IUnityOfWork.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
+              "RelativeToolTip": "KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:08:13.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Suscripcion.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\Suscripcion.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\Suscripcion.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\Suscripcion.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\Suscripcion.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:44:31.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICentroMedicoRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T05:27:41.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SignosVitales.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\SignosVitales.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\SignosVitales.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\SignosVitales.cs",
+              "RelativeToolTip": "KIVO\\Models\\SignosVitales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:15:07.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrganizacionConfiguradaFilter.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
+              "RelativeDocumentMoniker": "KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
+              "RelativeToolTip": "KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAlwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T04:52:54.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\User.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\User.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\User.cs",
+              "RelativeToolTip": "KIVO\\Models\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T04:54:05.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "HttpRequestExtensions.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\ExtencionMetodos\\HttpRequestExtensions.cs",
               "RelativeDocumentMoniker": "KIVO\\ExtencionMetodos\\HttpRequestExtensions.cs",
               "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\ExtencionMetodos\\HttpRequestExtensions.cs",
               "RelativeToolTip": "KIVO\\ExtencionMetodos\\HttpRequestExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T21:03:38.584Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Cuidad.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cuidad.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Cuidad.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cuidad.cs",
+              "RelativeToolTip": "KIVO\\Models\\Cuidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T15:43:09.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AccountServices.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\AccountServices.cs",
+              "RelativeDocumentMoniker": "KIVO\\Services\\Services\\AccountServices.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\AccountServices.cs",
+              "RelativeToolTip": "KIVO\\Services\\Services\\AccountServices.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAtwFkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T04:39:06.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MedicoController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\MedicoController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\MedicoController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\MedicoController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\MedicoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:21:33.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Medico.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medico.cs",
+              "RelativeToolTip": "KIVO\\Models\\Medico.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T02:56:17.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CuidadRepositor.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\CuidadRepositor.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\CuidadRepositor.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\CuidadRepositor.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\CuidadRepositor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:25:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ResetaMedicamento.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ResetaMedicamento.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\ResetaMedicamento.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ResetaMedicamento.cs",
+              "RelativeToolTip": "KIVO\\Models\\ResetaMedicamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:19:11.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Producto.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Producto.cs",
+              "RelativeToolTip": "KIVO\\Models\\Producto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:51:21.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PlanSubcripcion.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\PlanSubcripcion.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\PlanSubcripcion.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\PlanSubcripcion.cs",
+              "RelativeToolTip": "KIVO\\Models\\PlanSubcripcion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:12:37.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PasienteController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\PasienteController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\PasienteController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\PasienteController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\PasienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T05:46:40.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Reseta.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Reseta.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Reseta.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Reseta.cs",
+              "RelativeToolTip": "KIVO\\Models\\Reseta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:10:14.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KIVO\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KIVO\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:27:24.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IPlanSuscripcion.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:34:43.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20240923171921_departamento.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240923171921_departamento.cs",
+              "RelativeDocumentMoniker": "KIVO\\Migrations\\20240923171921_departamento.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240923171921_departamento.cs",
+              "RelativeToolTip": "KIVO\\Migrations\\20240923171921_departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:19:21.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PasienteRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:33:23.489Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 57,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Departamento.cs",
+              "RelativeToolTip": "KIVO\\Models\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:29:31.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Paciente.cs",
+              "RelativeToolTip": "KIVO\\Models\\Paciente.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvywAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:10:10.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Dieta.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dieta.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dieta.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dieta.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dieta.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:14:54.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Diagnostico.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Diagnostico.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Diagnostico.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Diagnostico.cs",
+              "RelativeToolTip": "KIVO\\Models\\Diagnostico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:14:53.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AntesedentesFamiliaresPatologicos.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\AntesedentesFamiliaresPatologicos.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\AntesedentesFamiliaresPatologicos.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\AntesedentesFamiliaresPatologicos.cs",
+              "RelativeToolTip": "KIVO\\Models\\AntesedentesFamiliaresPatologicos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:15:10.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ExploracionTopografica.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ExploracionTopografica.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\ExploracionTopografica.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ExploracionTopografica.cs",
+              "RelativeToolTip": "KIVO\\Models\\ExploracionTopografica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:15:00.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EnfermedadesHereditarias.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\EnfermedadesHereditarias.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\EnfermedadesHereditarias.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\EnfermedadesHereditarias.cs",
+              "RelativeToolTip": "KIVO\\Models\\EnfermedadesHereditarias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:14:56.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Espesialidad.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Espesialidad.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Espesialidad.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Espesialidad.cs",
+              "RelativeToolTip": "KIVO\\Models\\Espesialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T02:56:25.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\AuthResult.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\AuthResult.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\AuthResult.cs",
+              "RelativeToolTip": "KIVO\\Models\\Dto\\AuthResult.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:36:37.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ICuidadRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICuidadRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ICuidadRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICuidadRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\ICuidadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:25:11.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:25:45.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "KIVO\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
+              "RelativeToolTip": "KIVO\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T22:03:36.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T22:42:47.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "RegistrarOrganizacion.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T04:27:27.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T17:39:26.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "verifyIdentity.js",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
+              "RelativeDocumentMoniker": "KIVO\\wwwroot\\js\\verifyIdentity.js",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
+              "RelativeToolTip": "KIVO\\wwwroot\\js\\verifyIdentity.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-22T19:59:20.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "_About.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\_About.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Home\\_About.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\_About.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Home\\_About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T21:09:42.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "_index.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\_index.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Pasiente\\_index.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\_index.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Pasiente\\_index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T21:29:13.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "jquery.validate.js",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeDocumentMoniker": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeToolTip": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-22T17:21:35.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-22T17:21:33.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T21:08:24.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "20240920043901_bool-2.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920043901_bool-2.cs",
+              "RelativeDocumentMoniker": "KIVO\\Migrations\\20240920043901_bool-2.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920043901_bool-2.cs",
+              "RelativeToolTip": "KIVO\\Migrations\\20240920043901_bool-2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:39:03.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PacienteViewModel.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
+              "RelativeToolTip": "KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:23:45.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "OrganizacionViewModel.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
+              "RelativeToolTip": "KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T04:32:09.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": " PhoneNumberVerificationMiddleware.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
+              "RelativeDocumentMoniker": "KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
+              "RelativeToolTip": "KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T03:02:31.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20240920235410_intial.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920235410_intial.cs",
+              "RelativeDocumentMoniker": "KIVO\\Migrations\\20240920235410_intial.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920235410_intial.cs",
+              "RelativeToolTip": "KIVO\\Migrations\\20240920235410_intial.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T23:54:13.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "VerificarEstadoUsuarioAttribute.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
+              "RelativeDocumentMoniker": "KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
+              "RelativeToolTip": "KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T03:33:33.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "KIVO\\appsettings.Development.json",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
+              "RelativeToolTip": "KIVO\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T22:01:32.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "GoogleResponse.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\GoogleResponse.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Account\\GoogleResponse.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\GoogleResponse.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Account\\GoogleResponse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T04:33:35.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ISuscripcionRepository.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:41:28.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "NotaDeEncuentro.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\NotaDeEncuentro.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\NotaDeEncuentro.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\NotaDeEncuentro.cs",
+              "RelativeToolTip": "KIVO\\Models\\NotaDeEncuentro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:10:08.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Medicamento.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medicamento.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Medicamento.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medicamento.cs",
+              "RelativeToolTip": "KIVO\\Models\\Medicamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:10:07.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Suscripcion.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Suscripcion.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Suscripcion.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Suscripcion.cs",
+              "RelativeToolTip": "KIVO\\Models\\Suscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:12:45.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ValidarSuscripcionCentroMedicoAttribute.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
+              "RelativeDocumentMoniker": "KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
+              "RelativeToolTip": "KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:10:52.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "PlanSuscripcion.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
+              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:37:51.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": " ValidarNumeroAttribute .cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
+              "RelativeDocumentMoniker": "KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
+              "RelativeToolTip": "KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T03:24:03.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\Index.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Pasiente\\Index.cshtml",
               "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\Index.cshtml",
               "RelativeToolTip": "KIVO\\Views\\Pasiente\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAIBJwCEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBZwCEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-19T06:04:05.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T21:16:59.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 94,
               "Title": "WhatsAppMessageSender.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\WhatsAppMessageSender.cs",
               "RelativeDocumentMoniker": "KIVO\\Services\\Services\\WhatsAppMessageSender.cs",
@@ -1071,19 +1615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:29.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 95,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "KIVO\\Services\\Services\\EmailSender.cs",
@@ -1095,31 +1627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "RegistrarOrganizacion.cshtml",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
-              "RelativeDocumentMoniker": "KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
-              "RelativeToolTip": "KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwBEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T04:27:32.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "EspecialidadRepository.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T05:28:51.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 96,
               "Title": "IEspesialidadRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IEspesialidadRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IEspesialidadRepository.cs",
@@ -1131,19 +1639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "ICentroMedicoRepository.cs",
-              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
-              "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
-              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
-              "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T05:27:41.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 103,
               "Title": "20240919052703_data.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240919052703_data.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240919052703_data.cs",
@@ -1155,7 +1651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 104,
               "Title": "20240919051057_bool.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240919051057_bool.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240919051057_bool.cs",
@@ -1167,7 +1663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 97,
               "Title": "KIVO.csproj",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
               "RelativeDocumentMoniker": "KIVO\\KIVO.csproj",
@@ -1179,7 +1675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 98,
               "Title": "CreateRoles.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\DataMaster\\CreateRoles.cs",
               "RelativeDocumentMoniker": "KIVO\\DataMaster\\CreateRoles.cs",
@@ -1191,7 +1687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 99,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\Class.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\Class.cs",
@@ -1202,7 +1698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 101,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -1214,7 +1710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 100,
               "Title": "KIVO",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
               "RelativeDocumentMoniker": "KIVO\\KIVO.csproj",
@@ -1225,7 +1721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 102,
               "Title": "HorarioDeAtecion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HorarioDeAtecion.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\HorarioDeAtecion.cs",
@@ -1234,6 +1730,17 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T03:05:03.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "EntidadMedicaViewModel.cs",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
+              "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
+              "RelativeToolTip": "KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T02:52:58.54Z"
             },
             {
               "$type": "Bookmark",

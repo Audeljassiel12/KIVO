@@ -310,6 +310,26 @@ namespace KIVO.Migrations
                     b.HasIndex("DepartamentoId");
 
                     b.ToTable("Ciudades");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DepartamentoId = 1,
+                            Nombre = "Ciudad 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DepartamentoId = 2,
+                            Nombre = "Ciudad 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DepartamentoId = 3,
+                            Nombre = "Ciudad 3"
+                        });
                 });
 
             modelBuilder.Entity("KIVO.Models.Departamento", b =>
@@ -327,6 +347,23 @@ namespace KIVO.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Departamentos");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nombre = "Departamento 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nombre = "Departamento 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nombre = "Departamento 3"
+                        });
                 });
 
             modelBuilder.Entity("KIVO.Models.Diagnostico", b =>

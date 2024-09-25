@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using PhoneNumbers;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,8 @@ builder.Services.AddScoped<IMedicoRepository,MedicoRepository>();
 builder.Services.AddScoped<IEspesialidadRepository,EspecialidadRepository>();
 builder.Services.AddScoped<ISuscripcionRepository, SuscripcionRepository>();
 builder.Services.AddScoped<IPlanSuscripcionRepository,PlanSuscripcionRepository>();
+builder.Services.AddScoped<IDepartamentoRepository, DepartamentoRepository>();
+builder.Services.AddScoped<ICuidadRepository,CuidadRepositor>();
 builder.Services.AddScoped<IUnityOfWork,UnityOfWork>();
 builder.Services.AddScoped<AccountServices>();
 builder.Services.AddIdentity<KIVO.Models.User, IdentityRole>().AddEntityFrameworkStores<KivoDbContext>()
@@ -38,7 +41,7 @@ builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 });
 builder.Services.AddScoped<OrganizacionConfiguradaFilter>();
 builder.Services.AddScoped<VerificarEstadoUsuarioAttribute>();
-
+StripeConfiguration.ApiKey = "sk_test_51Q2etcB7yCB8tXwRVKwEurGDq8w2mSLu5ghwj53BrUrcerFIwLKy5yhUycy8VOs431F1gv1ziPXMDI35mmMl2YSX00wi2HoO4W";
 
 // Carga la configuración SMTP desde appsettings.json
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
@@ -47,7 +50,6 @@ builder.Services.Configure<WhatsAppApiConfig>(builder.Configuration.GetSection("
 // Registra el servicio EmailSender
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddTransient<IMessageSender, WhatsAppMessageSender>();
-
 
 
 

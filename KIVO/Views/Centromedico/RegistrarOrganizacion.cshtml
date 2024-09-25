@@ -1,27 +1,89 @@
-﻿
-@model KIVO.Models.ViewModels.EntidadMedicaViewModel
-
+﻿@model KIVO.Models.ViewModels.EntidadCentroMedicoViewModel
 @{
-    ViewData["Title"] = "Registro de Clínica o Centro Médico";
 }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Información del Centro Médico</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Añadir Información del Centro Médico</h2>
 
-<h2>@ViewData["Title"]</h2>
+    <div id="contenedorVista">
+        <form id="formCentroMedico">
+            <div class="form-group">
+                <label for="nombreEntidad">Nombre de la clínica o centro médico</label>
+                <input type="text" id="nombreEntidad" name="NombreEntidad" class="form-control" value="@Model.NombreEntidad" required />
+            </div>
 
-<form method="post" class="mt-4" asp-action="Guardar">
-    <div class="form-group">
-        <label asp-for="NombreEntidad" class="form-label"></label>
-        <input asp-for="NombreEntidad" class="form-control" placeholder="Ingrese el nombre" />
-        <span asp-validation-for="NombreEntidad" class="text-danger"></span>
+            <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="Direccion" class="form-control" maxlength="200" value="@Model.Direccion" />
+            </div>
+
+            <div class="form-group">
+                <label for="departamentoId">Departamento</label>
+                <select id="departamentoId" name="DepartamentoId" class="form-control" required>
+                    <option value="">Seleccione un departamento</option>
+                    @foreach (var item in Model.Departamentos)
+                    {
+                        <option value="@item.Value">@item.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="municipioId">Municipio</label>
+                <select id="municipioId" name="MunicipioId" class="form-control" required>
+                    <option value="">Seleccione un municipio</option>
+                </select>
+            </div>
+
+            <button type="button" id="btnSiguiente" class="btn btn-primary">Siguiente</button>
+        </form>
     </div>
 
-    <div class="form-group mt-3">
-        <label asp-for="EspecialidadId" class="form-label"></label>
-        <select asp-for="EspecialidadId" class="form-control" asp-items="Model.Especialidades">
-            <option value="">Seleccione una especialidad</option>
-        </select>
-        <span asp-validation-for="EspecialidadId" class="text-danger"></span>
-    </div>
+    <script>
+        $(document).ready(function () {
+            // Cargar municipios según el departamento seleccionado
+            $('#departamentoId').change(function () {
+                var departamentoId = $(this).val();
+                $('#municipioId').empty().append('<option value="">Seleccione un municipio</option>');
 
-    <button type="submit" class="btn btn-primary mt-3">Guardar</button>
-</form>
+                if (departamentoId === "") {
+                    return;
+                }
 
+                $.ajax({
+                    url: '/Cuidad/GetCiudadesByDepartamento', // Cambiar a la acción correcta en el controlador
+                    type: 'GET',
+                    data: { departamentoId: departamentoId },
+                    success: function (municipios) {
+                        $.each(municipios, function (index, municipio) {
+                            $('#municipioId').append('<option value="' + municipio.value + '">' + municipio.text + '</option>');
+                        });
+                    }
+                });
+            });
+
+            // Enviar el formulario con los datos del centro médico
+            $('#btnSiguiente').on('click', function () {
+                $.ajax({
+                    url: '/CentroMedico/Guardar', // Cambiar a la acción correcta en el controlador
+                    type: 'POST',
+                    data: $('#formCentroMedico').serialize(), // Serializar los datos del formulario
+                    success: function (data) {
+                        $('#contenedorVista').html(data); // Reemplazar el contenido del contenedor con la respuesta del controlador
+                    },
+                    error: function () {
+                        alert('Hubo un problema al enviar los datos.');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

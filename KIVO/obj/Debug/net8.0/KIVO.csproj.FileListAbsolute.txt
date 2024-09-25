@@ -132,7 +132,6 @@ C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\staticwebassets\msbuild.build.KIVO.pro
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KIVO.props
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KIVO.props
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\scopedcss\bundle\KIVO.styles.css
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\scopedcss\projectbundle\KIVO.bundle.scp.css
 C:\Hakaton2024\KIVO\kivo\obj\Debug\net8.0\KIVO.csproj.Up2Date
@@ -147,3 +146,5 @@ C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Microsoft.VisualStudio.Web.BrowserLink
 C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Twilio.dll
 C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Hakaton2024\KIVO\KIVO\bin\Debug\net8.0\Stripe.net.dll
+C:\Hakaton2024\KIVO\KIVO\obj\Debug\net8.0\scopedcss\Views\Shared\_Configuracion.cshtml.rz.scp.css

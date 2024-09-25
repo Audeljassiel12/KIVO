@@ -10,6 +10,7 @@ namespace KIVO.Models.UnityOfWork
         ICentroMedicoRepository centroMedicoRepository { get; }
         IPlanSuscripcionRepository planSuscripcionRepository { get; }
         ISuscripcionRepository suscripcionRepository { get; }
+        IEspesialidadRepository espesialidadRepository { get; }
         DbSet<User> users { get;}
          
               

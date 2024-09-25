@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_Configuracion";
+}
+<h2>Selecciona tu Plan</h2>
+<form asp-action="Pago" method="post">
+    <div class="row">
+        <!-- Primera tarjeta: NIMBO PRO BUNDLE -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="plan" id="nimboPro" value="NimboPro" checked>
+                        <label class="form-check-label" for="nimboPro">
+                            <h5 class="card-title">NIMBO PRO BUNDLE</h5>
+                        </label>
+                    </div>
+                    <p class="card-text">
+                        <strong>Precio Original: </strong> $153.95 USD<br>
+                        <strong>Precio con Descuento: </strong> $9.24 USD
+                    </p>
+                    <ul>
+                        <li>Recordatorios automatizados por texto, WhatsApp y correo electrónico para reducir ausencias</li>
+                        <li>Sistema de registros médicos robusto</li>
+                        <li>Sitio web optimizado para SEO</li>
+                        <li>Encuestas automatizadas de revisión de pacientes</li>
+                        <li>Flujo de Telemedicina habilitado</li>
+                        <li>Sistema de reservas de autoservicio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda tarjeta: Prueba gratuita de 14 días -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="plan" id="freeTrial" value="FreeTrial">
+                        <label class="form-check-label" for="freeTrial">
+                            <h5 class="card-title">Prueba gratuita de 14 días</h5>
+                        </label>
+                    </div>
+                    <p class="card-text">Comienza tu prueba gratuita de 14 días.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botón de envío del formulario -->
+    <button type="submit" class="btn btn-success mt-3">Continuar</button>
+</form>
+

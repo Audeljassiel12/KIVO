@@ -1,0 +1,68 @@
+﻿@model KIVO.Models.Dto.MedicoDo
+@{
+    Layout = "_Configuracion";
+}
+
+<h2>Registrar Doctor</h2>
+
+<form id="formRegistrarDoctor" asp-action="step-two" method="post">
+    <div class="form-group">
+        <label asp-for="Cedula"></label>
+        <input asp-for="Cedula" class="form-control" required />
+        <span asp-validation-for="Cedula" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EspecialidadId">Especialidad (si aplica)</label>
+        <select asp-for="EspecialidadId" class="form-control" required>
+            <option value="">Seleccione una especialidad</option>
+            @if (Model.Especialidades != null && Model.Especialidades.Any())
+            {
+                foreach (var especialidad in Model.Especialidades)
+                {
+                    <option value="@especialidad.Value">@especialidad.Text</option>
+                }
+            }
+        </select>
+        <span asp-validation-for="EspecialidadId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" id="btnSiguiente" class="btn btn-primary" disabled>Siguiente</button>
+</form>
+
+<!-- Scripts -->
+@section Scripts {
+  
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Desactivar el botón de envío inicialmente
+            $('#btnSiguiente').prop('disabled', true);
+
+            // Configurar validación de jQuery
+            $("#formRegistrarDoctor").validate({
+                onfocusout: function (element) {
+                    $(element).valid(); // Valida el campo al perder el foco
+                    toggleSubmitButton(); // Verifica si habilitar o deshabilitar el botón
+                },
+                onkeyup: false, // Desactiva la validación al escribir
+                submitHandler: function (form) {
+                    form.submit(); // Enviar el formulario si es válido
+                }
+            });
+
+            // Manejar el evento de cambio en los campos de texto y selección
+            $('input, select').on('input change', function () {
+                $(this).valid(); // Valida el campo al cambiar
+                toggleSubmitButton(); // Verifica si habilitar o deshabilitar el botón
+            });
+
+            // Función para habilitar o deshabilitar el botón de envío
+            function toggleSubmitButton() {
+                var isValid = $("#formRegistrarDoctor").valid(); // Verifica si el formulario es válido
+                $('#btnSiguiente').prop('disabled', !isValid); // Habilita o deshabilita el botón
+            }
+        });
+    </script>
+}
