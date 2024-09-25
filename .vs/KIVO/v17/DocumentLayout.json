@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Hakaton2024\\KIVO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|c:\\hakaton2024\\kivo\\kivo\\models\\viewmodels\\entidadcentromedicoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4274F423-B163-4EED-9449-CF787AF95229}|KIVO\\KIVO.csproj|solutionrelative:kivo\\models\\viewmodels\\entidadcentromedicoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -437,7 +441,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -449,7 +453,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KIVO\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T05:14:58.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "step-three.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-three.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-three.cshtml",
@@ -457,12 +474,11 @@
               "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-three.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T18:32:25.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:32:25.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "step-one.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-one.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-one.cshtml",
@@ -470,12 +486,11 @@
               "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-one.cshtml",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAEEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T02:09:17.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T02:09:17.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CentroMedicoRepositoy.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
@@ -483,12 +498,11 @@
               "RelativeToolTip": "KIVO\\Models\\Data\\Repository\\Repository\\CentroMedicoRepositoy.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAswBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T03:01:39.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T03:01:39.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InputModelLogin.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModelLogin.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\InputModelLogin.cs",
@@ -496,12 +510,11 @@
               "RelativeToolTip": "KIVO\\Models\\Dto\\InputModelLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:36:36.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T05:36:36.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EntidadCentroMedicoViewModel.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadCentroMedicoViewModel.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\EntidadCentroMedicoViewModel.cs",
@@ -514,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "step-two.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-two.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-two.cshtml",
@@ -522,12 +535,11 @@
               "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-two.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T02:39:09.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T02:39:09.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Configuracion.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\_Configuracion.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\_Configuracion.cshtml",
@@ -535,12 +547,11 @@
               "RelativeToolTip": "KIVO\\Views\\Shared\\_Configuracion.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:15.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T17:25:15.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "step-four.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\step-four.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\step-four.cshtml",
@@ -548,12 +559,11 @@
               "RelativeToolTip": "KIVO\\Views\\Configuracion\\step-four.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T22:56:39.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T22:56:39.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PlanesSubcriopnesConfi.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
@@ -561,12 +571,11 @@
               "RelativeToolTip": "KIVO\\Views\\Suscripcion\\PlanesSubcriopnesConfi.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T23:18:13.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T23:18:13.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\_ViewImports.cshtml",
@@ -574,12 +583,11 @@
               "RelativeToolTip": "KIVO\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:18.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T17:25:18.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\_ViewStart.cshtml",
@@ -587,12 +595,11 @@
               "RelativeToolTip": "KIVO\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-03T17:25:29.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T17:25:29.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Shared\\Error.cshtml",
@@ -600,12 +607,11 @@
               "RelativeToolTip": "KIVO\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T21:16:59.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T21:16:59.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Program.cs",
               "RelativeDocumentMoniker": "KIVO\\Program.cs",
@@ -613,12 +619,11 @@
               "RelativeToolTip": "KIVO\\Program.cs",
               "ViewState": "AgIAACUAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T21:52:21.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T21:52:21.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AddInfo.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Medico\\AddInfo.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Medico\\AddInfo.cshtml",
@@ -626,12 +631,11 @@
               "RelativeToolTip": "KIVO\\Views\\Medico\\AddInfo.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T05:34:57.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T05:34:57.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.json",
               "RelativeDocumentMoniker": "KIVO\\appsettings.json",
@@ -643,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MedicoDo.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\MedicoDo.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\MedicoDo.cs",
@@ -655,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "InputModel.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\InputModel.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\InputModel.cs",
@@ -667,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cita.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Cita.cs",
@@ -679,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "RegistrarOrganizacion.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Centromedico\\RegistrarOrganizacion.cshtml",
@@ -691,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "HistorialPostnatalId.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HistorialPostnatalId.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\HistorialPostnatalId.cs",
@@ -703,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ConfiguracionController.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\ConfiguracionController.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\ConfiguracionController.cs",
@@ -715,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Pago.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Configuracion\\Pago.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Configuracion\\Pago.cshtml",
@@ -727,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "PagoRequestDto.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\PagoRequestDto.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\PagoRequestDto.cs",
@@ -739,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "PhoneNumberModel.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\PhoneNumberModel.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\PhoneNumberModel.cs",
@@ -751,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ServiceResult.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\ServiceResult.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\ServiceResult.cs",
@@ -763,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\AccountController.cs",
@@ -775,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Registrarse.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Registrarse.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Account\\Registrarse.cshtml",
@@ -787,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CentroMedico.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\CentroMedico.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\CentroMedico.cs",
@@ -799,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CuidadController.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CuidadController.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\CuidadController.cs",
@@ -811,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "VerificarNumero.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\VerificarNumero.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Account\\VerificarNumero.cshtml",
@@ -823,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CentroMedicoContoller.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\CentroMedicoContoller.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\CentroMedicoContoller.cs",
@@ -835,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "UnityOfWork.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\UnityOfWork\\UnityOfWork.cs",
@@ -847,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "GenericoRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\GenericoRepository.cs",
@@ -859,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "EspecialidadRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\EspecialidadRepository.cs",
@@ -871,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "SuscripcionRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\SuscripcionRepository.cs",
@@ -883,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "DepartamentoRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\DepartamentoRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\DepartamentoRepository.cs",
@@ -895,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "KivoDbContext.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\KivoDbContext.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\KivoDbContext.cs",
@@ -907,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "IUnityOfWork.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\UnityOfWork\\IUnityOfWork.cs",
@@ -919,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Suscripcion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\Suscripcion.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\Suscripcion.cs",
@@ -931,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ICentroMedicoRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ICentroMedicoRepository.cs",
@@ -943,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "SignosVitales.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\SignosVitales.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\SignosVitales.cs",
@@ -955,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "OrganizacionConfiguradaFilter.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
               "RelativeDocumentMoniker": "KIVO\\Filter\\OrganizacionConfiguradaFilter.cs",
@@ -967,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\User.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\User.cs",
@@ -979,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "HttpRequestExtensions.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\ExtencionMetodos\\HttpRequestExtensions.cs",
               "RelativeDocumentMoniker": "KIVO\\ExtencionMetodos\\HttpRequestExtensions.cs",
@@ -991,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Cuidad.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Cuidad.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Cuidad.cs",
@@ -1003,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "AccountServices.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\AccountServices.cs",
               "RelativeDocumentMoniker": "KIVO\\Services\\Services\\AccountServices.cs",
@@ -1015,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "MedicoController.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\MedicoController.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\MedicoController.cs",
@@ -1027,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Medico.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medico.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Medico.cs",
@@ -1039,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "CuidadRepositor.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\CuidadRepositor.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\CuidadRepositor.cs",
@@ -1051,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "ResetaMedicamento.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ResetaMedicamento.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ResetaMedicamento.cs",
@@ -1063,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Producto.cs",
@@ -1075,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "PlanSubcripcion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\PlanSubcripcion.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\PlanSubcripcion.cs",
@@ -1087,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "PasienteController.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\PasienteController.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\PasienteController.cs",
@@ -1099,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Reseta.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Reseta.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Reseta.cs",
@@ -1111,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "KIVO\\Controllers\\HomeController.cs",
@@ -1123,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IPlanSuscripcion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IPlanSuscripcion.cs",
@@ -1135,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 106,
               "Title": "20240923171921_departamento.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240923171921_departamento.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240923171921_departamento.cs",
@@ -1147,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "PasienteRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\PasienteRepository.cs",
@@ -1159,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Departamento.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Departamento.cs",
@@ -1171,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Paciente.cs",
@@ -1183,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Dieta.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dieta.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dieta.cs",
@@ -1195,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Diagnostico.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Diagnostico.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Diagnostico.cs",
@@ -1207,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "AntesedentesFamiliaresPatologicos.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\AntesedentesFamiliaresPatologicos.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\AntesedentesFamiliaresPatologicos.cs",
@@ -1219,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "ExploracionTopografica.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ExploracionTopografica.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ExploracionTopografica.cs",
@@ -1231,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "EnfermedadesHereditarias.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\EnfermedadesHereditarias.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\EnfermedadesHereditarias.cs",
@@ -1243,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Espesialidad.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Espesialidad.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Espesialidad.cs",
@@ -1255,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "AuthResult.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Dto\\AuthResult.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Dto\\AuthResult.cs",
@@ -1267,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "ICuidadRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ICuidadRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ICuidadRepository.cs",
@@ -1279,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IDepartamentoRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IDepartamentoRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IDepartamentoRepository.cs",
@@ -1291,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "KIVO\\Properties\\launchSettings.json",
@@ -1303,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Account\\Login.cshtml",
@@ -1315,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "RegistrarOrganizacion.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Account\\RegistrarOrganizacion.cshtml",
@@ -1327,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Home\\Index.cshtml",
@@ -1339,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "verifyIdentity.js",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
               "RelativeDocumentMoniker": "KIVO\\wwwroot\\js\\verifyIdentity.js",
@@ -1351,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "_About.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\_About.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Home\\_About.cshtml",
@@ -1363,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "_index.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\_index.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Pasiente\\_index.cshtml",
@@ -1375,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "jquery.validate.js",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
               "RelativeDocumentMoniker": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
@@ -1387,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "additional-methods.js",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeDocumentMoniker": "KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1399,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Home\\About.cshtml",
@@ -1411,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "20240920043901_bool-2.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920043901_bool-2.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240920043901_bool-2.cs",
@@ -1423,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "PacienteViewModel.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\PacienteViewModel.cs",
@@ -1435,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "OrganizacionViewModel.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\OrganizacionViewModel.cs",
@@ -1447,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": " PhoneNumberVerificationMiddleware.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
               "RelativeDocumentMoniker": "KIVO\\Miiddleware\\ PhoneNumberVerificationMiddleware.cs",
@@ -1459,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "20240920235410_intial.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240920235410_intial.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240920235410_intial.cs",
@@ -1471,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "VerificarEstadoUsuarioAttribute.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
               "RelativeDocumentMoniker": "KIVO\\Validaciones\\VerificarEstadoUsuarioAttribute.cs",
@@ -1483,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\appsettings.Development.json",
               "RelativeDocumentMoniker": "KIVO\\appsettings.Development.json",
@@ -1495,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "GoogleResponse.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Account\\GoogleResponse.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Account\\GoogleResponse.cshtml",
@@ -1507,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "ISuscripcionRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\ISuscripcionRepository.cs",
@@ -1519,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "NotaDeEncuentro.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\NotaDeEncuentro.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\NotaDeEncuentro.cs",
@@ -1531,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "Medicamento.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Medicamento.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Medicamento.cs",
@@ -1543,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "Suscripcion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Suscripcion.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Suscripcion.cs",
@@ -1555,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "ValidarSuscripcionCentroMedicoAttribute.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
               "RelativeDocumentMoniker": "KIVO\\Validaciones\\ValidarSuscripcionCentroMedicoAttribute.cs",
@@ -1567,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "PlanSuscripcion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\Repository\\PlanSuscripcion.cs",
@@ -1579,7 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": " ValidarNumeroAttribute .cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
               "RelativeDocumentMoniker": "KIVO\\Validaciones\\ ValidarNumeroAttribute .cs",
@@ -1591,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Views\\Pasiente\\Index.cshtml",
               "RelativeDocumentMoniker": "KIVO\\Views\\Pasiente\\Index.cshtml",
@@ -1603,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "WhatsAppMessageSender.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\WhatsAppMessageSender.cs",
               "RelativeDocumentMoniker": "KIVO\\Services\\Services\\WhatsAppMessageSender.cs",
@@ -1615,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Services\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "KIVO\\Services\\Services\\EmailSender.cs",
@@ -1627,7 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "IEspesialidadRepository.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\Data\\Repository\\IRepository\\IEspesialidadRepository.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\Data\\Repository\\IRepository\\IEspesialidadRepository.cs",
@@ -1639,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "20240919052703_data.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240919052703_data.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240919052703_data.cs",
@@ -1651,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 105,
               "Title": "20240919051057_bool.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Migrations\\20240919051057_bool.cs",
               "RelativeDocumentMoniker": "KIVO\\Migrations\\20240919051057_bool.cs",
@@ -1663,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "KIVO.csproj",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
               "RelativeDocumentMoniker": "KIVO\\KIVO.csproj",
@@ -1675,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "CreateRoles.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\DataMaster\\CreateRoles.cs",
               "RelativeDocumentMoniker": "KIVO\\DataMaster\\CreateRoles.cs",
@@ -1687,7 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\Class.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\Class.cs",
@@ -1698,7 +1702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -1710,7 +1714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "KIVO",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\KIVO.csproj",
               "RelativeDocumentMoniker": "KIVO\\KIVO.csproj",
@@ -1721,7 +1725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "HorarioDeAtecion.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\HorarioDeAtecion.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\HorarioDeAtecion.cs",
@@ -1733,7 +1737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 107,
               "Title": "EntidadMedicaViewModel.cs",
               "DocumentMoniker": "C:\\Hakaton2024\\KIVO\\KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
               "RelativeDocumentMoniker": "KIVO\\Models\\ViewModels\\EntidadMedicaViewModel.cs",
