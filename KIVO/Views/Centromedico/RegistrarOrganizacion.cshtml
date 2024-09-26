@@ -7,44 +7,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir Información del Centro Médico</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
-    <h2>Añadir Información del Centro Médico</h2>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Contenedor principal -->
+    <div class="container mt-5">
+        <!-- Logo centrado -->
+        <div class="text-center mb-4">
+            <img src="/KIVO_SVG/LOGO_ESLOGAN_COLOR.svg" alt="Logo" class="img-fluid" style="max-height: 100px;">
+        </div>
 
-    <div id="contenedorVista">
-        <form id="formCentroMedico">
-            <div class="form-group">
-                <label for="nombreEntidad">Nombre de la clínica o centro médico</label>
-                <input type="text" id="nombreEntidad" name="NombreEntidad" class="form-control" value="@Model.NombreEntidad" required />
-            </div>
+        <!-- Título centrado -->
+        <h2 class="text-center text-primary mb-4">Añadir Información del Centro Médico</h2>
 
-            <div class="form-group">
-                <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" name="Direccion" class="form-control" maxlength="200" value="@Model.Direccion" />
-            </div>
+        <!-- Formulario con Bootstrap -->
+        <div id="contenedorVista" class="bg-light p-4 rounded shadow-sm">
+            <form id="formCentroMedico">
+                <div class="form-group">
+                    <label for="nombreEntidad">Nombre de la clínica o centro médico</label>
+                    <input type="text" id="nombreEntidad" name="NombreEntidad" class="form-control" value="@Model.NombreEntidad" required />
+                </div>
 
-            <div class="form-group">
-                <label for="departamentoId">Departamento</label>
-                <select id="departamentoId" name="DepartamentoId" class="form-control" required>
-                    <option value="">Seleccione un departamento</option>
-                    @foreach (var item in Model.Departamentos)
-                    {
-                        <option value="@item.Value">@item.Text</option>
-                    }
-                </select>
-            </div>
+                <div class="form-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" name="Direccion" class="form-control" maxlength="200" value="@Model.Direccion" />
+                </div>
 
-            <div class="form-group">
-                <label for="municipioId">Municipio</label>
-                <select id="municipioId" name="MunicipioId" class="form-control" required>
-                    <option value="">Seleccione un municipio</option>
-                </select>
-            </div>
+                <div class="form-group">
+                    <label for="departamentoId">Departamento</label>
+                    <select id="departamentoId" name="DepartamentoId" class="form-control" required>
+                        <option value="">Seleccione un departamento</option>
+                        @foreach (var item in Model.Departamentos)
+                        {
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+                </div>
 
-            <button type="button" id="btnSiguiente" class="btn btn-primary">Siguiente</button>
-        </form>
+                <div class="form-group">
+                    <label for="municipioId">Municipio</label>
+                    <select id="municipioId" name="MunicipioId" class="form-control" required>
+                        <option value="">Seleccione un municipio</option>
+                    </select>
+                </div>
+
+                <!-- Botón Siguiente -->
+                <div class="text-center">
+                    <button type="button" id="btnSiguiente" class="btn btn-primary btn-block">Siguiente</button>
+                </div>
+            </form>
+        </div>
     </div>
+
 
     <script>
         $(document).ready(function () {

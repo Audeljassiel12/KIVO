@@ -4,36 +4,60 @@
     ViewData["Title"] = "Log in";
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<form method="post">
-    <h4>Use a local account to log in.</h4>
+</head>
+<body>
+    <!-- Formulario con estilos Bootstrap para iniciar sesión -->
+<form method="post" class="mt-4 p-4 border rounded shadow-sm bg-light" style="max-width: 400px; margin: 0 auto;">
+    
+    <!-- Título del formulario, centrado y con color primario de Bootstrap -->
+    <div class="text-center mb-4">
+         <img src="/KIVO_SVG/LOGO_ESLOGAN_COLOR.svg" alt="Logo" class="img-fluid" style="max-height: 100px;">
+    </div>
     <hr />
-    <div asp-validation-summary="All" class="text-danger"></div>
+    
+    <!-- Resumen de validaciones con mensaje de error en color rojo -->
+    <div asp-validation-summary="All" class="text-danger text-center mb-3"></div>
+
+    <!-- Campo para el correo electrónico -->
     <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
+        <label asp-for="Email" class="form-label">Correo electrónico</label>
+        <input asp-for="Email" class="form-control" placeholder="Introduce tu correo" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
+
+    <!-- Campo para la contraseña -->
     <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" />
+        <label asp-for="Password" class="form-label">Contraseña</label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Introduce tu contraseña" />
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <div class="checkbox">
-            <label asp-for="RememberMe">
-                <input asp-for="RememberMe" />
-                @Html.DisplayNameFor(m => m.RememberMe)
-            </label>
-        </div>
+
+    <!-- Opción para recordar sesión (checkbox) -->
+    <div class="form-group form-check">
+        <input asp-for="RememberMe" class="form-check-input" id="rememberMe" />
+        <label asp-for="RememberMe" class="form-check-label" for="rememberMe">Recordar sesión</label>
     </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-default">Log in</button>
+
+    <!-- Botón para iniciar sesión -->
+    <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
     </div>
-    <div class="form-group">
-       
-        <p>
-            <a / asp-action="Registrase" asp-controller="Accout">Register as a new user</a>
-        </p>
+    
+    <!-- Enlace para registro de nuevos usuarios -->
+    <div class="text-center mt-3">
+        <p>¿No tienes una cuenta? <a asp-action="Registrase" asp-controller="Account" class="text-decoration-none">Regístrate aquí</a></p>
     </div>
 </form>
+
+</body>
+</html>
+

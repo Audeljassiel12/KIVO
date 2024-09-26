@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PmBXSHC0SAin1ZQ4bwz7J9+hlAzvRjHKOTXdHZ5i+Rk=",
+  "Hash": "CGpnG191DtSIHORZDLYjEcabJpr8Q9M0qX2g7+j5i1c=",
   "Source": "KIVO",
   "BasePath": "_content/KIVO",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KIVO\\wwwroot",
       "Source": "KIVO",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css",
       "SourceId": "KIVO",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css"
+      "OriginalItemSpec": "C:\\Haka\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KIVO.styles.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
       "SourceId": "KIVO",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Hakaton2024\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Haka\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\index.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\css\\index.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -74,48 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\index4.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\css\\registrarse.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
-      "BasePath": "_content/KIVO",
-      "RelativePath": "css/index4.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\index4.css"
-    },
-    {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\index5.css",
-      "SourceId": "KIVO",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
-      "BasePath": "_content/KIVO",
-      "RelativePath": "css/index5.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\index5.css"
-    },
-    {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\registrarse.css",
-      "SourceId": "KIVO",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "css/registrarse.css",
       "AssetKind": "All",
@@ -131,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\css\\registrarse.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\segundo.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\js\\index.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
-      "RelativePath": "css/segundo.css",
+      "RelativePath": "js/index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,32 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\segundo.css"
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\tercer.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\js\\verifyIdentity.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
-      "BasePath": "_content/KIVO",
-      "RelativePath": "css/tercer.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\tercer.css"
-    },
-    {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
-      "SourceId": "KIVO",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "js/verifyIdentity.js",
       "AssetKind": "All",
@@ -188,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\verifyIdentity.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\1 (2).jpg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\1 (2).jpg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_JPG/1 (2).jpg",
       "AssetKind": "All",
@@ -207,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_JPG\\1 (2).jpg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\4.jpg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\4.jpg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_JPG/4.jpg",
       "AssetKind": "All",
@@ -226,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_JPG\\4.jpg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\5.jpg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\5.jpg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_JPG/5.jpg",
       "AssetKind": "All",
@@ -245,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_JPG\\5.jpg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\ARRIBA2.jpg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\ARRIBA2.jpg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_JPG/ARRIBA2.jpg",
       "AssetKind": "All",
@@ -264,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_JPG\\ARRIBA2.jpg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\5.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\5.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/5.svg",
       "AssetKind": "All",
@@ -283,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\5.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\abajo.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\abajo.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/abajo.svg",
       "AssetKind": "All",
@@ -302,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\abajo.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\arriba.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\arriba.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/arriba.svg",
       "AssetKind": "All",
@@ -321,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\arriba.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ARRIBA2.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ARRIBA2.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ARRIBA2.svg",
       "AssetKind": "All",
@@ -340,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ARRIBA2.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\BOTCEL.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\BOTCEL.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/BOTCEL.svg",
       "AssetKind": "All",
@@ -359,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\BOTCEL.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\CELULAR1.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\CELULAR1.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/CELULAR1.svg",
       "AssetKind": "All",
@@ -378,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\CELULAR1.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\CONTORNO4.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\CONTORNO4.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/CONTORNO4.svg",
       "AssetKind": "All",
@@ -397,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\CONTORNO4.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\CONTORNO5.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\CONTORNO5.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/CONTORNO5.svg",
       "AssetKind": "All",
@@ -416,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\CONTORNO5.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ESQ_INICIAR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ESQ_INICIAR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ESQ_INICIAR.svg",
       "AssetKind": "All",
@@ -435,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ESQ_INICIAR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\Google.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\Google.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/Google.svg",
       "AssetKind": "All",
@@ -454,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\Google.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ISOLOGO_1_COLOR.svg",
       "AssetKind": "All",
@@ -473,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ISOLOGO_BLANCO.svg",
       "AssetKind": "All",
@@ -492,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ISQUIERDO.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISQUIERDO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ISQUIERDO.svg",
       "AssetKind": "All",
@@ -511,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ISQUIERDO.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LINEA_ACUA_COLOR.svg",
       "AssetKind": "All",
@@ -530,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LINEA_ROJO_COLOR.svg",
       "AssetKind": "All",
@@ -549,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LOGO_COLOR.svg",
       "AssetKind": "All",
@@ -568,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LOGO_ESLOGAN_COLOR.svg",
       "AssetKind": "All",
@@ -587,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LOGO_VAR1_BLANCO.svg",
       "AssetKind": "All",
@@ -606,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LOGO_VAR2_BLANCO.svg",
       "AssetKind": "All",
@@ -625,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/LOGO2_COLOR.svg",
       "AssetKind": "All",
@@ -644,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\MANOS_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\MANOS_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/MANOS_COLOR.svg",
       "AssetKind": "All",
@@ -663,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\MANOS_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\PRUEVA.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\PRUEVA.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/PRUEVA.svg",
       "AssetKind": "All",
@@ -682,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\PRUEVA.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ROBOT FELIZ_COLOR.svg",
       "AssetKind": "All",
@@ -701,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ROBOT PERFIL_COLOR.svg",
       "AssetKind": "All",
@@ -720,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ROBOT_COLOR.svg",
       "AssetKind": "All",
@@ -739,10 +682,29 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOTCONPU.svg",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT_DELADO.svg",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
+      "BasePath": "_content/KIVO",
+      "RelativePath": "KIVO_SVG/ROBOT_DELADO.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOT_DELADO.svg"
+    },
+    {
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOTCONPU.svg",
+      "SourceId": "KIVO",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/ROBOTCONPU.svg",
       "AssetKind": "All",
@@ -758,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\ROBOTCONPU.svg"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "KIVO_SVG/UnityWork-07.png",
       "AssetKind": "All",
@@ -777,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\KIVO_SVG\\UnityWork-07.png"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -796,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -815,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -834,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -853,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -872,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -891,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -910,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -929,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -948,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -967,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -986,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1005,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1024,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1043,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1062,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1081,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1100,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1119,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1138,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1157,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1176,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1195,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1214,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1233,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1252,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1271,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1290,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1328,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1347,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1366,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1385,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1404,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1423,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1442,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1461,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1480,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1499,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1518,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1537,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1556,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1575,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1594,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1613,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1632,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1651,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1670,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1689,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1708,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1727,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1746,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1765,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1784,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1803,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1822,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1841,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Haka\\KIVO\\kivo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "KIVO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\",
+      "ContentRoot": "C:\\Haka\\KIVO\\kivo\\wwwroot\\",
       "BasePath": "_content/KIVO",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
