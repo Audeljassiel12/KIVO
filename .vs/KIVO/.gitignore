@@ -1,0 +1,5 @@
+# Ignorar carpetas
+bin/
+obj/
+logs/
+temp/

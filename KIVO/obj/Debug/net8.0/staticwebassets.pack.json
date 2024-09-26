@@ -117,6 +117,10 @@
       "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT_COLOR.svg"
     },
     {
+      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT_DELADO.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT_DELADO.svg"
+    },
+    {
       "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
       "PackagePath": "staticwebassets\\KIVO_SVG\\UnityWork-07.png"
     },
@@ -141,24 +145,12 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\index4.css",
-      "PackagePath": "staticwebassets\\css\\index4.css"
-    },
-    {
-      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\index5.css",
-      "PackagePath": "staticwebassets\\css\\index5.css"
-    },
-    {
       "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\registrarse.css",
       "PackagePath": "staticwebassets\\css\\registrarse.css"
     },
     {
-      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\segundo.css",
-      "PackagePath": "staticwebassets\\css\\segundo.css"
-    },
-    {
-      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\tercer.css",
-      "PackagePath": "staticwebassets\\css\\tercer.css"
+      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",

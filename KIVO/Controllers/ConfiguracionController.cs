@@ -222,6 +222,7 @@ namespace KIVO.Controllers
         [HttpGet("step-four")]
         public IActionResult OpcionesPricipal()
         {
+
             return View("step-four");
         }
         // Método para obtener la lista de departamentos como SelectListItem
