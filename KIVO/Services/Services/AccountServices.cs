@@ -66,12 +66,12 @@ public class AccountServices
                 return OperationResult.Failure("Error al crear el usuario. Por favor, intenta nuevamente.");
             }
 
-            //var isValid = await _messageSender.SendMessageAsync(model.CellPhone, verificationCode);
-            //if (!isValid)
-            //{
-            //    await _userManager.DeleteAsync(user);
-            //    return OperationResult.Failure("Error al enviar el código de verificación. Por favor, intenta nuevamente.");
-            //}
+            var isValid = await _messageSender.SendMessageAsync(model.CellPhone, verificationCode);
+            if (!isValid)
+            {
+                await _userManager.DeleteAsync(user);
+                return OperationResult.Failure("Error al enviar el código de verificación. Por favor, intenta nuevamente.");
+            }
 
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             var verificationLink = $"{_configuration["AppSettings:FrontendUrl"]}/verifyemail?userId={user.Id}&token={Uri.EscapeDataString(token)}";

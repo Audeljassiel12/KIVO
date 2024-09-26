@@ -10,7 +10,7 @@ namespace KIVO.DataMaster
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = serviceProvider.GetRequiredService<UserManager<User>>();
 
-            string[] roleNames = { "Admin", "Doctor", "Paciente", "MINSA" };
+            string[] roleNames = { "Admin", "Medico", "Paciente", "MINSA", "SubAdmin" };
             IdentityResult roleResult;
 
             foreach (var roleName in roleNames)

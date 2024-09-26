@@ -168,7 +168,7 @@ namespace KIVO.Controllers
             }
 
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Pasiente");
         }
 
         public IActionResult AccessDenied()
@@ -226,7 +226,7 @@ namespace KIVO.Controllers
             }
 
             // Si la verificación es exitosa, redirigir al home o donde sea necesario
-            return RedirectToAction("RegistrarOrg","Centromedico") ;
+            return RedirectToAction("step-one","Configuracion") ;
 
 
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KIVO.Migrations
 {
     [DbContext(typeof(KivoDbContext))]
-    [Migration("20240923171921_departamento")]
-    partial class departamento
+    [Migration("20240926174159_cmapo")]
+    partial class cmapo
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -120,10 +120,8 @@ namespace KIVO.Migrations
                     b.Property<bool?>("Otros")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PacienteUserId")
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<bool?>("Parotiditis")
@@ -155,7 +153,7 @@ namespace KIVO.Migrations
 
                     b.HasKey("AntecedentesFamiliaresPatologicosId");
 
-                    b.HasIndex("PacienteUserId");
+                    b.HasIndex("PacienteId");
 
                     b.ToTable("AntecedentesFamiliaresPatologicos");
                 });
@@ -184,7 +182,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("CitaId");
 
-                    b.ToTable("cargoPorConsultas");
+                    b.ToTable("CargoPorConsultas");
                 });
 
             modelBuilder.Entity("KIVO.Models.CentroMedico", b =>
@@ -195,10 +193,10 @@ namespace KIVO.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CuidadId")
+                    b.Property<int>("CuidadId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("DepartamentoId")
+                    b.Property<int>("DepartamentoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Descripcion")
@@ -493,10 +491,8 @@ namespace KIVO.Migrations
                     b.Property<bool?>("Otros")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PacienteUserId")
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("PesoIdeal")
@@ -519,7 +515,7 @@ namespace KIVO.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PacienteUserId");
+                    b.HasIndex("PacienteId");
 
                     b.ToTable("Dietas");
                 });
@@ -622,15 +618,13 @@ namespace KIVO.Migrations
                     b.Property<bool?>("Otros")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PacienteUserId")
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PacienteUserId");
+                    b.HasIndex("PacienteId");
 
                     b.ToTable("EnfermedadesHereditarias");
                 });
@@ -648,7 +642,7 @@ namespace KIVO.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EspecialidadMedicas");
+                    b.ToTable("EspecialidadesMedicas");
 
                     b.HasData(
                         new
@@ -744,167 +738,7 @@ namespace KIVO.Migrations
                         new
                         {
                             Id = 19,
-                            Nombre = "Cirugía General"
-                        },
-                        new
-                        {
-                            Id = 20,
-                            Nombre = "Cirugía Plástica"
-                        },
-                        new
-                        {
-                            Id = 21,
-                            Nombre = "Medicina Interna"
-                        },
-                        new
-                        {
-                            Id = 22,
-                            Nombre = "Medicina Familiar"
-                        },
-                        new
-                        {
-                            Id = 23,
-                            Nombre = "Medicina del Deporte"
-                        },
-                        new
-                        {
-                            Id = 24,
-                            Nombre = "Geriatría"
-                        },
-                        new
-                        {
-                            Id = 25,
-                            Nombre = "Traumatología"
-                        },
-                        new
-                        {
-                            Id = 26,
-                            Nombre = "Neurocirugía"
-                        },
-                        new
-                        {
-                            Id = 27,
-                            Nombre = "Anestesiología"
-                        },
-                        new
-                        {
-                            Id = 28,
-                            Nombre = "Radiología"
-                        },
-                        new
-                        {
-                            Id = 29,
-                            Nombre = "Patología"
-                        },
-                        new
-                        {
-                            Id = 30,
-                            Nombre = "Neonatología"
-                        },
-                        new
-                        {
-                            Id = 31,
-                            Nombre = "Allergología"
-                        },
-                        new
-                        {
-                            Id = 32,
-                            Nombre = "Medicina Nuclear"
-                        },
-                        new
-                        {
-                            Id = 33,
                             Nombre = "Toxicología"
-                        },
-                        new
-                        {
-                            Id = 34,
-                            Nombre = "Fisiatría"
-                        },
-                        new
-                        {
-                            Id = 35,
-                            Nombre = "Cuidados Paliativos"
-                        },
-                        new
-                        {
-                            Id = 36,
-                            Nombre = "Enfermería"
-                        },
-                        new
-                        {
-                            Id = 37,
-                            Nombre = "Radiología"
-                        },
-                        new
-                        {
-                            Id = 38,
-                            Nombre = "Técnico de Laboratorio"
-                        },
-                        new
-                        {
-                            Id = 39,
-                            Nombre = "Farmacia"
-                        },
-                        new
-                        {
-                            Id = 40,
-                            Nombre = "Fisioterapia"
-                        },
-                        new
-                        {
-                            Id = 41,
-                            Nombre = "Nutrición"
-                        },
-                        new
-                        {
-                            Id = 42,
-                            Nombre = "Psicología"
-                        },
-                        new
-                        {
-                            Id = 43,
-                            Nombre = "Trabajador Social"
-                        },
-                        new
-                        {
-                            Id = 44,
-                            Nombre = "Administración de Salud"
-                        },
-                        new
-                        {
-                            Id = 45,
-                            Nombre = "Odontología"
-                        },
-                        new
-                        {
-                            Id = 46,
-                            Nombre = "Terapia Ocupacional"
-                        },
-                        new
-                        {
-                            Id = 47,
-                            Nombre = "Logopedia"
-                        },
-                        new
-                        {
-                            Id = 48,
-                            Nombre = "Alumnos/Internos"
-                        },
-                        new
-                        {
-                            Id = 49,
-                            Nombre = "Urgencias Médicas"
-                        },
-                        new
-                        {
-                            Id = 50,
-                            Nombre = "Paramédicos"
-                        },
-                        new
-                        {
-                            Id = 51,
-                            Nombre = "Gestión Administrativa"
                         });
                 });
 
@@ -930,7 +764,7 @@ namespace KIVO.Migrations
                     b.HasIndex("CitaId")
                         .IsUnique();
 
-                    b.ToTable("ExploracionTopograficas");
+                    b.ToTable("ExploracionesTopograficas");
                 });
 
             modelBuilder.Entity("KIVO.Models.HistoriaObstetricaGinecologica", b =>
@@ -986,10 +820,8 @@ namespace KIVO.Migrations
                     b.Property<bool?>("Otro")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PacienteUserId")
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime?>("PrimeraCitaMenstruacion")
@@ -1009,9 +841,9 @@ namespace KIVO.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PacienteUserId");
+                    b.HasIndex("PacienteId");
 
-                    b.ToTable("HistoriaObstetricaGinecologicas");
+                    b.ToTable("HistoriasObstetricasGinecologicas");
                 });
 
             modelBuilder.Entity("KIVO.Models.HistoriaPostnatal", b =>
@@ -1040,10 +872,8 @@ namespace KIVO.Migrations
                     b.Property<string>("NombreBebe")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PacienteUserId")
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal?>("PesoAlNacer")
@@ -1060,9 +890,9 @@ namespace KIVO.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PacienteUserId");
+                    b.HasIndex("PacienteId");
 
-                    b.ToTable("historiaPostnatalsopost");
+                    b.ToTable("HistoriasPostnatales");
                 });
 
             modelBuilder.Entity("KIVO.Models.HistoriaPsiquiatrica", b =>
@@ -1109,10 +939,8 @@ namespace KIVO.Migrations
                     b.Property<bool?>("LidiaConEstres")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PacienteUserId")
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<bool?>("RelacionConAutoridad")
@@ -1129,9 +957,9 @@ namespace KIVO.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PacienteUserId");
+                    b.HasIndex("PacienteId");
 
-                    b.ToTable("HistoriaPsiquiatricas");
+                    b.ToTable("HistoriasPsiquiatricas");
                 });
 
             modelBuilder.Entity("KIVO.Models.HorarioAtencion", b =>
@@ -1158,7 +986,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("CentroMedicoId");
 
-                    b.ToTable("HorarioAtencions");
+                    b.ToTable("HorariosAtencion");
                 });
 
             modelBuilder.Entity("KIVO.Models.InvitacionDoctor", b =>
@@ -1205,7 +1033,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("CentroMedicoId");
 
-                    b.ToTable("InvitacionDoctors");
+                    b.ToTable("InvitacionesDoctors");
                 });
 
             modelBuilder.Entity("KIVO.Models.Medicamento", b =>
@@ -1239,7 +1067,7 @@ namespace KIVO.Migrations
                     b.Property<int>("CentroMedicoId")
                         .HasColumnType("int");
 
-                    b.Property<int>("EspecialidadMedicoId")
+                    b.Property<int?>("EspecialidadMedicoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombres")
@@ -1247,7 +1075,6 @@ namespace KIVO.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Telefono")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -1277,7 +1104,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("CitaId");
 
-                    b.ToTable("NotaDeEncuentros");
+                    b.ToTable("NotasDeEncuentros");
                 });
 
             modelBuilder.Entity("KIVO.Models.Nutricion", b =>
@@ -1314,12 +1141,12 @@ namespace KIVO.Migrations
                     b.HasIndex("CitaId")
                         .IsUnique();
 
-                    b.ToTable("Nutricions");
+                    b.ToTable("Nutriciones");
                 });
 
             modelBuilder.Entity("KIVO.Models.Paciente", b =>
                 {
-                    b.Property<string>("UserId")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Apellidos")
@@ -1329,10 +1156,10 @@ namespace KIVO.Migrations
                     b.Property<int>("CentroMedicoId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CiudadId")
+                    b.Property<int?>("CiudadId")
                         .HasColumnType("int");
 
-                    b.Property<int>("DepartamentoId")
+                    b.Property<int?>("DepartamentoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Dirección")
@@ -1351,7 +1178,11 @@ namespace KIVO.Migrations
                     b.Property<DateTime>("FechaRegistro")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Id")
+                    b.Property<string>("FotoPerfilUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Genero")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombres")
@@ -1361,23 +1192,26 @@ namespace KIVO.Migrations
                     b.Property<string>("Ocupación")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Sexo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Teléfono")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TipoSangre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("UserId");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("CentroMedicoId");
 
                     b.HasIndex("CiudadId");
 
                     b.HasIndex("DepartamentoId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
 
                     b.ToTable("Pacientes");
                 });
@@ -1409,35 +1243,35 @@ namespace KIVO.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PlanSuscripcions");
+                    b.ToTable("PlanSuscripciones");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Descripcion = "Este es un plan gratuito con acceso limitado.",
-                            DuracionEnDias = 30,
-                            IsFree = true,
-                            Nombre = "Plan Básico",
+                            Descripcion = "Plan básico sin costo.",
+                            DuracionEnDias = 0,
+                            IsFree = false,
+                            Nombre = "Básico",
                             Precio = 0m
                         },
                         new
                         {
                             Id = 2,
-                            Descripcion = "Acceso a todas las funcionalidades por 1 mes.",
-                            DuracionEnDias = 30,
+                            Descripcion = "Plan estándar con acceso a consultas.",
+                            DuracionEnDias = 0,
                             IsFree = false,
-                            Nombre = "Plan Estándar",
-                            Precio = 29.99m
+                            Nombre = "Estándar",
+                            Precio = 50m
                         },
                         new
                         {
                             Id = 3,
-                            Descripcion = "Acceso ilimitado por 3 meses.",
-                            DuracionEnDias = 90,
+                            Descripcion = "Plan premium con acceso completo a servicios.",
+                            DuracionEnDias = 0,
                             IsFree = false,
-                            Nombre = "Plan Premium",
-                            Precio = 99.99m
+                            Nombre = "Premium",
+                            Precio = 100m
                         });
                 });
 
@@ -1533,7 +1367,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("RecetaId");
 
-                    b.ToTable("RecetaMedicamentos");
+                    b.ToTable("RecetasMedicamentos");
                 });
 
             modelBuilder.Entity("KIVO.Models.ResultadoLaboratorio", b =>
@@ -1564,7 +1398,7 @@ namespace KIVO.Migrations
                     b.HasIndex("CitaId")
                         .IsUnique();
 
-                    b.ToTable("ResultadoLaboratorios");
+                    b.ToTable("ResultadosLaboratorios");
                 });
 
             modelBuilder.Entity("KIVO.Models.SignosVitales", b =>
@@ -1672,7 +1506,7 @@ namespace KIVO.Migrations
 
                     b.HasIndex("PlanSuscripcionId");
 
-                    b.ToTable("Suscripcions");
+                    b.ToTable("Suscripciones");
                 });
 
             modelBuilder.Entity("KIVO.Models.User", b =>
@@ -1898,7 +1732,9 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("PacienteUserId");
+                        .HasForeignKey("PacienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -1918,11 +1754,15 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Cuidad", "Cuidad")
                         .WithMany("CentroMedicos")
-                        .HasForeignKey("CuidadId");
+                        .HasForeignKey("CuidadId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.HasOne("KIVO.Models.Departamento", "Departamento")
                         .WithMany("CentroMedicos")
-                        .HasForeignKey("DepartamentoId");
+                        .HasForeignKey("DepartamentoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Cuidad");
 
@@ -1982,7 +1822,9 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("PacienteUserId");
+                        .HasForeignKey("PacienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -1991,7 +1833,9 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("PacienteUserId");
+                        .HasForeignKey("PacienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -2011,7 +1855,9 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("PacienteUserId");
+                        .HasForeignKey("PacienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -2020,7 +1866,9 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("PacienteUserId");
+                        .HasForeignKey("PacienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -2029,7 +1877,9 @@ namespace KIVO.Migrations
                 {
                     b.HasOne("KIVO.Models.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("PacienteUserId");
+                        .HasForeignKey("PacienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -2037,7 +1887,7 @@ namespace KIVO.Migrations
             modelBuilder.Entity("KIVO.Models.HorarioAtencion", b =>
                 {
                     b.HasOne("KIVO.Models.CentroMedico", "CentroMedico")
-                        .WithMany("horarioAtencions")
+                        .WithMany("HorarioAtencions")
                         .HasForeignKey("CentroMedicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -2059,16 +1909,14 @@ namespace KIVO.Migrations
             modelBuilder.Entity("KIVO.Models.Medico", b =>
                 {
                     b.HasOne("KIVO.Models.CentroMedico", "CentroMedico")
-                        .WithMany("medicos")
+                        .WithMany("Medicos")
                         .HasForeignKey("CentroMedicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("KIVO.Models.EspecialidadMedica", "EspecialidadMedico")
                         .WithMany("Medicos")
-                        .HasForeignKey("EspecialidadMedicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EspecialidadMedicoId");
 
                     b.Navigation("CentroMedico");
 
@@ -2100,28 +1948,23 @@ namespace KIVO.Migrations
             modelBuilder.Entity("KIVO.Models.Paciente", b =>
                 {
                     b.HasOne("KIVO.Models.CentroMedico", "CentroMedico")
-                        .WithMany("PaCientes")
+                        .WithMany("Pacientes")
                         .HasForeignKey("CentroMedicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("KIVO.Models.Cuidad", "Ciudad")
                         .WithMany("Pacientes")
-                        .HasForeignKey("CiudadId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CiudadId");
 
                     b.HasOne("KIVO.Models.Departamento", "Departamento")
                         .WithMany("Pacientes")
                         .HasForeignKey("DepartamentoId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("KIVO.Models.User", "User")
                         .WithOne("Paciente")
-                        .HasForeignKey("KIVO.Models.Paciente", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("KIVO.Models.Paciente", "UserId");
 
                     b.Navigation("CentroMedico");
 
@@ -2200,7 +2043,7 @@ namespace KIVO.Migrations
             modelBuilder.Entity("KIVO.Models.Suscripcion", b =>
                 {
                     b.HasOne("KIVO.Models.CentroMedico", "CentroMedico")
-                        .WithMany("Suscripcions")
+                        .WithMany("Suscripciones")
                         .HasForeignKey("CentroMedicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -2280,17 +2123,17 @@ namespace KIVO.Migrations
                 {
                     b.Navigation("Citas");
 
+                    b.Navigation("HorarioAtencions");
+
                     b.Navigation("InvitacionDoctors");
 
-                    b.Navigation("PaCientes");
+                    b.Navigation("Medicos");
+
+                    b.Navigation("Pacientes");
 
                     b.Navigation("Productos");
 
-                    b.Navigation("Suscripcions");
-
-                    b.Navigation("horarioAtencions");
-
-                    b.Navigation("medicos");
+                    b.Navigation("Suscripciones");
                 });
 
             modelBuilder.Entity("KIVO.Models.Cita", b =>

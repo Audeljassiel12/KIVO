@@ -49,7 +49,7 @@
             }
         }
 
-        private  string CreateWhatsAppMessage(string templateName, string recipientPhoneNumber, string verificationCode)
+        private  string CreateWhatsAppMessage(string templateName, string recipientPhoneNumber, string conten)
         {
             var message = new
             {
@@ -67,7 +67,7 @@
                       type = "body",
                       parameters = new object[]
                       {
-                          new { type = "text", text = verificationCode }
+                          new { type = "text", text = conten }
                       }
                   },
                   new
@@ -77,7 +77,7 @@
                       index = 0,
                       parameters = new object[]
                       {
-                          new { type = "text", text = verificationCode }
+                          new { type = "text", text = conten }
                       }
                   }
                     }

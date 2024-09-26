@@ -1,0 +1,35 @@
+﻿.note-area {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+    .note-area img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+#miNota {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ccc;
+    background-color: #ffffcc;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    resize: none;
+    background-image: repeating-linear-gradient( transparent 0, transparent 19px, rgba(178, 22, 22, 0.1) 19px, rgba(217, 0, 0, 0.1) 20px );
+    line-height: 20px;
+    overflow: auto;
+    z-index: 1;
+    padding: 0;
+    outline: none;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -1,3 +1,6 @@
+using AutoMapper;
+using CloudinaryDotNet;
+using KIVO.AutoMapper;
 using KIVO.DataMaster;
 using KIVO.Filter;
 using KIVO.Miiddleware;
@@ -20,27 +23,54 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<KivoDbContext>(option=>
-option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<IPasienteRepository,PasienteRepository>();
-builder.Services.AddScoped<ICentroMedicoRepository,CentroMedicoRepositoy>();
-builder.Services.AddScoped<IMedicoRepository,MedicoRepository>();
-builder.Services.AddScoped<IEspesialidadRepository,EspecialidadRepository>();
+builder.Services.AddDbContext<KivoDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IPasienteRepository, PasienteRepository>();
+builder.Services.AddScoped<ICentroMedicoRepository, CentroMedicoRepositoy>();
+builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
+builder.Services.AddScoped<IEspesialidadRepository, EspecialidadRepository>();
 builder.Services.AddScoped<ISuscripcionRepository, SuscripcionRepository>();
-builder.Services.AddScoped<IPlanSuscripcionRepository,PlanSuscripcionRepository>();
+builder.Services.AddScoped<IPlanSuscripcionRepository, PlanSuscripcionRepository>();
 builder.Services.AddScoped<IDepartamentoRepository, DepartamentoRepository>();
-builder.Services.AddScoped<ICuidadRepository,CuidadRepositor>();
-builder.Services.AddScoped<IUnityOfWork,UnityOfWork>();
+builder.Services.AddScoped<ICuidadRepository, CuidadRepositor>();
+builder.Services.AddScoped<IPacienteService, PacienteService>();
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 builder.Services.AddScoped<AccountServices>();
-builder.Services.AddIdentity<KIVO.Models.User, IdentityRole>().AddEntityFrameworkStores<KivoDbContext>()
+builder.Services.AddScoped<VerificarEstadoUsuarioAttribute>();
+// AutoMapper
+builder.Services.AddAutoMapper(typeof(Program));
+
+// Unit of Work
+builder.Services.AddScoped<IUnityOfWork, UnityOfWork>();
+
+// Identity
+builder.Services.AddIdentity<KIVO.Models.User, IdentityRole>()
+    .AddEntityFrameworkStores<KivoDbContext>()
     .AddDefaultTokenProviders();
+
+// Google Authentication
 builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
-    googleOptions.ClientId =builder.Configuration["Authentication:Google:ClientId"];
+    googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
     googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
 });
-builder.Services.AddScoped<OrganizacionConfiguradaFilter>();
-builder.Services.AddScoped<VerificarEstadoUsuarioAttribute>();
+
+// Configuración de Cloudinary
+var cloudinaryUrl = Environment.GetEnvironmentVariable("CLOUDINARY_URL");
+if (!string.IsNullOrEmpty(cloudinaryUrl))
+{
+    var cloudinary = new Cloudinary(cloudinaryUrl);
+    cloudinary.Api.Secure = true; // Asegúrate de que las URLs generadas sean seguras
+    builder.Services.AddSingleton(cloudinary);
+}
+else
+{
+    // Manejo de error si la variable no está configurada
+    throw new Exception("CLOUDINARY_URL no está configurado en las variables de entorno.");
+}
+
+// Stripe
 StripeConfiguration.ApiKey = "sk_test_51Q2etcB7yCB8tXwRVKwEurGDq8w2mSLu5ghwj53BrUrcerFIwLKy5yhUycy8VOs431F1gv1ziPXMDI35mmMl2YSX00wi2HoO4W";
 
 // Carga la configuración SMTP desde appsettings.json
@@ -51,19 +81,13 @@ builder.Services.Configure<WhatsAppApiConfig>(builder.Configuration.GetSection("
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddTransient<IMessageSender, WhatsAppMessageSender>();
 
-
-
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
-
-
 }
 
 app.UseHttpsRedirection();
@@ -72,15 +96,11 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-//    app.UseMiddleware<PhoneNumberVerificationMiddleware>("/Account/VerificarNumero", new[] {
-//         "/Account/ResendVerificationCode", // Ruta para enviar el código de verificación
-//         "/Account/VerificarNumeroPost"
-//     });
-
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 // Inicialización de roles
 using (var scope = app.Services.CreateScope())
 {

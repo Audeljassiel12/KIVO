@@ -6,7 +6,6 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using KIVO.ExtencionMetodos;
 using KIVO.Filter;
-using KIVO.Migrations;
 using KIVO.Models;
 using KIVO.Models.Data.Repository.IRepository;
 using KIVO.Models.UnityOfWork;

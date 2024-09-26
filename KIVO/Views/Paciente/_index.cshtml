@@ -1,0 +1,209 @@
+﻿@using KIVO.Models.Dto
+@model KIVO.Models.Dto.PaginacionResult<PacienteDTO>
+
+
+<div id="resultadosBusqueda">
+    @if (Model.Items.Any())
+    {
+        <div class="grid">
+            <div class="grid-header">
+                <div>Name(s)</div>
+                <div>Date of Birth</div>
+                <div>Gender</div>
+                <div>Email</div>
+                <div>Telephone</div>
+                <div>Actions</div>
+            </div>
+            @foreach (var paciente in Model.Items)
+            {
+                <div class="grid-row" data-id="@paciente.Id">
+                    <div>@paciente.Nombres</div>
+                    <div>@paciente.FechaNacimiento.ToShortDateString()</div>
+                    <div>@paciente.Genero</div>
+                    <div>@paciente.Email</div>
+                    <div>@paciente.Telefono</div>
+                    <div class="actions">
+                        <button class="editar-btn" data-id="@paciente.Id">Editar</button>
+                        <button class="encuentro-btn" data-id="@paciente.Id">Nuevo Encuentro</button>
+                        <button class="eliminar-btn" data-id="@paciente.Id">Eliminar</button>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Paginación -->
+        <div class="paginacion">
+            @for (int i = 1; i <= (Model.TotalCount / Model.PageSize) + (Model.TotalCount % Model.PageSize == 0 ? 0 : 1); i++)
+            {
+                <button class="pagina-btn" data-page="@i">@i</button>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No se encontraron pacientes.</p>
+    }
+</div>
+
+
+<style>
+
+    #resultadosBusqueda {
+        margin-top: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .grid-header {
+        display: contents;
+        background-color: #f0f0f0;
+        font-weight: bold;
+    }
+
+        .grid-header div {
+            padding: 10px;
+        }
+
+    .grid-row {
+        display: contents;
+        border-bottom: 1px solid #eee;
+    }
+
+        .grid-row div {
+            padding: 10px;
+        }
+
+    .actions {
+        display: flex;
+        gap: 5px;
+    }
+
+    .paginacion {
+        margin-top: 20px;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var busquedaInput = $('#busquedaPaciente');
+        var resultadosDiv = $('#resultadosBusqueda');
+        var containerDiv = $('#container');
+
+        // Función para actualizar la vista parcial de búsqueda de pacientes
+        function actualizarVistaParcial(pacientesHtml) {
+            resultadosDiv.html(pacientesHtml);
+            inicializarEventosPacientes();  // Re-inicializa los eventos después de cargar nuevos pacientes
+        }
+
+        function buscarPacientes(query, page = 1) {
+            $.ajax({
+                url: `/Paciente/BuscarPacientes`,
+                type: 'GET',
+                data: { query: query, page: page },
+                success: function (response) {
+                    // Aquí recibimos el HTML directamente
+                    actualizarVistaParcial(response);
+                },
+                error: function (xhr) {
+                    if (xhr.status === 403) {
+                        alert('No tienes permiso para acceder a esta función.');
+                    } else {
+                        console.error('Error al buscar pacientes:', xhr);
+                    }
+                }
+            });
+        }
+
+        // Manejar el input de búsqueda en tiempo real
+        busquedaInput.on('input', function () {
+            var query = busquedaInput.val().trim();
+            buscarPacientes(query);
+        });
+
+        // Función para cargar el formulario de "Nuevo Paciente"
+        function cargarNuevoPaciente() {
+            $.ajax({
+                url: '/Paciente/NuevoPaciente',  // Cambia esta URL si es necesario
+                type: 'GET',
+                success: function (nuevoPacienteHtml) {
+                    containerDiv.html(nuevoPacienteHtml);  // Insertar el HTML del nuevo paciente en el contenedor
+                    history.pushState(null, null, '/Paciente/NuevoPaciente');  // Cambia la URL en la barra de navegación sin recargar la página
+                },
+                error: function (xhr) {
+                    alert('Error al cargar el formulario de nuevo paciente.');
+                }
+            });
+        }
+
+        // Inicializar eventos para las acciones de la tabla de pacientes
+        function inicializarEventosPacientes() {
+            $('.grid-row').off('click').on('click', function () {
+                var pacienteId = $(this).data('id');
+                window.location.href = `/Paciente/Detalles/${pacienteId}`;
+            });
+
+            $('.editar-btn').off('click').on('click', function (event) {
+                event.stopPropagation();
+                var pacienteId = $(this).data('id');
+                window.location.href = `/Paciente/Editar/${pacienteId}`;
+            });
+
+            $('.encuentro-btn').off('click').on('click', function (event) {
+                event.stopPropagation();
+                var pacienteId = $(this).data('id');
+                $.ajax({
+                    url: `/Paciente/NuevoEncuentro/${pacienteId}`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    success: function () {
+                        window.location.href = `/Paciente/Detalles/${pacienteId}`;
+                    },
+                    error: function () {
+                        alert('Error al crear el nuevo encuentro.');
+                    }
+                });
+            });
+
+            $('.eliminar-btn').off('click').on('click', function (event) {
+                event.stopPropagation();
+                var pacienteId = $(this).data('id');
+                if (confirm('¿Estás seguro de que deseas eliminar este paciente?')) {
+                    $.ajax({
+                        url: `/Paciente/Eliminar/${pacienteId}`,
+                        type: 'POST',
+                        contentType: 'application/json',
+                        success: function () {
+                            window.location.reload();
+                        },
+                        error: function () {
+                            alert('Error al eliminar el paciente.');
+                        }
+                    });
+                }
+            });
+
+            // Inicializar eventos de paginación
+            $('.pagina-btn').off('click').on('click', function () {
+                var page = $(this).data('page');
+                var query = busquedaInput.val().trim();
+                buscarPacientes(query, page);
+            });
+        }
+
+        // Evento de clic para el botón "Nuevo Paciente"
+        $('#nuevoUsuarioBtn').off('click').on('click', function () {
+            cargarNuevoPaciente();  // Llama a la función para cargar el formulario de "Nuevo Paciente"
+        });
+
+        // Inicializa eventos al cargar la vista
+        inicializarEventosPacientes();
+    });
+
+   
+</script>

@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace KIVO.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class nd : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,7 +41,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "EspecialidadMedicas",
+                name: "EspecialidadesMedicas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -48,7 +50,7 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_EspecialidadMedicas", x => x.Id);
+                    table.PrimaryKey("PK_EspecialidadesMedicas", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -66,7 +68,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "PlanSuscripcions",
+                name: "PlanSuscripciones",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -74,11 +76,12 @@ namespace KIVO.Migrations
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Precio = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DuracionEnMeses = table.Column<int>(type: "int", nullable: false)
+                    DuracionEnDias = table.Column<int>(type: "int", nullable: false),
+                    IsFree = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PlanSuscripcions", x => x.Id);
+                    table.PrimaryKey("PK_PlanSuscripciones", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -137,8 +140,8 @@ namespace KIVO.Migrations
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FechaRegistro = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TipoCentroMedico = table.Column<int>(type: "int", nullable: false),
-                    CuidadId = table.Column<int>(type: "int", nullable: true),
-                    DepartamentoId = table.Column<int>(type: "int", nullable: true)
+                    CuidadId = table.Column<int>(type: "int", nullable: false),
+                    DepartamentoId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -147,16 +150,18 @@ namespace KIVO.Migrations
                         name: "FK_CentroMedicos_Ciudades_CuidadId",
                         column: x => x.CuidadId,
                         principalTable: "Ciudades",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_CentroMedicos_Departamentos_DepartamentoId",
                         column: x => x.DepartamentoId,
                         principalTable: "Departamentos",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "HorarioAtencions",
+                name: "HorariosAtencion",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -168,9 +173,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HorarioAtencions", x => x.Id);
+                    table.PrimaryKey("PK_HorariosAtencion", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_HorarioAtencions_CentroMedicos_CentroMedicoId",
+                        name: "FK_HorariosAtencion_CentroMedicos_CentroMedicoId",
                         column: x => x.CentroMedicoId,
                         principalTable: "CentroMedicos",
                         principalColumn: "Id",
@@ -178,7 +183,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "InvitacionDoctors",
+                name: "InvitacionesDoctors",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -195,9 +200,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_InvitacionDoctors", x => x.Id);
+                    table.PrimaryKey("PK_InvitacionesDoctors", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_InvitacionDoctors_CentroMedicos_CentroMedicoId",
+                        name: "FK_InvitacionesDoctors_CentroMedicos_CentroMedicoId",
                         column: x => x.CentroMedicoId,
                         principalTable: "CentroMedicos",
                         principalColumn: "Id",
@@ -211,9 +216,9 @@ namespace KIVO.Migrations
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Nombres = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Apellidos = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Telefono = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Telefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CentroMedicoId = table.Column<int>(type: "int", nullable: false),
-                    EspecialidadMedicaId = table.Column<int>(type: "int", nullable: true)
+                    EspecialidadMedicoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -225,9 +230,9 @@ namespace KIVO.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Medicos_EspecialidadMedicas_EspecialidadMedicaId",
-                        column: x => x.EspecialidadMedicaId,
-                        principalTable: "EspecialidadMedicas",
+                        name: "FK_Medicos_EspecialidadesMedicas_EspecialidadMedicoId",
+                        column: x => x.EspecialidadMedicoId,
+                        principalTable: "EspecialidadesMedicas",
                         principalColumn: "Id");
                 });
 
@@ -256,7 +261,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Suscripcions",
+                name: "Suscripciones",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -269,17 +274,17 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Suscripcions", x => x.Id);
+                    table.PrimaryKey("PK_Suscripciones", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Suscripcions_CentroMedicos_CentroMedicoId",
+                        name: "FK_Suscripciones_CentroMedicos_CentroMedicoId",
                         column: x => x.CentroMedicoId,
                         principalTable: "CentroMedicos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Suscripcions_PlanSuscripcions_PlanSuscripcionId",
+                        name: "FK_Suscripciones_PlanSuscripciones_PlanSuscripcionId",
                         column: x => x.PlanSuscripcionId,
-                        principalTable: "PlanSuscripcions",
+                        principalTable: "PlanSuscripciones",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -290,6 +295,11 @@ namespace KIVO.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     MedicoId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    VerificationCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    VerificationCodeExpiry = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    Nombres = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    HaConfiguradoOrganizacion = table.Column<bool>(type: "bit", nullable: false),
+                    SelecionoPlan = table.Column<bool>(type: "bit", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -404,8 +414,8 @@ namespace KIVO.Migrations
                 name: "Pacientes",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Id = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     Nombres = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Apellidos = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -423,13 +433,12 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Pacientes", x => x.UserId);
+                    table.PrimaryKey("PK_Pacientes", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Pacientes_AspNetUsers_UserId",
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Pacientes_CentroMedicos_CentroMedicoId",
                         column: x => x.CentroMedicoId,
@@ -456,8 +465,7 @@ namespace KIVO.Migrations
                 {
                     AntecedentesFamiliaresPatologicosId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PacienteId = table.Column<int>(type: "int", nullable: false),
-                    PacienteUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PacienteId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Hepatitis = table.Column<bool>(type: "bit", nullable: true),
                     DetallesHepatitis = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Sifilis = table.Column<bool>(type: "bit", nullable: true),
@@ -501,10 +509,11 @@ namespace KIVO.Migrations
                 {
                     table.PrimaryKey("PK_AntecedentesFamiliaresPatologicos", x => x.AntecedentesFamiliaresPatologicosId);
                     table.ForeignKey(
-                        name: "FK_AntecedentesFamiliaresPatologicos_Pacientes_PacienteUserId",
-                        column: x => x.PacienteUserId,
+                        name: "FK_AntecedentesFamiliaresPatologicos_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -544,7 +553,7 @@ namespace KIVO.Migrations
                         name: "FK_Citas_Pacientes_PacienteId",
                         column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -554,8 +563,7 @@ namespace KIVO.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PacienteId = table.Column<int>(type: "int", nullable: false),
-                    PacienteUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PacienteId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Desayuno = table.Column<bool>(type: "bit", nullable: true),
                     DetallesDesayuno = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     MananaDeColacion = table.Column<bool>(type: "bit", nullable: true),
@@ -596,10 +604,11 @@ namespace KIVO.Migrations
                 {
                     table.PrimaryKey("PK_Dietas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Dietas_Pacientes_PacienteUserId",
-                        column: x => x.PacienteUserId,
+                        name: "FK_Dietas_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -608,8 +617,7 @@ namespace KIVO.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PacienteId = table.Column<int>(type: "int", nullable: false),
-                    PacienteUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PacienteId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Alergias = table.Column<bool>(type: "bit", nullable: true),
                     DetallesAlergias = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DiabetesMellitus = table.Column<bool>(type: "bit", nullable: true),
@@ -645,20 +653,20 @@ namespace KIVO.Migrations
                 {
                     table.PrimaryKey("PK_EnfermedadesHereditarias", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_EnfermedadesHereditarias_Pacientes_PacienteUserId",
-                        column: x => x.PacienteUserId,
+                        name: "FK_EnfermedadesHereditarias_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "HistoriaObstetricaGinecologicas",
+                name: "HistoriasObstetricasGinecologicas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PacienteId = table.Column<int>(type: "int", nullable: false),
-                    PacienteUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PacienteId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     PrimeraCitaMenstruacion = table.Column<DateTime>(type: "datetime2", nullable: true),
                     UltimaFechaMenstruacion = table.Column<DateTime>(type: "datetime2", nullable: true),
                     CaracteristicasMenstruacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -682,22 +690,22 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HistoriaObstetricaGinecologicas", x => x.Id);
+                    table.PrimaryKey("PK_HistoriasObstetricasGinecologicas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_HistoriaObstetricaGinecologicas_Pacientes_PacienteUserId",
-                        column: x => x.PacienteUserId,
+                        name: "FK_HistoriasObstetricasGinecologicas_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "historiaPostnatalsopost",
+                name: "HistoriasPostnatales",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PacienteId = table.Column<int>(type: "int", nullable: false),
-                    PacienteUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PacienteId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     RevisiónNacimiento = table.Column<bool>(type: "bit", nullable: true),
                     DetallesRevisionNacimiento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     NombreBebe = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -711,22 +719,22 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_historiaPostnatalsopost", x => x.Id);
+                    table.PrimaryKey("PK_HistoriasPostnatales", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_historiaPostnatalsopost_Pacientes_PacienteUserId",
-                        column: x => x.PacienteUserId,
+                        name: "FK_HistoriasPostnatales_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "HistoriaPsiquiatricas",
+                name: "HistoriasPsiquiatricas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PacienteId = table.Column<int>(type: "int", nullable: false),
-                    PacienteUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PacienteId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     ConcienciaEnfermedad = table.Column<bool>(type: "bit", nullable: true),
                     DetallesConcienciaEnfermedad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ApoyoFamiliaresAmigos = table.Column<bool>(type: "bit", nullable: true),
@@ -746,16 +754,17 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HistoriaPsiquiatricas", x => x.Id);
+                    table.PrimaryKey("PK_HistoriasPsiquiatricas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_HistoriaPsiquiatricas_Pacientes_PacienteUserId",
-                        column: x => x.PacienteUserId,
+                        name: "FK_HistoriasPsiquiatricas_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
                         principalTable: "Pacientes",
-                        principalColumn: "UserId");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "cargoPorConsultas",
+                name: "CargoPorConsultas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -767,9 +776,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_cargoPorConsultas", x => x.Id);
+                    table.PrimaryKey("PK_CargoPorConsultas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_cargoPorConsultas_Citas_CitaId",
+                        name: "FK_CargoPorConsultas_Citas_CitaId",
                         column: x => x.CitaId,
                         principalTable: "Citas",
                         principalColumn: "Id",
@@ -799,7 +808,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ExploracionTopograficas",
+                name: "ExploracionesTopograficas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -810,9 +819,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ExploracionTopograficas", x => x.Id);
+                    table.PrimaryKey("PK_ExploracionesTopograficas", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ExploracionTopograficas_Citas_CitaId",
+                        name: "FK_ExploracionesTopograficas_Citas_CitaId",
                         column: x => x.CitaId,
                         principalTable: "Citas",
                         principalColumn: "Id",
@@ -820,7 +829,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "NotaDeEncuentros",
+                name: "NotasDeEncuentros",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -830,9 +839,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_NotaDeEncuentros", x => x.Id);
+                    table.PrimaryKey("PK_NotasDeEncuentros", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_NotaDeEncuentros_Citas_CitaId",
+                        name: "FK_NotasDeEncuentros_Citas_CitaId",
                         column: x => x.CitaId,
                         principalTable: "Citas",
                         principalColumn: "Id",
@@ -840,7 +849,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Nutricions",
+                name: "Nutriciones",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -855,9 +864,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Nutricions", x => x.Id);
+                    table.PrimaryKey("PK_Nutriciones", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Nutricions_Citas_CitaId",
+                        name: "FK_Nutriciones_Citas_CitaId",
                         column: x => x.CitaId,
                         principalTable: "Citas",
                         principalColumn: "Id",
@@ -892,7 +901,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ResultadoLaboratorios",
+                name: "ResultadosLaboratorios",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -905,9 +914,9 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ResultadoLaboratorios", x => x.Id);
+                    table.PrimaryKey("PK_ResultadosLaboratorios", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ResultadoLaboratorios_Citas_CitaId",
+                        name: "FK_ResultadosLaboratorios_Citas_CitaId",
                         column: x => x.CitaId,
                         principalTable: "Citas",
                         principalColumn: "Id",
@@ -953,7 +962,7 @@ namespace KIVO.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "RecetaMedicamentos",
+                name: "RecetasMedicamentos",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -966,24 +975,80 @@ namespace KIVO.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_RecetaMedicamentos", x => x.Id);
+                    table.PrimaryKey("PK_RecetasMedicamentos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_RecetaMedicamentos_Medicamentos_MedicamentoId",
+                        name: "FK_RecetasMedicamentos_Medicamentos_MedicamentoId",
                         column: x => x.MedicamentoId,
                         principalTable: "Medicamentos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_RecetaMedicamentos_Recetas_RecetaId",
+                        name: "FK_RecetasMedicamentos_Recetas_RecetaId",
                         column: x => x.RecetaId,
                         principalTable: "Recetas",
                         principalColumn: "Id");
                 });
 
+            migrationBuilder.InsertData(
+                table: "Departamentos",
+                columns: new[] { "Id", "Nombre" },
+                values: new object[,]
+                {
+                    { 1, "Departamento 1" },
+                    { 2, "Departamento 2" },
+                    { 3, "Departamento 3" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "EspecialidadesMedicas",
+                columns: new[] { "Id", "Nombre" },
+                values: new object[,]
+                {
+                    { 1, "Cardiología" },
+                    { 2, "Pediatría" },
+                    { 3, "Dermatología" },
+                    { 4, "Oftalmología" },
+                    { 5, "Neurología" },
+                    { 6, "Ginecología" },
+                    { 7, "Psiquiatría" },
+                    { 8, "Ortopedia" },
+                    { 9, "Neumología" },
+                    { 10, "Endocrinología" },
+                    { 11, "Gastroenterología" },
+                    { 12, "Oncología" },
+                    { 13, "Urología" },
+                    { 14, "Nefrología" },
+                    { 15, "Hematología" },
+                    { 16, "Infectología" },
+                    { 17, "Reumatología" },
+                    { 18, "Otorrinolaringología" },
+                    { 19, "Toxicología" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "PlanSuscripciones",
+                columns: new[] { "Id", "Descripcion", "DuracionEnDias", "IsFree", "Nombre", "Precio" },
+                values: new object[,]
+                {
+                    { 1, "Plan básico sin costo.", 0, false, "Básico", 0m },
+                    { 2, "Plan estándar con acceso a consultas.", 0, false, "Estándar", 50m },
+                    { 3, "Plan premium con acceso completo a servicios.", 0, false, "Premium", 100m }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Ciudades",
+                columns: new[] { "Id", "DepartamentoId", "Nombre" },
+                values: new object[,]
+                {
+                    { 1, 1, "Ciudad 1" },
+                    { 2, 2, "Ciudad 2" },
+                    { 3, 3, "Ciudad 3" }
+                });
+
             migrationBuilder.CreateIndex(
-                name: "IX_AntecedentesFamiliaresPatologicos_PacienteUserId",
+                name: "IX_AntecedentesFamiliaresPatologicos_PacienteId",
                 table: "AntecedentesFamiliaresPatologicos",
-                column: "PacienteUserId");
+                column: "PacienteId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -1030,8 +1095,8 @@ namespace KIVO.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_cargoPorConsultas_CitaId",
-                table: "cargoPorConsultas",
+                name: "IX_CargoPorConsultas_CitaId",
+                table: "CargoPorConsultas",
                 column: "CitaId");
 
             migrationBuilder.CreateIndex(
@@ -1070,44 +1135,44 @@ namespace KIVO.Migrations
                 column: "CitaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Dietas_PacienteUserId",
+                name: "IX_Dietas_PacienteId",
                 table: "Dietas",
-                column: "PacienteUserId");
+                column: "PacienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_EnfermedadesHereditarias_PacienteUserId",
+                name: "IX_EnfermedadesHereditarias_PacienteId",
                 table: "EnfermedadesHereditarias",
-                column: "PacienteUserId");
+                column: "PacienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ExploracionTopograficas_CitaId",
-                table: "ExploracionTopograficas",
+                name: "IX_ExploracionesTopograficas_CitaId",
+                table: "ExploracionesTopograficas",
                 column: "CitaId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_HistoriaObstetricaGinecologicas_PacienteUserId",
-                table: "HistoriaObstetricaGinecologicas",
-                column: "PacienteUserId");
+                name: "IX_HistoriasObstetricasGinecologicas_PacienteId",
+                table: "HistoriasObstetricasGinecologicas",
+                column: "PacienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_historiaPostnatalsopost_PacienteUserId",
-                table: "historiaPostnatalsopost",
-                column: "PacienteUserId");
+                name: "IX_HistoriasPostnatales_PacienteId",
+                table: "HistoriasPostnatales",
+                column: "PacienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_HistoriaPsiquiatricas_PacienteUserId",
-                table: "HistoriaPsiquiatricas",
-                column: "PacienteUserId");
+                name: "IX_HistoriasPsiquiatricas_PacienteId",
+                table: "HistoriasPsiquiatricas",
+                column: "PacienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_HorarioAtencions_CentroMedicoId",
-                table: "HorarioAtencions",
+                name: "IX_HorariosAtencion_CentroMedicoId",
+                table: "HorariosAtencion",
                 column: "CentroMedicoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_InvitacionDoctors_CentroMedicoId",
-                table: "InvitacionDoctors",
+                name: "IX_InvitacionesDoctors_CentroMedicoId",
+                table: "InvitacionesDoctors",
                 column: "CentroMedicoId");
 
             migrationBuilder.CreateIndex(
@@ -1116,18 +1181,18 @@ namespace KIVO.Migrations
                 column: "CentroMedicoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Medicos_EspecialidadMedicaId",
+                name: "IX_Medicos_EspecialidadMedicoId",
                 table: "Medicos",
-                column: "EspecialidadMedicaId");
+                column: "EspecialidadMedicoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_NotaDeEncuentros_CitaId",
-                table: "NotaDeEncuentros",
+                name: "IX_NotasDeEncuentros_CitaId",
+                table: "NotasDeEncuentros",
                 column: "CitaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Nutricions_CitaId",
-                table: "Nutricions",
+                name: "IX_Nutriciones_CitaId",
+                table: "Nutriciones",
                 column: "CitaId",
                 unique: true);
 
@@ -1147,19 +1212,16 @@ namespace KIVO.Migrations
                 column: "DepartamentoId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Pacientes_UserId",
+                table: "Pacientes",
+                column: "UserId",
+                unique: true,
+                filter: "[UserId] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Productos_CentroMedicoId",
                 table: "Productos",
                 column: "CentroMedicoId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_RecetaMedicamentos_MedicamentoId",
-                table: "RecetaMedicamentos",
-                column: "MedicamentoId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_RecetaMedicamentos_RecetaId",
-                table: "RecetaMedicamentos",
-                column: "RecetaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Recetas_CitaId",
@@ -1173,8 +1235,18 @@ namespace KIVO.Migrations
                 column: "MedicamentoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ResultadoLaboratorios_CitaId",
-                table: "ResultadoLaboratorios",
+                name: "IX_RecetasMedicamentos_MedicamentoId",
+                table: "RecetasMedicamentos",
+                column: "MedicamentoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_RecetasMedicamentos_RecetaId",
+                table: "RecetasMedicamentos",
+                column: "RecetaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ResultadosLaboratorios_CitaId",
+                table: "ResultadosLaboratorios",
                 column: "CitaId",
                 unique: true);
 
@@ -1185,13 +1257,13 @@ namespace KIVO.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Suscripcions_CentroMedicoId",
-                table: "Suscripcions",
+                name: "IX_Suscripciones_CentroMedicoId",
+                table: "Suscripciones",
                 column: "CentroMedicoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Suscripcions_PlanSuscripcionId",
-                table: "Suscripcions",
+                name: "IX_Suscripciones_PlanSuscripcionId",
+                table: "Suscripciones",
                 column: "PlanSuscripcionId");
         }
 
@@ -1217,7 +1289,7 @@ namespace KIVO.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "cargoPorConsultas");
+                name: "CargoPorConsultas");
 
             migrationBuilder.DropTable(
                 name: "Diagnosticos");
@@ -1229,43 +1301,43 @@ namespace KIVO.Migrations
                 name: "EnfermedadesHereditarias");
 
             migrationBuilder.DropTable(
-                name: "ExploracionTopograficas");
+                name: "ExploracionesTopograficas");
 
             migrationBuilder.DropTable(
-                name: "HistoriaObstetricaGinecologicas");
+                name: "HistoriasObstetricasGinecologicas");
 
             migrationBuilder.DropTable(
-                name: "historiaPostnatalsopost");
+                name: "HistoriasPostnatales");
 
             migrationBuilder.DropTable(
-                name: "HistoriaPsiquiatricas");
+                name: "HistoriasPsiquiatricas");
 
             migrationBuilder.DropTable(
-                name: "HorarioAtencions");
+                name: "HorariosAtencion");
 
             migrationBuilder.DropTable(
-                name: "InvitacionDoctors");
+                name: "InvitacionesDoctors");
 
             migrationBuilder.DropTable(
-                name: "NotaDeEncuentros");
+                name: "NotasDeEncuentros");
 
             migrationBuilder.DropTable(
-                name: "Nutricions");
+                name: "Nutriciones");
 
             migrationBuilder.DropTable(
                 name: "Productos");
 
             migrationBuilder.DropTable(
-                name: "RecetaMedicamentos");
+                name: "RecetasMedicamentos");
 
             migrationBuilder.DropTable(
-                name: "ResultadoLaboratorios");
+                name: "ResultadosLaboratorios");
 
             migrationBuilder.DropTable(
                 name: "SignosVitales");
 
             migrationBuilder.DropTable(
-                name: "Suscripcions");
+                name: "Suscripciones");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
@@ -1274,7 +1346,7 @@ namespace KIVO.Migrations
                 name: "Recetas");
 
             migrationBuilder.DropTable(
-                name: "PlanSuscripcions");
+                name: "PlanSuscripciones");
 
             migrationBuilder.DropTable(
                 name: "Citas");
@@ -1295,7 +1367,7 @@ namespace KIVO.Migrations
                 name: "CentroMedicos");
 
             migrationBuilder.DropTable(
-                name: "EspecialidadMedicas");
+                name: "EspecialidadesMedicas");
 
             migrationBuilder.DropTable(
                 name: "Ciudades");

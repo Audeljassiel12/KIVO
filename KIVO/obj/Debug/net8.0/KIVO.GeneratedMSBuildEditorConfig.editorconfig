@@ -94,8 +94,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXEFkZEluZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Hakaton2024/KIVO/KIVO/Views/Pasiente/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVudGVcSW5kZXguY3NodG1s
+[C:/Hakaton2024/KIVO/KIVO/Views/Paciente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Paciente/NuevoPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcTnVldm9QYWNpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Hakaton2024/KIVO/KIVO/Views/Paciente/_index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcX2luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Hakaton2024/KIVO/KIVO/Views/Pasiente/_index.cshtml]

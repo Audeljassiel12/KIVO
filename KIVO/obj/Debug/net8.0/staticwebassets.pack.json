@@ -129,6 +129,14 @@
       "PackagePath": "staticwebassets\\KIVO_SVG\\arriba.svg"
     },
     {
+      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\Logos\\avatar-placeholder-large-1bc763816c78fcaeb586e5d63d65b7a1.png",
+      "PackagePath": "staticwebassets\\css\\Logos\\avatar-placeholder-large-1bc763816c78fcaeb586e5d63d65b7a1.png"
+    },
+    {
+      "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\NuevoPasiente.css",
+      "PackagePath": "staticwebassets\\css\\NuevoPasiente.css"
+    },
+    {
       "Id": "C:\\Hakaton2024\\KIVO\\KIVO\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },

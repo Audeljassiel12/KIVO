@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="/css/NuevoPasiente.css">
+
 </head>
 <body>
-    @RenderBody();
+    <nav>
+        <ul>
+            <li><a href="/pasiente/Index" class="nav-link">Pacientes</a></li>
+            <li><a href="/agenda/semanal" class="nav-link">Calendario</a></li>
+            <li><a href="/cargos/reporte" class="nav-link">Cargos</a></li>
+            <li><a href="/productos" class="nav-link">Productos</a></li>
+            <li><a href="/reportes/tablero" class="nav-link">Reportes</a></li>
+            <li><a href="/sala-espera-telemedicina" class="nav-link">Sala de espera de telemedicina</a></li>
+            <li><a href="/cuentas/editar" class="nav-link">Editar cuenta</a></li>
+            <li><a href="/ayuda" class="nav-link">Ayuda</a></li>
+            <li><a href="/cerrar-sesion" class="nav-link">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="container">
+        @RenderBody();
+    </div>
+     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @RenderSection("Script",false);
+    <script>
+
+
+        $(document).ready(function () {
+            // Inicializa la validación del formulario
+            $('#formCentroMedico').validate({
+                errorClass: 'text-danger', // Clase para errores
+                errorElement: 'span', // Elemento donde se mostrará el error
+                onkeyup: false, // Desactiva la validación al escribir
+                onfocusout: function (element) {
+                    $(element).valid(); // Valida el campo al perder el foco
+                },
+                submitHandler: function (form) {
+                    form.submit(); // Envía el formulario si es válido
+                }
+            });
+        $(document).ready(function () {
+            $('.nav-link').on('click', function (e) {
+                e.preventDefault(); // Evita la recarga de la página
+                const url = $(this).attr('href'); // Obtiene la URL del enlace
+
+                // Realiza una solicitud AJAX
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    success: function (response) {
+                        $('#container').html(response); // Actualiza el contenedor con la respuesta
+                    },
+                    error: function () {
+                        $('#container').html('<p>Error al cargar el contenido.</p>'); // Mensaje de error
+                    }
+                });
+            });
+        });
+    </script>
 </body>
-<script src=""></script>
 </html>

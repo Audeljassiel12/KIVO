@@ -5,25 +5,24 @@
 namespace KIVO.Migrations
 {
     /// <inheritdoc />
-    public partial class bool2 : Migration
+    public partial class cmapo : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<bool>(
-                name: "SelecionoPlan",
-                table: "AspNetUsers",
-                type: "bit",
-                nullable: false,
-                defaultValue: false);
+            migrationBuilder.AddColumn<string>(
+                name: "FotoPerfilUrl",
+                table: "Pacientes",
+                type: "nvarchar(max)",
+                nullable: true);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "SelecionoPlan",
-                table: "AspNetUsers");
+                name: "FotoPerfilUrl",
+                table: "Pacientes");
         }
     }
 }

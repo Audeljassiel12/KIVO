@@ -1,0 +1,16 @@
+﻿@using KIVO.Models.Dto
+@model KIVO.Models.Dto.PaginacionResult<PacienteDTO>
+@{
+  
+}
+    
+
+<!-- Campo de búsqueda -->
+<input type="text" id="busquedaPaciente" placeholder="Buscar paciente..." class="form-control" />
+ <button id="nuevoUsuarioBtn">Nuevo Usuario</button>
+
+<!-- Lista de resultados -->
+<div id="resultadosBusqueda">
+    @Html.Partial("_Index", Model)
+</div>
+

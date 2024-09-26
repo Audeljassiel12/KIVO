@@ -9,7 +9,7 @@ namespace KIVO.Models
 {
     public int Id { get; set; }
 
-    public int PacienteId { get; set; }
+    public string PacienteId { get; set; }
     public Paciente? Paciente { get; set; }
 
     // Fechas y características de la menstruación

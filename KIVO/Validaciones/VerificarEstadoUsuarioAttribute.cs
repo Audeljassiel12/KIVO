@@ -31,16 +31,7 @@ public class VerificarEstadoUsuarioAttribute : ActionFilterAttribute
                 {
                     context.Result = new RedirectToActionResult("VerificarNumero", "Account", null);
                 }
-                // Verificar si no ha configurado la organización y evitar redirigir a la misma acción
-                else if (!user.HaConfiguradoOrganizacion && (currentController != "CentroMedico" || currentAction != "RegistrarOrganizacion"))
-                {
-                    context.Result = new RedirectToActionResult("RegistrarOrganizacion", "CentroMedico", null);
-                }
-                // Verificar si no ha seleccionado un plan
-                else if (!user.SelecionoPlan && (currentController != "Suscripcion" || currentAction != "PlanesSubcriopnesConfi"))
-                {
-                    context.Result = new RedirectToActionResult("PlanesSubcriopnesConfi", "Suscripcion", null);
-                }
+              
             }
         }
 

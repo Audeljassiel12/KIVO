@@ -41,7 +41,7 @@ namespace KIVO.Controllers
 
                 // Obtener el centro médico del usuario
                 var centroMedicoId = await _kivoDbContext.CentroMedicos
-                    .Where(cm => cm.medicos.Any(m => m.Id == userId))
+                    .Where(cm => cm.Medicos.Any(m => m.Id == userId))
                     .Select(cm => cm.Id)
                     .FirstOrDefaultAsync();
 
@@ -52,7 +52,7 @@ namespace KIVO.Controllers
                 }
 
                 // Verificar si el plan es gratuito sin cargar todos los campos
-                var resultPlan = await _kivoDbContext.PlanSuscripcions.Select(a=>new {a.Id,a.IsFree}).FirstOrDefaultAsync(a=>a.IsFree);
+                var resultPlan = await _kivoDbContext.PlanSuscripciones.Select(a=>new {a.Id,a.IsFree}).FirstOrDefaultAsync(a=>a.IsFree);
                    
                 if (resultPlan ==null || !resultPlan.IsFree) // Verificar si no es un plan gratuito
                 {

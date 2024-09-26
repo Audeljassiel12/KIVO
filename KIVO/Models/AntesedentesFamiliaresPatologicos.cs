@@ -9,7 +9,7 @@ namespace KIVO.Models
 {
     public int AntecedentesFamiliaresPatologicosId { get; set; }
 
-    public int PacienteId { get; set; }
+    public string PacienteId { get; set; }
     public Paciente? Paciente { get; set; }
 
     // Enfermedades infecto-contagiosas

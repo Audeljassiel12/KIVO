@@ -6,6 +6,7 @@ using KIVO.Models.Dto;
 using KIVO.Models.UnityOfWork;
 using KIVO.Models.ViewModels;
 using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -19,6 +20,8 @@ using Stripe.Checkout;
 namespace KIVO.Controllers
 {
     [Route("Configuracion")]
+    [Authorize(Roles = "Admin")]
+    [ServiceFilter(typeof(VerificarEstadoUsuarioAttribute))]
     public class ConfiguracionController : Controller
     {
         private readonly IDepartamentoRepository departamentoRepository;
@@ -123,7 +126,7 @@ namespace KIVO.Controllers
         }
 
         [HttpPost("step-two")]
-        public async Task<IActionResult> RegistrarInfoDoctor(MedicoDo doctorDto)
+        public IActionResult RegistrarInfoDoctor(MedicoDo doctorDto)
         {
             if (!ModelState.IsValid)
             {

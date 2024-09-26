@@ -24,8 +24,8 @@
             {
                 // Obtener directamente el centro médico y la última suscripción en una sola consulta
                 var ultimaSuscripcion = _context.CentroMedicos
-                    .Where(cm => cm.medicos.Any(u => u.Id == userId)) // Filtra el centro médico por usuario
-                    .SelectMany(cm => cm.Suscripcions)  // Selecciona todas las suscripciones del centro médico
+                    .Where(cm => cm.Medicos.Any(u => u.Id == userId)) // Filtra el centro médico por usuario
+                    .SelectMany(cm => cm.Suscripciones)  // Selecciona todas las suscripciones del centro médico
                     .OrderByDescending(s => s.FechaInicio).
                     Select(a=>new {a.FechaFin})// Ordenar por fecha de inicio para obtener la más reciente
                     .FirstOrDefault();

@@ -12,7 +12,7 @@ namespace KIVO.Models.Data.Repository.Repository
         public async Task<EntidadCentroMedicoViewModel?> GetInfoConsultorioPorMedicoId(string medicoId)
         {
             return await EntityDeSet
-                .Where(c => c.medicos.Any(m => m.Id == medicoId)) // Filtra por médicos relacionados
+                .Where(c => c.Medicos.Any(m => m.Id == medicoId)) // Filtra por médicos relacionados
                 .Select(c => new EntidadCentroMedicoViewModel() {Direccion= c.Direccion, DepartamentoId = c.DepartamentoId,MunicipioId=c.CuidadId,NombreEntidad = c.Nombre} ) // Selecciona solo el nombre del consultorio
                 .FirstOrDefaultAsync();
         }
