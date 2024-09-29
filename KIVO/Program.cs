@@ -56,8 +56,8 @@ builder.Services.AddAuthentication().AddGoogle(googleOptions =>
     googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
 });
 
-// Configuración de Cloudinary
-var cloudinaryUrl = Environment.GetEnvironmentVariable("CLOUDINARY_URL");
+
+ var cloudinaryUrl = Environment.GetEnvironmentVariable("CLOUDINARY_URL");
 if (!string.IsNullOrEmpty(cloudinaryUrl))
 {
     var cloudinary = new Cloudinary(cloudinaryUrl);
