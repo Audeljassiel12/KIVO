@@ -57,7 +57,7 @@ builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 });
 
 
- var cloudinaryUrl = Environment.GetEnvironmentVariable("CLOUDINARY_URL");
+ var cloudinaryUrl = "cloudinary://424532712654287:M1az5D5KLTEqxv4YQjcugzV56f4@dr2crfrd0";
 if (!string.IsNullOrEmpty(cloudinaryUrl))
 {
     var cloudinary = new Cloudinary(cloudinaryUrl);
