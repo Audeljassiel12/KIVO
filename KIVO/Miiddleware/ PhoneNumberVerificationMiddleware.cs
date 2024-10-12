@@ -19,6 +19,7 @@ namespace KIVO.Miiddleware
         _verificationPath = verificationPath;
         _excludedPaths = new HashSet<string>(excludedPaths, StringComparer.OrdinalIgnoreCase);
     }
+    
 
     public async Task InvokeAsync(HttpContext context, UserManager<User> userManager)
     {
@@ -28,6 +29,7 @@ namespace KIVO.Miiddleware
             await _next(context);
             return;
         }
+        
 
         var userId = context.User.FindFirstValue(ClaimTypes.NameIdentifier);
         if (string.IsNullOrEmpty(userId))
