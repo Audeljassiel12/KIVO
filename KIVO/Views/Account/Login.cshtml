@@ -2,49 +2,62 @@
 
 @{
     ViewData["Title"] = "Log in";
-    Layout= null; 
+    Layout = null;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<link rel="stylesheet" href="/css/login.css">
+
 <body>
-    
-<form method="post">
-    <h4>Use a local account to log in.</h4>
-    <hr />
-    <div asp-validation-summary="All" class="text-danger"></div>
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
+
+    <div class="imagen-esquina">
+        <img src="/KIVO_SVG/ESQUINA_IZQ.svg" alt="">
     </div>
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <div class="checkbox">
-            <label asp-for="RememberMe">
-                <input asp-for="RememberMe" />
-                @Html.DisplayNameFor(m => m.RememberMe)
-            </label>
-        </div>
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-default">Log in</button>
-    </div>
-    <div class="form-group">
-       
-        <p>
-            <a / asp-action="Registrase" asp-controller="Accout">Register as a new user</a>
-        </p>
-    </div>
-</form>
-    
+
+    <form method="post">
+
+        <section class="formulario">
+
+            <section class="imagen">
+                <img src="/KIVO_SVG/LOGO_VAR2_BLANCO.svg" alt="">
+            </section>
+
+            <section class="cajas_texto">
+                <div class="cajas">
+
+                    <h4>INICIAR SESIÓN</h4>
+                    <h5>Nos emociona tenerte por aquí</h5>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <input asp-for="Email" placeholder="Correo electrónico" lass="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Password" class="form-control" placeholder="Contraseña" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox" style="display: flex; align-items: center;">
+                            <input class="check" asp-for="RememberMe" style="margin-left: 5px;" />
+                            <label class="recuerdame" asp-for="RememberMe" style="margin-left: 5px;">
+                                @Html.DisplayNameFor(m => m.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="btnReg" class="btn btn-default">INICIAR SESIÓN</button>
+                    </div>
+                    <div class="form-group">
+                        <p class="contra_olv">¿Olvidaste tu contraseña?</p>
+                       <p class="reg"> <a asp-action="Registrase" asp-controller="Accout"> Registrate</a></p>
+                           
+                       
+                    </div>
+                </div>
+            </section>
+        </section>
+    </form>
+
+    <section class="imagen_robot">
+        <img src="/KIVO_SVG/ROBOT_COLOR.svg" alt="">
+    </section>
 </body>
-</html>
