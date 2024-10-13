@@ -1,151 +1,167 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KIVO.bundle.scp.css",
       "PackagePath": "staticwebassets\\KIVO.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\1 (2).jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\1 (2).jpg",
       "PackagePath": "staticwebassets\\KIVO_JPG\\1 (2).jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\4.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\4.jpg",
       "PackagePath": "staticwebassets\\KIVO_JPG\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\5.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\5.jpg",
       "PackagePath": "staticwebassets\\KIVO_JPG\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_JPG\\ARRIBA2.jpg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_JPG\\ARRIBA2.jpg",
       "PackagePath": "staticwebassets\\KIVO_JPG\\ARRIBA2.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\5.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\5.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\5.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ARRIBA2.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ARRIBA2.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ARRIBA2.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\BOTCEL.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\BOTCEL.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\BOTCEL.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\CELULAR1.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\CELULAR1.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\CELULAR1.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\CONTORNO4.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\CONTORNO4.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\CONTORNO4.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\CONTORNO5.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\CONTORNO5.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\CONTORNO5.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ESQ_INICIAR.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\ESQ_INICIAR.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\Google.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\Google.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_1_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ISOLOGO_1_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISOLOGO_BLANCO.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ISOLOGO_BLANCO.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ISQUIERDO.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ISQUIERDO.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ISQUIERDO.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ACUA_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LINEA_ACUA_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LINEA_ROJO_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LINEA_ROJO_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO2_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO2_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_ESLOGAN_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_VAR1_BLANCO.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\LOGO_VAR2_BLANCO.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\MANOS_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\MANOS_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\MANOS_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\PRUEVA.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\PRUEVA.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\PRUEVA.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT FELIZ_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT PERFIL_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOTCONPU.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOTCONPU.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOTCONPU.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\ROBOT_COLOR.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\ROBOT_COLOR.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\UnityWork-07.png",
       "PackagePath": "staticwebassets\\KIVO_SVG\\UnityWork-07.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\abajo.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\abajo.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\abajo.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\KIVO_SVG\\arriba.svg",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\arriba.svg",
       "PackagePath": "staticwebassets\\KIVO_SVG\\arriba.svg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\css\\index.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\KIVO_SVG\\esquina_izq.svg",
+      "PackagePath": "staticwebassets\\KIVO_SVG\\esquina_izq.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\css\\index4.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\index4.css",
       "PackagePath": "staticwebassets\\css\\index4.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\css\\index5.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\index5.css",
       "PackagePath": "staticwebassets\\css\\index5.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\css\\registrarse.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\registrarse.css",
       "PackagePath": "staticwebassets\\css\\registrarse.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\css\\segundo.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\segundo.css",
       "PackagePath": "staticwebassets\\css\\segundo.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\css\\tercer.css",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\css\\tercer.css",
       "PackagePath": "staticwebassets\\css\\tercer.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\wwwroot\\js\\verifyIdentity.js",
+      "Id": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\wwwroot\\js\\verifyIdentity.js",
       "PackagePath": "staticwebassets\\js\\verifyIdentity.js"
     },
     {

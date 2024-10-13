@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GzVxU0Helcc=",
+  "dgSpecHash": "JcIVN+ylfgo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\KIVO.csproj",
+  "projectFilePath": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\KIVO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

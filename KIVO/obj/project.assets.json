@@ -5971,11 +5971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\KIVO.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\KIVO.csproj",
       "projectName": "KIVO",
-      "projectPath": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\KIVO.csproj",
+      "projectPath": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\KIVO.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\KIVO\\obj\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive - #BicentenariaUNANLeon - Universidad Nacional Autónoma de Nicaragua León - UNAN-León\\Desktop\\KIVO\\kivo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6069,7 +6069,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
