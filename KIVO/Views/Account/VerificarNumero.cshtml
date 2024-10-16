@@ -1,6 +1,6 @@
 ﻿@model KIVO.Models.ViewModels.VerifyIdentityViewModel
 @{
-    ViewData["Title"] = "Verifica tu Identidad";
+    ViewData["Title"] = "VERIFICA TU IDENTIDAD";
     Layout = null; 
 }
 
@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
-        <link rel="stylesheet" href="/css/VerificarNumero.css">
+        <link rel="stylesheet" href="/css/VerficarNumero.css">
 </head>
 <body>
     <div class="container">
@@ -38,10 +38,15 @@
             </div>
 
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Siguiente</button>
-                <button type="button" class="btn btn-secondary" onclick="resendCode()">Reenviar Código</button>
+                <button type="submit" class="btn-primary">Siguiente</button>
+                <button type="button" class="btn-secondary" onclick="resendCode()">Reenviar Código</button>
             </div>
         </form>
+           <section class="imagen_robot">
+        <img src="/KIVO_SVG/RobotSeg.svg" alt="">
+    </section>
+</div>
+        
         @if (TempData["Error"] != null)
         {
             <script>
@@ -59,7 +64,9 @@
                 });
             </script>
         }
-
+    
     <script src="~/js/verifyIdentity.js"></script>
+  
 </body>
+
 </html>

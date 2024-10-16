@@ -1,12 +1,109 @@
 @import url('/KIVO/wwwroot/fuentes/font.css');
 * { 
     font-family: 'nunito';
-
+ /* Asegura que no haya repetición del fondo */
 }
 
-body{
-    background-color: #3537b8;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+body, html{
+    height: 100%;                  /* Asegura que el body ocupe el 100% de la altura de la ventana */
+  margin: 0;                    /* Elimina el margen por defecto del body */
+  background: linear-gradient(to bottom right, #CE4740,#2C2C6E,#2A8D96); /* Degradado de azul claro a azul oscuro de esquina a esquina */
+  background-repeat: no-repeat; 
+}
+
+h2{
+    margin-bottom: 5px;
+}
+p{
+    margin: 5px;
+    margin-bottom: -10px;
+}
+
+.container{
+    background-color: rgb(247, 247, 247);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.623);
+color: #2C2C6E
+}
+form {
+    width: 300px;           /* Ajusta el ancho del formulario */
+    padding: 20px;  
+    margin: 0 auto;        /* Espacio interno para el formulario */
+
+  }
+.form-group{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    margin-top: 25px;
+    
+}
+.form-control {
+    border-radius: 8px; /* Se mantiene igual */
+    border: 2px solid #2c2c6e4d;
+    background-color: transparent;
+    margin-top: 5px;
+    font-size: 12px; /* Se mantiene igual */
+    height: 40px; 
+    width:  300px;
+}
+.form-group label{
+    font-size: 13px;
+}
+.form-group button{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: #2C2C6E;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.5s, color 0.5s; 
+}
+.btn-primary:hover {
+    background-color: #44448f;    /* Cambia el fondo al hacer hover */
+    color: #ffffff;               /* Cambia el color del texto al hacer hover */
+}
+.btn-secondary {
+    border: 2px solid #2C2C6E;                   /* Color del borde */
+    color: #2C2C6E;                               /* Color del texto */
+    background-color: transparent;                /* Fondo transparente por defecto */
+    font-weight: 600;                             /* Peso de la fuente */
+    padding: 10px 20px;                           /* Espaciado interno del botón */
+    border-radius: 5px;                           /* Bordes redondeados (opcional) */
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease; /* Transiciones suaves */
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(to left, #CE4740, #2C2C6E, #2A8D96); /* Cambia el fondo al hacer hover */
+    color: #ffffff;                                    /* Cambia el color del texto al hacer hover */
+    border-color: #ffffff;                             /* Cambia el color del borde al hacer hover */
+}
+
+.imagen_robot {
+    display: flex;
+    width: 37%;                  /* Se mantiene igual */
+    position: absolute;          /* Cambiar a posición absoluta */
+    bottom: 0;                   /* Alinea al fondo del contenedor */
+    right: 0;                    /* Alinea a la derecha del contenedor */
+    z-index: 1000;               /* Asegura que esté por encima de otros elementos */
+}
+.imagen_robot img {
+ 
+    width: 50%;                  /* Se mantiene igual */
+          /* Asegura que esté por encima de otros elementos */
 }
