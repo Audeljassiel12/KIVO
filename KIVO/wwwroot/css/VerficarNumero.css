@@ -1,0 +1,12 @@
+@import url('/KIVO/wwwroot/fuentes/font.css');
+* { 
+    font-family: 'nunito';
+
+}
+
+body{
+    background-color: #3537b8;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
