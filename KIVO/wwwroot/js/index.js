@@ -1,9 +1,9 @@
-const sections = document.querySelectorAll('.section');
+/*const sections = document.querySelectorAll('.section');
 let currentSection = 0;
 const totalSections = sections.length;
 
 // Función para cambiar entre secciones
-function showNextSection() {
+/*function showNextSection() {
     // Ocultar la sección actual
     sections[currentSection].classList.remove('active');
 
@@ -26,4 +26,4 @@ const sectionInterval = setInterval(() => {
     } else {
         clearInterval(sectionInterval); // Detener el ciclo
     }
-}, 3000);
+}, 3000);*/
