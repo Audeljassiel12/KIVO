@@ -2,6 +2,20 @@
 @{
     Layout = "_Configuracion";
 }
+
+<link rel="stylesheet" href="/css/Configuracion/step-one.css">
+
+
+    <div class="forma">
+  
+     <div class="imagen_robot">
+        <img src="/KIVO_SVG/LOGO_COLOR.svg" alt="">
+    </div>
+      </div>
+
+<div class="pasos"><p>PASO 1 DE 3</p></div>
+<section class="formulario">
+    <p>CUENTANOS SOBRE TÍ  </p> 
 <form id="formCentroMedico" asp-action="step-one" method="post">
     <div class="form-group">
         <label asp-for="NombreEntidad">Nombre de la clínica o centro médico</label>
@@ -28,7 +42,7 @@
     </div>
 
     <button type="submit" id="btnSiguiente" class="btn btn-primary" disabled>Siguiente</button>
-
+</section>
     <!-- Mensaje de error -->
     @if (TempData["Error"] != null)
     {
