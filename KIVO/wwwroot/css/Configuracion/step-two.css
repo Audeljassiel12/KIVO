@@ -123,3 +123,10 @@ display: flex;
 justify-content: center;
 text-align: center;
 }
+
+.kivosuite{
+    display: row;
+    justify-content: center;
+    row-gap: row;
+}
+

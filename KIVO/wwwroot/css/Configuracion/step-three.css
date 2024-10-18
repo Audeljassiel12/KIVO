@@ -7,9 +7,42 @@
 
     margin-top: 120px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Para separar las secciones */
+    flex-wrap: wrap; /* Permite que se acomoden en múltiples líneas si el espacio es pequeño */
+}
+
+.kivosuite {
+    flex: 1; /* Ocupa todo el espacio disponible si no hay restricciones */
+    margin-right: 20px; /* Espacio entre las dos secciones */
+}
+
+.prueba {
+    flex: 0 0 40%; /* La sección de prueba ocupa el 30% del espacio */
+    justify-content: center;
+}
+
+/* Para ajustar las tarjetas dentro de cada sección */
+.kivosuite .card, .prueba .card {
+    width: 100%; /* Las tarjetas ocupan todo el ancho de su contenedor */
+    margin-bottom: 20px; /* Espaciado inferior entre tarjetas */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia a diseño vertical en pantallas más pequeñas */
+    }
+
+    .kivosuite, .prueba {
+        margin-right: 0; /* Elimina el margen lateral en pantallas pequeñas */
+        flex: 1 1 100%; /* Ambas secciones ocupan todo el ancho */
+    }
+}
 form {
     margin: 0 auto;
-    width: 80%;
+    width: 1100px;
     height: 20%;
     border: 2px solid; /* Ajusta el grosor del borde */
     border-color:#2C2C6E;
@@ -116,10 +149,45 @@ form input{
 
 }
 
+
+
 form p{font-weight: 600;
     margin-top: -10px;
     color: #2c2c6ee8;
 display: flex;
 justify-content: center;
 text-align: center;
+}
+.kivosuite {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las tarjetas se ajusten en varias filas */
+    justify-content: space-between; /* Asegura que haya espacio entre las tarjetas de la primera fila */
+}
+
+.kivosuite .col-md-6 {
+    flex: 0 0 48%; /* Las dos primeras tarjetas (LITTLE y MIDDLE) ocupan el 48% del ancho */
+    margin-bottom: 20px; /* Espacio inferior entre las tarjetas */
+}
+
+.kivosuite .col-md-6:nth-child(3) {
+    flex: 0 0 40%; /* La tercera tarjeta (WIDE) ocupará el 40% del ancho */
+    display: flex;
+    justify-content: center; /* Centra la tarjeta WIDE horizontalmente */
+    margin: 0 auto; /* Añadir margen automático para centrarla completamente */
+}
+
+.kivosuite .card {
+    width: 100%; /* Asegura que las tarjetas ocupen todo el ancho dentro de su contenedor */
+}
+
+@media (max-width: 768px) {
+    .kivosuite .col-md-6 {
+        flex: 0 0 100%; /* En pantallas pequeñas, todas las tarjetas ocuparán el 100% del ancho */
+    }
+}
+.form-check-label h5{
+    margin-left: 55px;
+   padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
