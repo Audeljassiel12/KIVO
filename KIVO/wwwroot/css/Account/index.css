@@ -90,15 +90,16 @@ body {
 
 /* Estilo para la imagen del robot */
 #section-2 .robot img {
-    width: 100%; /* Imagen ajustada al tamaño de su contenedor */
+    width: 80%; /* Imagen ajustada al tamaño de su contenedor */
     height: auto;
     margin-left: -200px; 
 }
 
 /* Estilo para la imagen de fabian */
 #section-2 .fabian img {
-    width: 100px; 
+    width: 30%; 
     height: auto;
+    margin-top: -800px;
 }
 
 /* Estilo para el texto de inicio */
@@ -186,19 +187,12 @@ body {
     margin-top: 30px;
 }
 
-#section-3 .imagen-celular {
-    width: 190px;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-    display: block;
-    margin-top: -590px; /* Se agregó la unidad px */
-    margin-left: 1010px; /* Se agregó la unidad px */
-    justify-content: center;
-}
+
 
 #section-3 .imagen-robot {
     width: 20%;
     margin: auto;
-    margin-top: -150px; /* Se agregó la unidad px */
+    margin-top: -550px; /* Se agregó la unidad px */
     margin-left: 790px; /* Se agregó la unidad px */
 }
 
@@ -249,7 +243,7 @@ body {
     position: absolute;
     top: 218px;
     left: 800px;
-    width: 300px;
+    width: 25%;
     height: auto;
     z-index: 10; /* Para que esté sobre la imagen de fondo */
 }
