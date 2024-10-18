@@ -126,6 +126,41 @@ body {
     }
 }
 
+/* Media Queries para pantallas de 1280px de ancho */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    #section-2 {
+        grid-template-columns: 1fr 1fr; /* Mantener dos columnas */
+        grid-template-rows: auto auto; /* Mantener dos filas */
+        gap: 20px; /* Espacio entre columnas y filas */
+    }
+
+    #section-2 .robot {
+        width: 80vw; /* Ajusta el ancho del contenedor para darle más espacio */
+        max-width: 400px; /* Limita el tamaño máximo en pantallas más grandes si es necesario */
+        position: relative;
+        margin: 0 auto; /* Centramos el contenedor si es necesario */
+        margin-left: 180px;
+    }
+    
+    
+
+    #section-2 .fabian img {
+        width: 40%; /* Reducir un poco el tamaño de la imagen */
+        height: auto;
+        margin-left: 50px;
+    }
+
+    #section-2 .inicio {
+        font-size: 28px; /* Ajustar el tamaño del texto */
+        max-width: 380px; /* Ajustar el ancho máximo del contenedor de texto */
+        grid-column: span 2; /* Seguir ocupando ambas columnas */
+        text-align: center;
+        margin-top: -300px;
+        
+        
+    }
+}
+
 /* Estilos para la Sección 3 */
 #section-3 {
     background-color: #fffafaec;
