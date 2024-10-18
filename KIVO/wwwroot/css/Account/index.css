@@ -1,25 +1,25 @@
-/* Estilos compartidos */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Evitar scroll cuando se cambian las secciones */
+    overflow: hidden;/* Evitar scroll solo si es necesario */
 }
 
 /* Sección general */
 .section {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna que ocupa todo el ancho */
+    grid-template-rows: 1fr; /* Una fila que ocupa todo el alto */
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    flex-direction: column;
     transition: opacity 1s ease-in-out;
     opacity: 0; /* Oculta por defecto */
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1; /* Para asegurar que solo la sección activa esté visible */
+    z-index: 1; /* Asegura que solo la sección activa esté visible */
 }
 
 /* Sección activa */
@@ -30,67 +30,99 @@ body {
 
 /* Estilos para la Sección 1 */
 #section-1 .unity {
-    width: 150px;
+    display: grid;
+    justify-items: start; /* Alinear el contenido a la izquierda */
+    align-items: start; /* Alinear el contenido arriba */
+    width: 15%; /* Reducir el ancho del contenedor */
     height: auto;
-    position: absolute;
-    top: -50px;
-    margin-left: -1050px;
+    position: absolute; /* Permitir posicionamiento libre */
+    top: 0; /* Posicionar en la parte superior */
+    left: 0; /* Posicionar a la izquierda */
+    padding: 10px; /* Añadir padding si es necesario */
+    box-sizing: border-box; /* Asegurar que el padding no afecte el tamaño del contenedor */
 }
 
 #section-1 img {
-    width: 150px;
+    width: 100px; /* Ajustar tamaño de la imagen */
     height: auto;
-    margin-top: 30px;
+    margin-top: 30px; /* Ajustar margen superior */
+    object-fit: contain; /* Asegurar que la imagen se ajuste correctamente */
 }
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #section-1 .unity {
+        width: 25%; /* Aumentar el tamaño del contenedor en pantallas medianas */
+    }
+
+    #section-1 img {
+        width: 80px; /* Reducir tamaño de la imagen en pantallas medianas */
+    }
+}
+
+@media (max-width: 540px) {
+    #section-1 .unity {
+        width: 40%; /* Aumentar aún más el tamaño del contenedor en pantallas pequeñas */
+    }
+
+    #section-1 img {
+        width: 30%; /* Reducir tamaño de la imagen en pantallas pequeñas */
+    }
+}
+
+
+
+
 
 /* Estilos para la Sección 2 */
 #section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    grid-template-rows: auto auto auto; /* Tres filas automáticas */
+    gap: 20px; /* Espacio entre columnas y filas */
     background: linear-gradient(to right, #2A8D96, #2C2C6E, #CE4740);
+    padding: 20px;
 }
 
-#section-2 .robot {
-    width: 50vw;
-    position: relative;
-    top: -70px;
-    left: -330px;
-}
-
+/* Estilo para la imagen del robot */
 #section-2 .robot img {
-    width: 300px;
+    width: 100%; /* Imagen ajustada al tamaño de su contenedor */
+    height: auto;
+    margin-left: -200px; 
+}
+
+/* Estilo para la imagen de fabian */
+#section-2 .fabian img {
+    width: 100px; 
     height: auto;
 }
 
-#section-2 .fabian {
-    width: 100px;
-    height: auto;
-    margin-left: 500px;
-    margin-top: -450px;
-}
-
+/* Estilo para el texto de inicio */
 #section-2 .inicio {
-    margin-top: 20px;
-    margin-left: 550px;
+    grid-column: span 2; /* Ocupa ambas columnas */
+    justify-self: center; /* Centrar el texto horizontalmente */
     color: white;
     font-size: 30px;
     max-width: 400px;
     text-align: center;
+    margin-top: -310px;
+    margin-right: -650px;
 }
 
-/* Media Queries para Responsividad */
+/* Media Queries para hacer el diseño responsivo */
 @media (max-width: 768px) {
-    #section-2 .robot {
-        width: 80vw;
-    }
-
-    #section-2 .fabian {
-        margin-left: 0;
-        margin-top: 20px;
+    #section-2 {
+        grid-template-columns: 1fr; /* En pantallas más pequeñas, solo una columna */
+        grid-template-rows: auto auto auto; /* Cada elemento en su propia fila */
     }
 
     #section-2 .inicio {
-        margin-left: 0;
-        font-size: 18px;
-        text-align: center;
+        font-size: 18px; /* Reducir tamaño de fuente */
+    }
+
+    #section-2 .robot img, 
+    #section-2 .fabian img {
+        max-width: 200px; /* Reducir tamaño de las imágenes en pantallas pequeñas */
     }
 }
 
@@ -117,13 +149,13 @@ body {
     width: 190px;
     margin: 0 auto; /* Centra la imagen horizontalmente */
     display: block;
-    margin-top: -560px; /* Se agregó la unidad px */
+    margin-top: -590px; /* Se agregó la unidad px */
     margin-left: 1010px; /* Se agregó la unidad px */
     justify-content: center;
 }
 
 #section-3 .imagen-robot {
-    width: 300px;
+    width: 20%;
     margin: auto;
     margin-top: -150px; /* Se agregó la unidad px */
     margin-left: 790px; /* Se agregó la unidad px */
