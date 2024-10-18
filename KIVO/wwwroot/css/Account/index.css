@@ -4,6 +4,10 @@ body {
     padding: 0;
     overflow: hidden;/* Evitar scroll solo si es necesario */
 }
+*
+{
+    box-sizing: border-box;
+}
 
 /* Sección general */
 .section {
