@@ -31,9 +31,9 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 220px; /* Aumentado de 100px a 150px */
+    margin-left: 200px; /* Aumentado de 100px a 150px */
     background-color: #f3f3f37c;
-    padding: 35px; /* Aumentado de 15px a 25px */
+    padding: 30px; /* Aumentado de 15px a 25px */
     border-radius: 15px; /* Se mantiene igual */
 }
 
@@ -55,6 +55,7 @@ h4 {
     font-weight: 800;
     transition: background-color 0.8s; /* Cambiado a 'background' */
     font-size: 12px;
+    
     
 }
 #btnReg:hover {
@@ -96,7 +97,7 @@ button img {
     height: 40px; /* Aumentado de 35px a 40px */
 }
 
-input::placeholder {
+.cajas input::placeholder {
     padding-left: 10px;
     color: #2c2c6e81;
     font-weight: 700;
@@ -112,7 +113,7 @@ input::placeholder {
 
 .imagen img {
     width: 25%; /* Aumentado de 20% a 25% */
-    margin-top: 80px; /* Aumentado de 60px a 80px */
+
 }
 
 .opcion {
@@ -147,3 +148,50 @@ hr {
     justify-content:right ;
 }
 
+.input-group-prepend {
+    margin-right: 10px; /* Alineación con el input */
+    display: flex; /* Para asegurarse de que esté alineado */
+    align-items: center;
+}
+
+.input-group-text {
+    padding: 12px 12px; /* Similar a los botones */
+    background-color: #f1f1f1; /* Fondo claro */
+    border: 2px solid #2c2c6e4d; /* Borde igual al de los inputs */
+    border-radius: 8px; /* Igual que los inputs */
+    font-weight: bold;
+    font-size: 12px; /* Consistente con el tamaño de fuente de otros inputs */
+    color: #2C2C6E; /* Color de texto similar al resto del formulario */
+    transition: background-color 0.3s; /* Animación suave */
+    margin-right: 10px;
+}
+
+
+/* Añadir hover si es necesario, para cambiar el fondo */
+.input-group-text:hover {
+    background-color: #e0e0e0; /* Efecto suave al pasar el cursor */
+}
+.numerocel{
+    margin-left: 5px;
+    width: 84%;
+
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espaciado entre los grupos de formulario */
+}
+
+
+
+/* Estilo para el span de validación */
+.text-danger {
+    display: block; /* Asegúrate de que sea un bloque para que ocupe toda la línea */
+    margin-top: 5px; /* Espacio entre el input y el span */
+    color: red; /* Color del texto de error */
+    font-size: 12px; /* Tamaño del texto */
+}
+h5{
+    margin-top: -15px;
+    color:#2c2d6e;
+    font-weight: 500;
+}

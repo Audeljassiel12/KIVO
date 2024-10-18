@@ -2,10 +2,22 @@
 @{
     Layout = "_Configuracion";
 }
+<link rel="stylesheet" href="/css/Configuracion/step-one.css">
 
-<h2>Registrar Doctor</h2>
+
+    <div class="forma">
+  
+     <div class="imagen_robot">
+        <img src="/KIVO_SVG/LOGO_COLOR.svg" alt="">
+    </div>
+      </div>
+
+
+<section class="formulario">
+ <div class="pasos"><p>PASO 2 DE 3</p></div>
 
 <form id="formRegistrarDoctor" asp-action="step-two" method="post">
+    <p>REGISTRAR DOCTOR</p>
     <div class="form-group">
         <label asp-for="Cedula"></label>
         <input asp-for="Cedula" class="form-control" required />
@@ -29,7 +41,7 @@
 
     <button type="submit" id="btnSiguiente" class="btn btn-primary" disabled>Siguiente</button>
 </form>
-
+</section> 
 <!-- Scripts -->
 @section Scripts {
   

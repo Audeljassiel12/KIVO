@@ -12,7 +12,7 @@ namespace KIVO.Models.Dto
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Display(Name = "Recuerdame??")]
+        [Display(Name = "Recuerdame")]
         public bool RememberMe { get; set; }
     }
 }
