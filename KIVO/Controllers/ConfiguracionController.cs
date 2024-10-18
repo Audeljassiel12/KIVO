@@ -154,7 +154,7 @@ namespace KIVO.Controllers
             else if (plan == "FreeTrial")
             {
                 // Si seleccionó la prueba gratuita, redirige a la vista de prueba
-                return RedirectToAction("PruebaGratuita");
+                return RedirectToAction("step-four");
             }
 
             // Si por alguna razón no se seleccionó ningún plan válido, redirige de nuevo
@@ -165,6 +165,7 @@ namespace KIVO.Controllers
         {
             return View();
         }
+       
         [HttpPost("CrearSesionPago")]
         public async Task<IActionResult> CrearSesionPago([FromBody] PagoRequestDto request)
         {

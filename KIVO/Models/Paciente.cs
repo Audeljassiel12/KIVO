@@ -22,6 +22,7 @@ namespace KIVO.Models
     public string Genero { get; set; } = null!;
 
     public string? Dirección { get; set; }
+
         [PhoneNumber("NI", ErrorMessage = "El numero de telefono no es valido")]
         public string? Teléfono { get; set; }
 

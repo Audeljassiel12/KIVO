@@ -1,7 +1,7 @@
 @model KIVO.Models.Dto.PacienteDTO
 @{
 }
-
+<div id="detallesPacienteContainer"></div>
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-12">
@@ -17,7 +17,7 @@
                                 <div class="mb-3">
                                     @if (Model.FotoPerfilUrl is null)
                                     {
-                                        <img src="~/assets/images/avatar-placeholder-large-68f552aed50f598e25644996bb12a76d.png" alt="Foto" class="img-fluid rounded-circle" id="foto-perfil">
+                                        <img src="~/KIVO_JPG/avatar-placeholder-large-957340962e0e778eed41f03871a6b7d5.png" alt="Foto" class="img-fluid rounded-circle" id="foto-perfil">
                                     }
                                     else
                                     {
@@ -122,14 +122,13 @@
         </div>
     </div>
 </div>
-
 @section Script
 {
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     <script>
         $(document).ready(function () {
-            // Cargar municipios según el departamento seleccionado
+            // Cargar municipios basados en el departamento seleccionado
             $('#departamentoId').change(function () {
                 var departamentoId = $(this).val();
                 $('#CuidadId').empty().append('<option value="">Seleccione un municipio</option>');
@@ -146,6 +145,9 @@
                         $.each(municipios, function (index, municipio) {
                             $('#CuidadId').append('<option value="' + municipio.value + '">' + municipio.text + '</option>');
                         });
+                    },
+                    error: function () {
+                        alert('Error al cargar los municipios.');
                     }
                 });
             });
@@ -159,33 +161,36 @@
                 reader.readAsDataURL(event.target.files[0]);
             });
 
-            // Guardar paciente
+            // Guardar los datos del paciente
             $('#btnGuardarPaciente').click(function () {
                 var form = $('#formPaciente');
                 if (!form.valid()) {
-                    // Si el formulario no es válido, no enviamos la solicitud
+                    // Si el formulario no es válido, no envíes la solicitud
                     return;
                 }
 
-                var formData = new FormData(form[0]); // Captura todos los datos del formulario
+                var formData = new FormData(form[0]); // Capturar todos los datos del formulario
 
                 $.ajax({
                     url: form.attr('action'), // URL del formulario
                     type: 'POST',
                     data: formData,
-                    contentType: false, // Necesario para enviar archivos
-                    processData: false, // Necesario para enviar archivos
+                    contentType: false, // Necesario para subir archivos
+                    processData: false, // Necesario para subir archivos
                     success: function (response) {
                         // Manejar la respuesta
                         if (response.success) {
                             // Llamar al endpoint de detalles del paciente
                             $.ajax({
-                                url: '/Paciente/GetDetallesPaciente', // Cambiar a la acción correcta en el controlador
+                                url: '/Paciente/GetDetallesPaciente', // Cambiar al controlador y acción correctos
                                 type: 'GET',
-                                data: { pacienteId: response.pacienteId }, // Asegúrate de que `pacienteId` esté disponible en la respuesta
+                                data: { pacienteId: response.pacienteId }, // Asegúrate de que `pacienteId` esté en la respuesta
                                 success: function (detalles) {
-                                    // Actualiza la vista con los detalles del paciente
-                                    $('#detallesPacienteContainer').html(detalles);
+                                    // Limpiar el contenedor antes de actualizar los detalles
+                                    $('#container').empty();
+
+                                    // Actualizar la vista con los detalles del paciente
+                                    $('#container').html(detalles);
                                 },
                                 error: function () {
                                     alert('Error al obtener los detalles del paciente.');

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace KIVO.Migrations
 {
     /// <inheritdoc />
-    public partial class nd : Migration
+    public partial class incial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -419,17 +419,18 @@ namespace KIVO.Migrations
                     Nombres = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Apellidos = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Sexo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Genero = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Dirección = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Teléfono = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TipoSangre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     EstadoCivil = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Ocupación = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FotoPerfilUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FechaRegistro = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CentroMedicoId = table.Column<int>(type: "int", nullable: false),
-                    CiudadId = table.Column<int>(type: "int", nullable: false),
-                    DepartamentoId = table.Column<int>(type: "int", nullable: false)
+                    CiudadId = table.Column<int>(type: "int", nullable: true),
+                    DepartamentoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -449,8 +450,7 @@ namespace KIVO.Migrations
                         name: "FK_Pacientes_Ciudades_CiudadId",
                         column: x => x.CiudadId,
                         principalTable: "Ciudades",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Pacientes_Departamentos_DepartamentoId",
                         column: x => x.DepartamentoId,

@@ -109,6 +109,26 @@ namespace KIVO.Controllers
                 return StatusCode(500, "Ocurrió un error al procesar la solicitud. Inténtelo de nuevo más tarde.");
             }
         }
+        [HttpGet]
+        public async Task<IActionResult> GetDetallesPaciente(string pacienteId)
+        {
+            try
+            {
+                
+                var pasienteData = await _pacienteRepository.GetByIdAsync(pacienteId);
+                if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                {
+                    return PartialView("GetDetallesPaciente", pasienteData);
+                }
+                return View(pasienteData);
+            }
+            catch(Exception ex )
+            {
+                Console.Write(ex);
+                return View();
+            }
+           
+        }
     }
 
 

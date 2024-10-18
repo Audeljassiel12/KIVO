@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KIVO.Migrations
 {
     [DbContext(typeof(KivoDbContext))]
-    [Migration("20240926174159_cmapo")]
-    partial class cmapo
+    [Migration("20241018055739_incial")]
+    partial class incial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
