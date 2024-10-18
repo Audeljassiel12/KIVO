@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 namespace KIVO.Models
 {
-  public class NotaDeEncuentro
-{
-    public int Id { get; set; }  // Identificador único
-    public int CitaId { get; set; }  // Relación con la Cita
-    public Cita? Cita { get; set; }
-    public string? Observaciones { get; set; }
-}
-
+    public class NotaDeEncuentro
+    {
+        public int Id { get; set; }  // Identificador único
+        public int CitaId { get; set; }  // Relación con la Cita
+        public Cita? Cita { get; set; } // Objeto Cita relacionado
+        public string? Observaciones { get; set; } // Observaciones de la cita
+    }
 }

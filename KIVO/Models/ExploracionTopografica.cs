@@ -5,73 +5,70 @@ using System.Threading.Tasks;
 
 namespace KIVO.Models
 {
-   
+    public enum ParteDelCuerpo
+    {
+        [Display(Name = "Parte posterior del torso")]
+        PartePosteriorDelTorso,
 
-   using System.ComponentModel.DataAnnotations;
+        [Display(Name = "Parte frontal del miembro inferior izquierdo")]
+        ParteFrontalDelMiembroInferiorIzquierdo,
 
-public enum ParteDelCuerpo
-{
-    [Display(Name = "Parte posterior del torso")]
-    PartePosteriorDelTorso,
+        [Display(Name = "Parte posterior del miembro inferior izquierdo")]
+        PartePosteriorDelMiembroInferiorIzquierdo,
 
-    [Display(Name = "Parte frontal del miembro inferior izquierdo")]
-    ParteFrontalDelMiembroInferiorIzquierdo,
+        [Display(Name = "Parte frontal del miembro inferior derecho")]
+        ParteFrontalDelMiembroInferiorDerecho,
 
-    [Display(Name = "Parte posterior del miembro inferior izquierdo")]
-    PartePosteriorDelMiembroInferiorIzquierdo,
+        [Display(Name = "Parte posterior del miembro inferior derecho")]
+        PartePosteriorDelMiembroInferiorDerecho,
 
-    [Display(Name = "Parte frontal del miembro inferior derecho")]
-    ParteFrontalDelMiembroInferiorDerecho,
+        [Display(Name = "Zona frontal pélvica")]
+        ZonaFrontalPelvica,
 
-    [Display(Name = "Parte posterior del miembro inferior derecho")]
-    PartePosteriorDelMiembroInferiorDerecho,
+        [Display(Name = "Zona pélvica espalda")]
+        ZonaPelvicaEspalda,
 
-    [Display(Name = "Zona frontal pélvica")]
-    ZonaFrontalPelvica,
+        [Display(Name = "Parte frontal del miembro superior derecho")]
+        ParteFrontalDelMiembroSuperiorDerecho,
 
-    [Display(Name = "Zona pélvica espalda")]
-    ZonaPelvicaEspalda,
+        [Display(Name = "Parte posterior del miembro superior derecho")]
+        PartePosteriorDelMiembroSuperiorDerecho,
 
-    [Display(Name = "Parte frontal del miembro superior derecho")]
-    ParteFrontalDelMiembroSuperiorDerecho,
+        [Display(Name = "Parte delantera del torso")]
+        ParteDelanteraDelTorso,
 
-    [Display(Name = "Parte posterior del miembro superior derecho")]
-    PartePosteriorDelMiembroSuperiorDerecho,
+        [Display(Name = "Parte frontal del miembro superior izquierdo")]
+        ParteFrontalDelMiembroSuperiorIzquierdo,
 
-    [Display(Name = "Parte delantera del torso")]
-    ParteDelanteraDelTorso,
+        [Display(Name = "Parte posterior del miembro superior izquierdo")]
+        PartePosteriorDelMiembroSuperiorIzquierdo,
 
-    
+        [Display(Name = "Parte frontal de la cabeza")]
+        ParteFrontalDeLaCabeza,
 
+        [Display(Name = "Parte posterior de la cabeza")]
+        PartePosteriorDeLaCabeza,
 
-    [Display(Name = "Parte frontal del miembro superior izquierdo")]
-    ParteFrontalDelMiembroSuperiorIzquierdo,
+        [Display(Name = "Parte delantera del cuello")]
+        ParteDelanteraDelCuello,
 
-    [Display(Name = "Parte posterior del miembro superior izquierdo")]
-    PartePosteriorDelMiembroSuperiorIzquierdo,
+        [Display(Name = "Parte posterior del cuello")]
+        PartePosteriorDelCuello
+    }
 
-    [Display(Name = "Parte frontal de la cabeza")]
-    ParteFrontalDeLaCabeza,
+    public class ExploracionTopografica
+    {
+        public int Id { get; set; }
 
-    [Display(Name = "Parte posterior de la cabeza")]
-    PartePosteriorDeLaCabeza,
+        [Required(ErrorMessage = "El ID de la cita es obligatorio.")]
+        public int CitaId { get; set; }
 
-    [Display(Name = "Parte delantera del cuello")]
-    ParteDelanteraDelCuello,
+        public Cita? Cita { get; set; }
 
-    [Display(Name = "Parte posterior del cuello")]
-    PartePosteriorDelCuello
-}
+        [Required(ErrorMessage = "La parte del cuerpo es obligatoria.")]
+        public ParteDelCuerpo ParteDelCuerpo { get; set; }  
 
-   public class ExploracionTopografica
-{
-    public int Id { get; set; }
-    public int CitaId { get; set; }
-    public Cita? Cita { get; set; }
-    public ParteDelCuerpo ParteDelCuerpo { get; set; }  
-
-    public string? Observaciones { get; set; }
- 
-}
-
+        [StringLength(500, ErrorMessage = "Las observaciones no pueden exceder los 500 caracteres.")]
+        public string? Observaciones { get; set; }
+    }
 }

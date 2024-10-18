@@ -5,18 +5,19 @@ using System.Threading.Tasks;
 
 namespace KIVO.Models
 {
-   public class Nutricion
-{
-    public int Id { get; set; }
-    public int CitaId { get; set; }
-    public Cita? Cita { get; set; }
+    public class Nutricion
+    {
+        public int Id { get; set; }  // Identificador único de la nutrición
 
-    // Campos de nutrición y seguimiento
-    public decimal? PerdidaPeso { get; set; }
-    public decimal? Agua { get; set; }
-    public decimal? PorcentajeGrasaCorporal { get; set; }
-    public decimal? MasaMuscular { get; set; }
-    public decimal? Cintura { get; set; }
-    public decimal? Abdomen { get; set; }
-}
+        public int CitaId { get; set; }  // Relación con la Cita
+        public Cita? Cita { get; set; }  // Objeto Cita relacionado
+
+        // Campos de nutrición y seguimiento
+        public decimal? PerdidaPeso { get; set; }  // Pérdida de peso en kg
+        public decimal? Agua { get; set; }  // Consumo de agua en litros
+        public decimal? PorcentajeGrasaCorporal { get; set; }  // Porcentaje de grasa corporal
+        public decimal? MasaMuscular { get; set; }  // Masa muscular en kg
+        public decimal? Cintura { get; set; }  // Medida de la cintura en cm
+        public decimal? Abdomen { get; set; }  // Medida del abdomen en cm
+    }
 }
