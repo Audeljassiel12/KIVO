@@ -147,15 +147,17 @@ body {
     #section-2 .fabian img {
         width: 40%; /* Reducir un poco el tamaño de la imagen */
         height: auto;
-        margin-left: 50px;
+        top: -100px;
     }
 
     #section-2 .inicio {
         font-size: 28px; /* Ajustar el tamaño del texto */
-        max-width: 380px; /* Ajustar el ancho máximo del contenedor de texto */
+        max-width: 500px; /* Ajustar el ancho máximo del contenedor de texto */
         grid-column: span 2; /* Seguir ocupando ambas columnas */
         text-align: center;
-        margin-top: -300px;
+        justify-content: center;
+        margin-top: -500px;
+        margin-left: -100px;
         
         
     }
