@@ -1,62 +1,113 @@
 @{
-  Layout=null;
+    Layout = null;
+    
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/Account/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Moderno</title>
+    <link rel="stylesheet" href="~/css/index.css">
 </head>
 <body>
-    <!-- Sección 1 -->
-    <section id="section-1" class="section active">
-        <img class="unity" src="/KIVO_SVG/UnityWork-07.png" alt="Imagen Unity"/>
-        <img src="/KIVO_SVG/ISOLOGO_1_COLOR.svg" alt="Isologo 1 Color"/>
-    </section>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/KIVO_SVG/LOGO_VAR1_BLANCO.svg" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="Index">Inicio</a></li>
+                <li><a asp-controller="Home" asp-action="Nosotros">Nosotros</a></li>
+                <li  class="iniciar"><a asp-controller="Account" asp-action="Login">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Sección 2 -->
-    <section id="section-2" class="section">
-        <div class="robot">
-            <img src="/KIVO_SVG/ROBOT_DELADO.svg" alt="Robot Delado">
-        </div> 
 
-        <div class="fabian"> 
-            <a href="/Home/Index3">
-                <img src="/KIVO_SVG/ISOLOGO_BLANCO.svg" alt="Isologo Blanco">
-            </a>
+<section class="intro-section">
+    <div class="intro-content">
+        <div class="intro-text">
+            <h1 style="font-size: 60px;margin-bottom: -10px;">KIVO</h1> <br>  <h2>Gestiona los expedientes médicos de manera eficiente</h2>
+            <p>Con KIVO, los médicos privados pueden organizar, almacenar y acceder a los expedientes de sus pacientes de forma segura y rápida. Mejora la eficiencia en tu práctica médica con nuestra herramienta integral.</p>
+            <div class="cta-buttons">
+                <a asp-action="Registrarse" asp-controller="Account"class="btn register-btn">Registrarse</a>
+                <a asp-action="Nosotros" asp-controller="Home"class="btn learn-more-btn">Conoce más</a>
+            </div>
         </div>
-
-        <p class="inicio">Simplifica tu gestión médica y conecta con tus pacientes de manera eficiente y segura.</p>
-    </section>
-    <!-- Sección 3 -->
-    <section id="section-3" class="section">
-        <div>
-            <img src="/KIVO_SVG/arriba.svg" alt="Imagen arriba">
-            <img class="imagen-abajo" src="/KIVO_SVG/abajo.svg" alt="Imagen abajo">
-            <img class="imagen-robot" src="/KIVO_SVG/ROBOT_COLOR.svg" alt="Robot Color"> 
+        <div class="intro-image">
+             <img src="/KIVO_SVG/ROBOT FELIZ_COLOR.svg" >
         </div>
+    </div>
+</section>
+<section class="products-section">
+    <h2>Nuestros Paquetes</h2>
+    <p>Selecciona el plan que mejor se ajuste a tus necesidades.</p>
+    <div class="product-cards">
+        <div class="card">
+            <h3>Little</h3>
+            <p>Ideal para médicos con pocos pacientes.</p>
+            <ul>
+                <li>Hasta 50 expedientes</li>
+                <li>Acceso básico a informes</li>
+                <li>Soporte por correo</li>
+            </ul>
+            <a href="#" class="btn select-btn">Seleccionar</a>
+        </div>
+        <div class="card featured">
+            <h3>Middle</h3>
+            <p>Perfecto para consultorios medianos.</p>
+            <ul>
+                <li>Hasta 200 expedientes</li>
+                <li>Acceso a informes avanzados</li>
+                <li>Soporte prioritario</li>
+            </ul>
+            <a href="#" class="btn select-btn">Seleccionar</a>
+        </div>
+        <div class="card">
+            <h3>Wide</h3>
+            <p>Para grandes consultorios o clínicas.</p>
+            <ul>
+                <li>Expedientes ilimitados</li>
+                <li>Acceso completo a todas las funciones</li>
+                <li>Soporte premium</li>
+            </ul>
+            <a href="#" class="btn select-btn">Seleccionar</a>
+        </div>
+    </div>
+</section>
+<section class="values-section">
+    <div class="values-content">
+        <h2>Nuestros Valores</h2>
+        <p>En KIVO, nos guiamos por principios sólidos que reflejan nuestro compromiso con la calidad y la atención médica.</p>
+        <div class="values-grid">
+            <div class="value-item">
+                <h3>Innovación</h3>
+                <p>Buscamos constantemente nuevas soluciones tecnológicas para mejorar la gestión de expedientes médicos.</p>
+            </div>
+            <div class="value-item">
+                <h3>Seguridad</h3>
+                <p>La protección de los datos de nuestros usuarios es nuestra máxima prioridad. Implementamos los más altos estándares de seguridad.</p>
+            </div>
+            <div class="value-item">
+                <h3>Confianza</h3>
+                <p>Construimos relaciones basadas en la transparencia y la ética, generando confianza con nuestros usuarios.</p>
+            </div>
+            <div class="value-item">
+                <h3>Compromiso</h3>
+                <p>Estamos comprometidos a brindar un servicio excepcional y a responder a las necesidades de nuestros usuarios.</p>
+            </div>
 
-       <div>
-            <h1 class="titulo-citas">PROGRAMACIÓN<br> DE CITAS</h1>
-            <p class="subtitulo-citas">Simplifica el seguimiento de tus pacientes</p>
-       </div>
-    </section>
-    <!-- Sección 4 -->
-    <section id="section-4" class="section">
-        <img class="background-image" src="/KIVO_JPG/1 (2).jpg" alt="Imagen de fondo">
-        <img class="top-corner-image" src="/KIVO_JPG/ARRIBA2.jpg" alt="Imagen en la esquina superior">
-        <img class="robot-image" src="/KIVO_SVG/BOTCEL.svg" alt="Imagen del robot">
-    
-        <h1>COMUNICACIÓN <br> CONSTANTE Y EFECTIVA</h1>
-        <p>Comunicación personalizada y fluida</p> 
-    </section>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+       
+            </div>
+        </div>
+    </div>
+</footer>
 
-    
 </body>
-<script src="/js/index.js"></script>
 </html>
-
-
-  

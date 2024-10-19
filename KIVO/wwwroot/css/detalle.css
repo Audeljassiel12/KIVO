@@ -1,0 +1,18 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas con el mismo ancho */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas con el mismo alto */
+    margin-top: -50px; /* Espacio entre las imágenes */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
