@@ -3,106 +3,151 @@
     font-family: 'nunito';
 }
 
-.formulario{
-
+.main-form {
     margin-top: 120px;
 }
 
-.row {
+.option-body {
+    flex-direction: column;
+    display: flex;
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+}
+
+.trial-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    height: 100%; /* Asegúrate de que ocupe toda la altura disponible */
+    padding: 20px; /* Espaciado interno para mejorar la apariencia */
+}
+.option-card2{
+    background: linear-gradient(to bottom right, #CE4740,#2C2C6E,#2A8D96);    border-radius: 20px;
+    color: #ffffff;
+padding: 10px;
+height: 80px;
+
+}
+.trial-section img {
+  
+    width: 60%;
+    padding: 20px;
+    margin: 0; /* Elimina el margen izquierdo para centrar la imagen */
+}
+
+.option-title {
+    text-align: center; 
+    margin-bottom: -5px;/* Alinea el título al centro */
+}
+
+.options-container {
     display: flex;
     justify-content: space-between; /* Para separar las secciones */
     flex-wrap: wrap; /* Permite que se acomoden en múltiples líneas si el espacio es pequeño */
 }
 
-.kivosuite {
+.kivo-packages {
     flex: 1; /* Ocupa todo el espacio disponible si no hay restricciones */
     margin-right: 20px; /* Espacio entre las dos secciones */
 }
 
-.prueba {
-    flex: 0 0 40%; /* La sección de prueba ocupa el 30% del espacio */
+.trial-section {
+    flex: 0 0 40%; /* La sección de prueba ocupa el 40% del espacio */
     justify-content: center;
 }
 
 /* Para ajustar las tarjetas dentro de cada sección */
-.kivosuite .card, .prueba .card {
+.kivo-packages .option-card, .trial-section .option-card {
     width: 100%; /* Las tarjetas ocupan todo el ancho de su contenedor */
     margin-bottom: 20px; /* Espaciado inferior entre tarjetas */
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Coloca elementos en columna */
+    align-items: center; /* Centra elementos dentro de cada tarjeta */
+border: 2px solid ;
+border-color: #1313728e;    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno */
 }
 
 @media (max-width: 768px) {
-    .container {
+    .container-form {
         flex-direction: column; /* Cambia a diseño vertical en pantallas más pequeñas */
     }
 
-    .kivosuite, .prueba {
+    .kivo-packages, .trial-section {
         margin-right: 0; /* Elimina el margen lateral en pantallas pequeñas */
         flex: 1 1 100%; /* Ambas secciones ocupan todo el ancho */
     }
+
+    .kivo-packages .option-card {
+        flex: 0 0 100%; /* En pantallas pequeñas, todas las tarjetas ocuparán el 100% del ancho */
+    }
 }
+
 form {
     margin: 0 auto;
     width: 1100px;
     height: 20%;
     border: 2px solid; /* Ajusta el grosor del borde */
-    border-color:#2C2C6E;
+    border-color: #2C2C6E;
     border-radius: 20px !important; 
     padding: 50px;
-    margin-bottom:100px ;
+    margin-bottom: 100px;
 }
-.forma {
-    background-color: #cbd7d7b6;      /* Cambié el color de fondo a gris */
+
+.container-form {
+    background-color: #cbd7d73d; /* Cambié el color de fondo a gris */
     width: 100%;
-    height: 20%;                /* Ancho del div */
-    position: absolute;          /* Posición absoluta para ubicarlo */
-    top: 0;                      /* Alinea en la parte superior de la pantalla */
-    left: 50%;                   /* Alinea el centro del div en la mitad de la pantalla */
+    height: 20%; /* Ancho del div */
+    position: absolute; /* Posición absoluta para ubicarlo */
+    top: 0; /* Alinea en la parte superior de la pantalla */
+    left: 50%; /* Alinea el centro del div en la mitad de la pantalla */
     transform: translateX(-50%); /* Centra completamente el div en la pantalla */
-    display: flex;               /* Usamos flexbox para centrar el contenido */
-    justify-content: center;     /* Centra horizontalmente el contenido */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
     align-items: center; 
-    margin-bottom: 200px;       /* Centra verticalmente el contenido */
-
-border-radius: 0px 0px 100px 100px;
+    margin-bottom: 200px; /* Centra verticalmente el contenido */
+    border-radius: 0px 0px 100px 100px;
 }
 
-.imagen_robot {
-    display: flex;              /* Asegura que la imagen se muestre como bloque */
-    max-width: 100%;             /* Asegura que la imagen no exceda el tamaño del contenedor */
-  justify-content: center; 
-          /* Mantiene las proporciones de la imagen */
+.logo-image {
+    display: flex; /* Asegura que la imagen se muestre como bloque */
+    max-width: 100%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    justify-content: center; /* Mantiene las proporciones de la imagen */
 }
 
-
-.imagen_robot img {
- justify-content: center;
- margin: 0 auto;
-    width: 50%;                  /* Se mantiene igual */
-          /* Asegura que esté por encima de otros elementos */
+.logo-image img {
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%; /* Se mantiene igual */
+    /* Asegura que esté por encima de otros elementos */
 }
-.pasos {
+
+.step-indicator {
     background-color: #2C2C6E;
     transform: translateY(40%);
     width: 150px;
     display: flex;
     text-align: center;
     justify-content: center;
-    z-index: 1000;               /* Mantiene el div por encima de otros elementos */
+    z-index: 1000; /* Mantiene el div por encima de otros elementos */
     position: relative;  
     margin: 0 auto;    
-    color: #fff;    /* Establece la posición para que funcione el z-index */
+    color: #fff; /* Establece la posición para que funcione el z-index */
     font-size: 12px;
     border-radius: 25px;
-   
 }
-.pasos p{
+
+.step-indicator p {
     padding: 10px;
     margin: 0 auto;
     font-weight: 600;
 }
-.form-group{
-    margin-left:100px ;
+
+.form-group {
+    margin-left: 100px;
 }
+
 .form-control {
     border-radius: 8px; /* Se mantiene igual */
     border: 2px solid #2c2c6e4d;
@@ -110,84 +155,88 @@ border-radius: 0px 0px 100px 100px;
     margin-top: 5px;
     font-size: 12px; /* Se mantiene igual */
     height: 40px; 
-    width:  80%;
+    width: 80%;
 }
-.form-group label{
-   margin-bottom: -20px;
+
+.form-group label {
+    margin-bottom: -20px;
     font-size: 13px;
     color: #2c2c6ebd;
 }
-.form-group button{
+
+.form-group button {
     margin: 0 auto;
     margin-top: 15px;
     width: 250px;
-    padding: 10px;
-    border-radius: 10px;
 }
 
-#btnSiguiente{
+#btnSiguiente {
     border-radius: 30px;
-
     background-color: #2c2c6e;
     margin-top: 20px;
     margin-bottom: -15px;
     border: none;
-  width: 120px;
-  transform: translateY(40%);
-  transform: translateX(550%);
-transition: ease 0.8s;
+    width: 120px;
+    transform: translateY(40%);
+    transform: translateX(550%);
+    transition: ease 0.8s;
 }
 
-#btnSiguiente:hover{
-  
+#btnSiguiente:hover {
     background-color: #0c0c52;
-    
-
 }
-form input{
+
+form input {
     color: #2c2c6ec7;
-
 }
 
-
-
-form p{font-weight: 600;
+form p {
+    font-weight: 600;
     margin-top: -10px;
     color: #2c2c6ee8;
-display: flex;
-justify-content: center;
-text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-.kivosuite {
+
+.kivo-packages {
+    margin-left: 50px;
     display: flex;
     flex-wrap: wrap; /* Permitir que las tarjetas se ajusten en varias filas */
     justify-content: space-between; /* Asegura que haya espacio entre las tarjetas de la primera fila */
 }
 
-.kivosuite .col-md-6 {
+.kivo-packages .option-card {
     flex: 0 0 48%; /* Las dos primeras tarjetas (LITTLE y MIDDLE) ocupan el 48% del ancho */
     margin-bottom: 20px; /* Espacio inferior entre las tarjetas */
 }
 
-.kivosuite .col-md-6:nth-child(3) {
+.kivo-packages .option-card:nth-child(3) {
     flex: 0 0 40%; /* La tercera tarjeta (WIDE) ocupará el 40% del ancho */
     display: flex;
     justify-content: center; /* Centra la tarjeta WIDE horizontalmente */
     margin: 0 auto; /* Añadir margen automático para centrarla completamente */
 }
 
-.kivosuite .card {
-    width: 100%; /* Asegura que las tarjetas ocupen todo el ancho dentro de su contenedor */
-}
-
-@media (max-width: 768px) {
-    .kivosuite .col-md-6 {
-        flex: 0 0 100%; /* En pantallas pequeñas, todas las tarjetas ocuparán el 100% del ancho */
-    }
-}
-.form-check-label h5{
-    margin-left: 55px;
-   padding-bottom: 15px;
+.radio-option h5 {
+    margin-left: 0; /* Ajustado para centrar el título */
+    padding-bottom: 15px;
     display: flex;
     justify-content: center;
+}
+
+form button {
+    background-color: #0c0c52;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 500;
+    position: absolute; /* Establece la posición del botón como absoluta */
+    bottom: 5px; /* Ajusta el valor según necesites el espaciado desde la parte inferior */
+    right: 150px; /* Ajusta el valor según necesites el espaciado desde la derecha */
 }

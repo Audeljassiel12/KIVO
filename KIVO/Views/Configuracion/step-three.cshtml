@@ -4,99 +4,86 @@
 
 <link rel="stylesheet" href="/css/Configuracion/step-three.css">
 
-
-    <div class="forma">
-  
-     <div class="imagen_robot">
+<div class="container-form">
+    <div class="logo-image">
         <img src="/KIVO_SVG/LOGO_COLOR.svg" alt="">
     </div>
-      </div>
+</div>
 
+<section class="main-form">
+    <div class="step-indicator"><p>PASO 2 DE 3</p></div>
 
-<section class="formulario">
- <div class="pasos"><p>PASO 2 DE 3</p></div>
-
-<form asp-action="step-three" method="post">
-    <h2>Selecciona tu Plan</h2>
-    <div class="row">
- <section class="prueba">
-        <!-- Segunda tarjeta: Prueba gratuita de 14 días -->
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="plan" id="freeTrial" value="FreeTrial">
-                        <label class="form-check-label" for="freeTrial">
-                            <h5 class="card-title">Prueba gratuita de 14 días</h5>
-                        </label>
-                    </div>
-                    <p class="card-text">Comienza tu prueba gratuita de 14 días.</p>
-                </div>
-            </div>
-        </div>
-           </section>
-        <section class="kivosuite">
-        <!-- KIVO SITE -->
-           <!-- little-->
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="plan" id="nimboPro" value="NimboPro" checked>
-                        <label class="form-check-label" for="nimboPro">
-                            <h5 class="card-title">LITTLE</h5>
-                        </label>
-                    </div>
-                    <p class="card-text">
-                        <strong>Precio Original: </strong> $153.95 USD<br>
-                      
-                    </p>
+    <form asp-action="Pago" method="post">
+        <p class="selection-title">SELECCIONA TU PLAN</p>
+        <div class="options-container">
+            <section class="trial-section">
+                <!-- Segunda tarjeta: Prueba gratuita de 14 días -->
+                     <img src="/KIVO_SVG/CAJA_ROBOT.png" alt="">
+                <div class="option-card2">
                   
-                </div>
-            </div>
-        </div>
-            <!-- middle-->
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <div class="form-check">
-                                <input class="form-check-input" type="radio" name="plan" id="nimboPro" value="MIDDLE" checked>
-                        <label class="form-check-label" for="nimboPro">
-                            <h5 class="card-title">MIDDLE</h5>
-                        </label>
+                    <div class="option-body">
+                       
+                        <div class="radio-option2">
+                            <input type="radio" name="plan" id="freeTrial" value="FreeTrial">
+                            <label for="freeTrial">
+                                <h5 class="option-title">Prueba gratuita de 14 días</h5>
+                            </label>
+                        </div>
+                        <p class="option-description" style=" color: #ffffff; font-weight:400;font-size: 14px; margin-top: 5px">Comienza tu prueba gratuita.</p>
                     </div>
-                    <p class="card-text">
-                        <strong>Precio Original: </strong> $153.95 USD<br>
-                      
-                    </p>
-                  
                 </div>
-            </div>
+            </section>
+
+            <section class="kivo-packages">
+                <!-- KIVO SITE -->
+                <!-- Little -->
+                <div class="option-card">
+                    <div class="option-body">
+                        <div class="radio-option">
+                            <input type="radio" name="plan" id="littlePlan" value="Little" checked>
+                            <label for="littlePlan">
+                                <h5 class="option-title">LITTLE</h5>
+                            </label>
+                        </div>
+                        <p class="option-description">
+                          </strong> $7.00 USD<br>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Middle -->
+                <div class="option-card">
+                    <div class="option-body">
+                        <div class="radio-option">
+                            <input type="radio" name="plan" id="middlePlan" value="Middle">
+                            <label for="middlePlan">
+                                <h5 class="option-title">MIDDLE</h5>
+                            </label>
+                        </div>
+                        <p class="option-description">
+                            </strong> $18.00 USD<br>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Wide -->
+                <div class="option-card">
+                    <div class="option-body">
+                        <div class="radio-option">
+                            <input type="radio" name="plan" id="widePlan" value="Wide">
+                            <label for="widePlan">
+                                <h5 class="option-title">WIDE</h5>
+                            </label>
+                        </div>
+                        <p class="option-description">
+                            </strong> $38.00 USD<br>
+                        </p>
+                    </div>
+                </div>
+            </section>
         </div>
 
-    <!-- wide-->
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="plan" id="nimboPro" value="NimboPro" checked>
-                        <label class="form-check-label" for="nimboPro">
-                            <h5 class="card-title">WIDE</h5>
-                        </label>
-                    </div>
-                    <p class="card-text">
-                        <strong>Precio Original: </strong> $153.95 USD<br>
-                      
-                    </p>
-                </div>
-            </div>
-        </div>
-        </section>
- 
-       
-    </div>
-
-    <!-- Botón de envío del formulario -->
-    <button type="submit" class="btn btn-success mt-3">Continuar</button>
-</form>
+        <!-- Botón de envío del formulario -->
+        <button type="submit">Continuar</button>
+    </form>
 </section>
