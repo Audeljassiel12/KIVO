@@ -14,13 +14,12 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="logo.png" alt="Logo">
+                <img src="/KIVO_SVG/LOGO_VAR1_BLANCO.svg" alt="Logo">
             </div>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="Nosotros">Nosotros</a></li>
-                <li><a href="#">Contáctanos</a></li>
-                <li><a href="#">Iniciar sesión</a></li>
+                <li><a href="Index">Inicio</a></li>
+                <li><a asp-controller="Home" asp-action="Nosotros">Nosotros</a></li>
+                <li  class="iniciar"><a asp-controller="Account" asp-action="Login">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -29,15 +28,15 @@
 <section class="intro-section">
     <div class="intro-content">
         <div class="intro-text">
-            <h1>KIVO - Gestiona los expedientes médicos de manera eficiente</h1>
+            <h1 style="font-size: 60px;margin-bottom: -10px;">KIVO</h1> <br>  <h2>Gestiona los expedientes médicos de manera eficiente</h2>
             <p>Con KIVO, los médicos privados pueden organizar, almacenar y acceder a los expedientes de sus pacientes de forma segura y rápida. Mejora la eficiencia en tu práctica médica con nuestra herramienta integral.</p>
             <div class="cta-buttons">
-                <a href="#" class="btn register-btn">Registrarse</a>
-                <a href="#" class="btn learn-more-btn">Conoce más</a>
+                <a asp-action="Registrarse" asp-controller="Account"class="btn register-btn">Registrarse</a>
+                <a asp-action="Nosotros" asp-controller="Home"class="btn learn-more-btn">Conoce más</a>
             </div>
         </div>
         <div class="intro-image">
-            <img src="/KIVO_SVG/COLOR_LOGO.svg" alt="KIVO App Image">
+             <img src="/KIVO_SVG/ROBOT FELIZ_COLOR.svg" >
         </div>
     </div>
 </section>
@@ -98,32 +97,14 @@
                 <h3>Compromiso</h3>
                 <p>Estamos comprometidos a brindar un servicio excepcional y a responder a las necesidades de nuestros usuarios.</p>
             </div>
-            <div class="value-item">
-                <h3>Colaboración</h3>
-                <p>Fomentamos un ambiente de trabajo colaborativo, donde todos contribuyen al éxito de nuestra misión.</p>
-            </div>
+
         </div>
     </div>
 </section>
 <footer class="footer">
     <div class="footer-content">
-        <div class="footer-links">
-            <h3>Enlaces Útiles</h3>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Quiénes Somos</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="registro.html">Registro</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <div class="footer-contact">
-            <h3>Contacto</h3>
-            <p>Email: <a href="mailto:info@kivo.com">info@kivo.com</a></p>
-            <p>Teléfono: <a href="tel:+123456789">+1 234 567 89</a></p>
-        </div>
-        <div class="footer-rights">
-            <p>&copy; 2024 KIVO. Todos los derechos reservados.</p>
+       
+            </div>
         </div>
     </div>
 </footer>

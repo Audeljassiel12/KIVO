@@ -2,7 +2,9 @@
 * {
     font-family: 'nunito';
     margin: 0;
+    color: #2C2C6E;
     padding: 0;
+ 
     box-sizing: border-box;
     * {
         margin: 0;
@@ -12,12 +14,12 @@
     
     body {
         font-family: 'Arial', sans-serif;
+        color: #2C2C6E;
     }
     
     header {
         width: 100%;
-        background-color: #333;
-    }
+        background: linear-gradient(to right, #CE4740,#2C2C6E,#2A8D96);    }
     
     .navbar {
         display: flex;
@@ -27,6 +29,7 @@
     }
     
     .logo img {
+        margin-left: 50px;
         width: 120px;
         height: auto;
     }
@@ -44,12 +47,15 @@
     .nav-links a {
         text-decoration: none;
         color: white;
+        font-weight: 600;
         font-size: 16px;
-        transition: color 0.3s ease;
+        transition: color 1s ease;
     }
     
     .nav-links a:hover {
-        color: #f4b400;
+        border: 2px solid #ffffff;
+        padding: 5px;
+        border-radius: 10px;
     }
     
     /* Responsive Design */
@@ -78,20 +84,23 @@
     margin: 0 auto;
 }
 
+
 .intro-text {
     max-width: 600px;
 }
 
 .intro-text h1 {
     font-size: 36px;
-    color: #333;
+    color: #2C2C6E;
     margin-bottom: 20px;
 }
 
 .intro-text p {
     font-size: 18px;
     margin-bottom: 30px;
-    color: #555;
+    color:   #2C2C6E;
+      border-radius: 20px;
+;
 }
 
 .cta-buttons {
@@ -109,13 +118,21 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+.intro-section{
+    background-color: #ffffff !important;
+}
 .register-btn {
-    background-color: #007bff;
+    background-color: #2C2C6E;
+    border-radius: 20px;
 }
 
 .learn-more-btn {
-    background-color: #28a745;
+    border: 2px solid;
+    border-color: #2C2C6E;
+    border-radius: 20px;
+    color: #2C2C6E;
+    font-weight: 800;
+
 }
 
 .btn:hover {
@@ -142,7 +159,7 @@
 
 /* Estilo de la sección de valores */
 .values-section {
-    background-color: #f3f4f6; /* Color de fondo suave */
+  
     padding: 60px 20px; /* Espaciado */
     text-align: center; /* Centrar texto */
 }
@@ -155,7 +172,7 @@
 .values-content p {
     font-size: 18px; /* Tamaño del texto */
     margin-bottom: 40px; /* Espaciado inferior */
-    color: #555; /* Color del texto */
+
 }
 
 .values-grid {
@@ -197,6 +214,13 @@
     text-align: center; /* Centrar texto */
     border-top: 1px solid #ddd; /* Línea superior */
 }
+/* Estilo del footer */
+.footer {
+    background-color: #0c0149; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    padding: 40px 20px; /* Espaciado */
+    text-align: center; /* Centrar texto */
+}
 
 .footer-content {
     display: flex; /* Flexbox para la distribución */
@@ -215,6 +239,7 @@
 .footer-links h3, .footer-contact h3 {
     font-size: 18px; /* Tamaño de los títulos */
     margin-bottom: 10px; /* Espaciado inferior */
+    color: #ffffff; /* Color de los títulos en blanco */
 }
 
 .footer-links ul {
@@ -226,19 +251,35 @@
     margin-bottom: 5px; /* Espaciado entre enlaces */
 }
 
-.footer-links a {
-    color: #007BFF; /* Color de enlaces */
+.footer-links a, .footer-contact a {
+    color: #ffffff; /* Color de enlaces en blanco */
     text-decoration: none; /* Sin subrayado */
 }
 
-.footer-links a:hover {
+.footer-links a:hover, .footer-contact a:hover {
+    color: #f4f4f4; /* Color más claro al pasar el ratón */
     text-decoration: underline; /* Subrayar al pasar el ratón */
 }
 
 .footer-rights {
     margin-top: 20px; /* Espaciado superior */
     font-size: 14px; /* Tamaño de texto */
+    color: #ffffff; /* Asegurar que el texto sea blanco */
 }
+
+.social-icons {
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espaciado entre iconos */
+}
+
+.social-icons img {
+    width: 24px; /* Ancho de los iconos */
+    height: 24px; /* Alto de los iconos */
+}
+
 
 .services-section {
     background-color: #f4f4f4;
@@ -250,7 +291,21 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.nav-links .iniciar{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 1s ease-in;
+}
 
+.nav-links .iniciar:hover{
+    border: none;
+    background-color: #5b5b85;
+    padding: 5px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
 .services-section h2 {
     font-size: 32px;
     color: #333;
@@ -309,4 +364,152 @@
     .services-grid {
         grid-template-columns: 1fr;
     }
+}
+:root {
+    --color-fondo: #e9f5ff; /* Color de fondo suave */
+    --color-texto: #2c3e50; /* Color de texto oscuro */
+    --color-texto-suave: #34495e; /* Color de texto suave */
+    --color-principal: #3498db; /* Color principal (azul) */
+    --color-secundario: #2ecc71; /* Color secundario (verde) */
+}
+
+.products-section {
+    background-color: #ce474000;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.products-section h2 {
+    font-size: 32px;
+    color: var(--color-texto);
+    margin-bottom: 20px;
+}
+
+.products-section p {
+    font-size: 18px;
+    color:  linear-gradient(to right, #CE4740,#2C2C6E,#2A8D96); 
+    margin-bottom: 40px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #a6dadf4d;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 300px; /* Ancho fijo */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+}
+
+.card h3 {
+    font-size: 24px;
+    color: var(--color-texto);
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: var(--color-texto-suave);
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card li {
+    font-size: 14px;
+    color: var(--color-texto-suave);
+    margin-bottom: 5px;
+}
+
+.select-btn {
+    background-color:#2A8D96;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.select-btn:hover {
+    background-color: var(--color-secundario);
+}
+
+.values-section {
+    background-color: var(--color-fondo);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.values-content h2 {
+    font-size: 32px;
+    color: var(--color-texto);
+    margin-bottom: 20px;
+}
+
+.values-content p {
+    font-size: 18px;
+    color: var(--color-texto-suave);
+    margin-bottom: 40px;
+}
+
+.values-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.value-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 250px; /* Ancho fijo para los valores */
+}
+
+.value-item:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+}
+
+.value-item h3 {
+    font-size: 24px;
+    color: var(--color-texto);
+    margin-bottom: 10px;
+}
+
+.value-item p {
+    font-size: 16px;
+    color: var(--color-texto-suave);
+}
+.intro-image {
+    max-width: 100%; /* Asegura que no exceda el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    text-align: center; /* Centra la imagen en su contenedor */
+    background-color: #d4d1d048;
+    padding: 50px;
+    border-radius: 200px 80px 200px 80px;
+}
+
+.intro-image img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    margin-right: 200px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 400px; /* Limita la altura máxima de la imagen */
+    border-radius: 10px; /* Bordes redondeados para un estilo moderno */
 }
