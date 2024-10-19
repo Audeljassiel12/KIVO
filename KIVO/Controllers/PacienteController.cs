@@ -129,7 +129,12 @@ namespace KIVO.Controllers
             }
            
         }
+             public IActionResult detalle() 
+        {
+            return View();
+        }
     }
+    
 
 
 }
