@@ -8,25 +8,30 @@
      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
    
     <link rel="stylesheet" href="/css/NuevoPasiente.css">
+    <link rel="stylesheet" href="~/css/layout/layout.css">
 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/pasiente/Index" class="nav-link">Pacientes</a></li>
-            <li><a href="/agenda/semanal" class="nav-link">Calendario</a></li>
-            <li><a href="/cargos/reporte" class="nav-link">Cargos</a></li>
-            <li><a href="/productos" class="nav-link">Productos</a></li>
-            <li><a href="/reportes/tablero" class="nav-link">Reportes</a></li>
-            <li><a href="/sala-espera-telemedicina" class="nav-link">Sala de espera de telemedicina</a></li>
-            <li><a href="/cuentas/editar" class="nav-link">Editar cuenta</a></li>
-            <li><a href="/ayuda" class="nav-link">Ayuda</a></li>
-            <li><a href="/cerrar-sesion" class="nav-link">Cerrar sesión</a></li>
+    <div class="grid-container">
+    <nav class="nav">
+        <div class="img">
+        <img src="/KIVO_JPG/kivopng.png" alt="" class="img-kivo">
+            </div>
+        <ul class="menu">
+            <li><a href="/pasiente/Index" class=""> <img src="/KIVO_SVG/chatbubbles-outline.svg" alt=""></a></li>
+            <li><a href="/agenda/semanal" class=""><img src="/KIVO_SVG/people-outline.svg" alt="Alternate Text" /></a></li>
+            <li><a href="/cargos/reporte" class=""><img src="/KIVO_SVG/group.svg" alt="Alternate Text" /></a></li>
+            
+            <li><a href="/reportes/tablero" class=""><img src="/KIVO_SVG/calendar-outline.svg" alt="Alternate Text" /></a></li>
+            <li><a href="/sala-espera-telemedicina" class=""><img src="/KIVO_SVG/Vector.svg" alt="Alternate Text" /></a></li>
+  
         </ul>
     </nav>
 
     <div class="container" id="container">
         @RenderBody();
+    </div>
+
     </div>
      <script src="~/lib/jquery/dist/jquery.min.js"></script>
     @RenderSection("Script",false);

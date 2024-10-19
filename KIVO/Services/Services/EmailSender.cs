@@ -23,7 +23,7 @@
 
             using (var client = new SmtpClient(_smtpSettings.Server, _smtpSettings.Port))
             {
-                client.EnableSsl = true; // Asegúrate de habilitar SSL/TLS
+                client.EnableSsl = true; // habilito el SSL/TLS
                 client.Credentials = new NetworkCredential(_smtpSettings.Username, _smtpSettings.Password);
 
                 // Configura el mensaje de correo

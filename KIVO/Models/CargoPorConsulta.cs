@@ -14,6 +14,7 @@ namespace KIVO.Models
     public Cita? Cita { get; set; }  // Relación con la consulta en la que se generan los cargos
 
     // Detalles de los cargos
+
     public decimal Descuento { get; set; }
 
     // Campos calculados

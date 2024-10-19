@@ -1,4 +1,6 @@
-﻿@{
+﻿@model KIVO.Models.Dto.PagosDto
+@{
+   
     Layout = null; 
 }
 <!DOCTYPE html>
@@ -35,7 +37,7 @@
                     <li class="list-group-item d-flex justify-content-between lh-condensed">
                         <div>
                             <h6 class="my-0">Plan</h6>
-                            <small class="text-muted">Nimbo Chat PRO, Agenda PRO, Clinical PRO, ERP, Marketing Suite PRO</small>
+                            <small class="text-muted">@Model.NombrePlan</small>
                         </div>
                     </li>
                     <li class="list-group-item d-flex justify-content-between lh-condensed">
@@ -47,19 +49,19 @@
                     <li class="list-group-item d-flex justify-content-between lh-condensed">
                         <div>
                             <h6 class="my-0">Número de Usuarios</h6>
-                            <input type="number" class="form-control" id="userCount" name="userCount" value="5" min="1" required>
+                            <input type="number" class="form-control" id="userCount" name="userCount" value="@Model.CantidadUsuarios" min="1" required>
                         </div>
                     </li>
                     <li class="list-group-item d-flex justify-content-between lh-condensed">
                         <div>
                             <h6 class="my-0">Precio Original</h6>
-                            <small class="text-muted" id="originalPrice">$500.00 USD</small>
+                            <small class="text-muted" id="originalPrice">$35USD</small>
                         </div>
                     </li>
                     <li class="list-group-item d-flex justify-content-between lh-condensed">
                         <div>
                             <h6 class="my-0">Descuento</h6>
-                            <small class="text-muted">94%</small>
+                            <small class="text-muted">50%</small>
                         </div>
                         <strong class="text-danger" id="discountAmount">-$468.00</strong>
                     </li>
@@ -72,14 +74,14 @@
             </div>
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
     <script>
         // Variables de precio
-        const firstUserPrice = 100.00; // Precio del primer usuario
-        const additionalUserPrice = 80.00; // Precio por cada usuario adicional
-        const discountPercentage = 0.94; // 94% de descuento
+        const firstUserPrice = 10; // Precio del primer usuario
+        const additionalUserPrice = (@Model.CostoPlan-firstUserPrice) / (@Model.CantidadUsuarios-1) // Precio por cada usuario adicional
+        const discountPercentage = 0.50; // 50% de descuento
 
         // Elementos del DOM
         const userCountInput = document.getElementById('userCount');

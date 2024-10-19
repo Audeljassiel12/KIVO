@@ -1,8 +1,238 @@
-﻿@model KIVO.Models.Paciente; 
-@{
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial Médico</title>
+    <style>
+        .section {
+            margin-bottom: 10px;
+        }
 
-    ViewData["Title"] = "Detalles-pasientes";
-}
+        .section-content {
+            display: none;
+            margin-left: 20px;
+        }
 
+        .section-header {
+            cursor: pointer;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-<h2>@Model.Email</h2>
+        .input-search {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        .toggle-icon {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .options {
+            margin-left: 20px;
+        }
+
+            .options label {
+                margin-right: 10px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Historial Médico</h1>
+
+    <!-- Sección de Alergias -->
+    <div class="section">
+        <div class="section-header" onclick="toggleSection('alergiasSection')">
+            Alergias <span id="toggle-alergiasSection" class="toggle-icon">+</span>
+        </div>
+        <div id="alergiasSection" class="section-content">
+            <p>El paciente no tiene alergias conocidas.</p>
+            <input type="text" class="input-search" placeholder="Buscar alergia...">
+            <p>Otras alergias:</p>
+            <textarea rows="4" cols="50"></textarea>
+        </div>
+    </div>
+
+    <!-- Sección de Antecedentes Patológicos -->
+    <div class="section">
+        <div class="section-header" onclick="toggleSection('antecedentesPatologicos')">
+            Antecedentes Patológicos <span id="toggle-antecedentesPatologicos" class="toggle-icon">+</span>
+        </div>
+        <div id="antecedentesPatologicos" class="section-content">
+            <button onclick="noATodo()">No a todo</button>
+            <br><br>
+            <div class="options">
+                <label>Hospitalización Previa:</label>
+                <label><input type="radio" name="hospitalizacion" value="si"> Sí</label>
+                <label><input type="radio" name="hospitalizacion" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Cirugías Previas:</label>
+                <label><input type="radio" name="cirugias" value="si"> Sí</label>
+                <label><input type="radio" name="cirugias" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Diabetes:</label>
+                <label><input type="radio" name="diabetes" value="si"> Sí</label>
+                <label><input type="radio" name="diabetes" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Enfermedades Tiroideas:</label>
+                <label><input type="radio" name="tiroideas" value="si"> Sí</label>
+                <label><input type="radio" name="tiroideas" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Hipertensión Arterial:</label>
+                <label><input type="radio" name="hipertension" value="si"> Sí</label>
+                <label><input type="radio" name="hipertension" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Cardiopatías:</label>
+                <label><input type="radio" name="cardiopatias" value="si"> Sí</label>
+                <label><input type="radio" name="cardiopatias" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Traumatismos:</label>
+                <label><input type="radio" name="traumatismos" value="si"> Sí</label>
+                <label><input type="radio" name="traumatismos" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Cáncer:</label>
+                <label><input type="radio" name="cancer" value="si"> Sí</label>
+                <label><input type="radio" name="cancer" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Tuberculosis:</label>
+                <label><input type="radio" name="tuberculosis" value="si"> Sí</label>
+                <label><input type="radio" name="tuberculosis" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Transfusiones:</label>
+                <label><input type="radio" name="transfusiones" value="si"> Sí</label>
+                <label><input type="radio" name="transfusiones" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Patologías Respiratorias:</label>
+                <label><input type="radio" name="respiratorias" value="si"> Sí</label>
+                <label><input type="radio" name="respiratorias" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Patologías Gastrointestinales:</label>
+                <label><input type="radio" name="gastrointestinales" value="si"> Sí</label>
+                <label><input type="radio" name="gastrointestinales" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Enfermedades de Transmisión Sexual:</label>
+                <label><input type="radio" name="ets" value="si"> Sí</label>
+                <label><input type="radio" name="ets" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Enfermedad Renal Crónica:</label>
+                <label><input type="radio" name="renal" value="si"> Sí</label>
+                <label><input type="radio" name="renal" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Otros:</label>
+                <label><input type="radio" name="otros" value="si"> Sí</label>
+                <label><input type="radio" name="otros" value="no"> No</label>
+            </div>
+            <br><br>
+            <button onclick="guardarAntecedentes()">Guardar</button>
+        </div>
+    </div>
+
+    <!-- Sección de Antecedentes Heredofamiliares -->
+    <div class="section">
+        <div class="section-header" onclick="toggleSection('antecedentesHeredofamiliares')">
+            Antecedentes Heredofamiliares <span id="toggle-antecedentesHeredofamiliares" class="toggle-icon">+</span>
+        </div>
+        <div id="antecedentesHeredofamiliares" class="section-content">
+            <button onclick="noATodoHeredofamiliares()">No a todo</button>
+            <br><br>
+            <div class="options">
+                <label>Diabetes:</label>
+                <label><input type="radio" name="diabetesHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="diabetesHeredo" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Cardiopatías:</label>
+                <label><input type="radio" name="cardiopatiasHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="cardiopatiasHeredo" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Hipertensión Arterial:</label>
+                <label><input type="radio" name="hipertensionHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="hipertensionHeredo" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Enfermedades Tiroideas:</label>
+                <label><input type="radio" name="tiroideasHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="tiroideasHeredo" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Cáncer:</label>
+                <label><input type="radio" name="cancerHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="cancerHeredo" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Enfermedades de Transmisión Sexual:</label>
+                <label><input type="radio" name="etsHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="etsHeredo" value="no"> No</label>
+            </div>
+            <div class="options">
+                <label>Otros:</label>
+                <label><input type="radio" name="otrosHeredo" value="si"> Sí</label>
+                <label><input type="radio" name="otrosHeredo" value="no"> No</label>
+            </div>
+            <br><br>
+            <button onclick="guardarAntecedentesHeredofamiliares()">Guardar</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const toggleIcon = document.getElementById(`toggle-${sectionId}`);
+
+            if (section.style.display === "none" || section.style.display === "") {
+                section.style.display = "block";
+                toggleIcon.textContent = "-";
+            } else {
+                section.style.display = "none";
+                toggleIcon.textContent = "+";
+            }
+        }
+
+        function noATodo() {
+            // Lógica para "No a todo" en antecedentes patológicos
+            document.querySelectorAll('input[type="radio"][name="hospitalizacion"], input[type="radio"][name="cirugias"], input[type="radio"][name="diabetes"], input[type="radio"][name="tiroideas"], input[type="radio"][name="hipertension"], input[type="radio"][name="cardiopatias"], input[type="radio"][name="traumatismos"], input[type="radio"][name="cancer"], input[type="radio"][name="tuberculosis"], input[type="radio"][name="transfusiones"], input[type="radio"][name="respiratorias"], input[type="radio"][name="gastrointestinales"], input[type="radio"][name="ets"], input[type="radio"][name="renal"], input[type="radio"][name="otros"]').forEach((radio) => {
+                radio.checked = false;
+            });
+        }
+
+        function noATodoHeredofamiliares() {
+            // Lógica para "No a todo" en antecedentes heredofamiliares
+            document.querySelectorAll('input[type="radio"][name="diabetesHeredo"], input[type="radio"][name="cardiopatiasHeredo"], input[type="radio"][name="hipertensionHeredo"], input[type="radio"][name="tiroideasHeredo"], input[type="radio"][name="cancerHeredo"], input[type="radio"][name="etsHeredo"], input[type="radio"][name="otrosHeredo"]').forEach((radio) => {
+                radio.checked = false;
+            });
+        }
+
+        function guardarAntecedentes() {
+            // Lógica para guardar antecedentes patológicos
+            alert("Antecedentes Patológicos guardados.");
+        }
+
+        function guardarAntecedentesHeredofamiliares() {
+            // Lógica para guardar antecedentes heredofamiliares
+            alert("Antecedentes Heredofamiliares guardados.");
+        }
+    </script>
+</body>
+</html>

@@ -17,5 +17,6 @@ namespace KIVO.Models
         public bool HaConfiguradoOrganizacion 
             { get; set; }
         public bool SelecionoPlan { get; set; }
+        public bool TwoFactorEnabled { get; set; }
     }
 }

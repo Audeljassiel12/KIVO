@@ -146,10 +146,10 @@ namespace KIVO.Controllers
         public async Task<IActionResult> PlanSelect(string plan)
         {
             // Verifica cuál plan ha seleccionado el usuario
-            if (plan == "NimboPro")
+            if (plan == "MIDDLE")
             {
                 // Si seleccionó el plan de pago, redirige a la página de pago
-                return RedirectToAction("Pago");
+                return RedirectToAction("Pago",new PagosDto { CantidadUsuarios=7, NombrePlan = "7 usarios, chat interno facturacion",CostoPlan=35});
             }
             else if (plan == "FreeTrial")
             {
@@ -161,9 +161,9 @@ namespace KIVO.Controllers
             return RedirectToAction("PlanSelect");
         }
 
-        public IActionResult Pago()
+        public IActionResult Pago(PagosDto pagosDto)
         {
-            return View();
+            return View(pagosDto);
         }
        
         [HttpPost("CrearSesionPago")]

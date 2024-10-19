@@ -33,3 +33,13 @@
     justify-content: center;
     margin-top: 20px;
 }
+
+.card-header {
+    background-color: #2A8E96 !important;
+    color:white;
+}
+
+
+a:hover img{
+    fill:red;
+}

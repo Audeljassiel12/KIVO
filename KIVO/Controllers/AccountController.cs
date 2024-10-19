@@ -26,10 +26,10 @@ namespace KIVO.Controllers
         private readonly AccountServices accountServices;
         private readonly SignInManager<User> signInManager;
         private readonly IMessageSender messageSender;
-
+        private readonly IEmailSender emailSender;
         private readonly UserManager<User> _userManager;
 
-        public Account(ILogger<Account> logger, UserManager<User> userManager, AccountServices accountServices, SignInManager<User> signInManager, IMessageSender messageSender)
+        public Account(ILogger<Account> logger, UserManager<User> userManager, AccountServices accountServices, SignInManager<User> signInManager, IMessageSender messageSender,IEmailSender emailSender)
         {
 
 
@@ -37,7 +37,7 @@ namespace KIVO.Controllers
             this.accountServices = accountServices;
             this.signInManager = signInManager;
             this.messageSender = messageSender;
-
+            this.emailSender = emailSender;
             this._userManager = userManager;
         }
 
@@ -287,15 +287,121 @@ namespace KIVO.Controllers
 
 
 
-      
 
-        public IActionResult Full()
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
         {
-            return new JsonResult(new { nombre = "Hola" });
+            return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if(user is null)
+                {
+                    return View("Error");
+                }
+
+                // Generar el token de restablecimiento de contraseña
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                var callbackUrl = Url.Action("ConfirmEmail", "Account",
+       new { userId = user.Id, token = token }, protocol: Request.Scheme);
+
+                // Enviar el correo con el enlace para restablecer la contraseña
+                await emailSender.SendEmailAsync(model.Email, "Restablecer contraseña",
+                    $"Por favor restablezca su contraseña haciendo <a href='{callbackUrl}'>clic aquí</a>.");
+
+                return RedirectToAction("ForgotPasswordConfirmation");
+            }
+            return View(model);
+        }
+
+        // Acción de confirmación después de enviar el correo de restablecimiento
+        public IActionResult ForgotPasswordConfirmation()
+        {
+            return View();
+        }
+
+        // Acción para mostrar el formulario de restablecimiento de contraseña
+        [HttpGet]
+        public IActionResult ResetPassword(string token = null)
+        {
+            if (token == null)
+            {
+                return BadRequest("El token es inválido.");
+            }
+            var model = new ResetPasswordViewModel { Token = token };
+            return View(model);
+        }
+
+        // Acción para procesar el restablecimiento de la contraseña
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                // No revelar si el usuario no existe
+                return RedirectToAction("ResetPasswordConfirmation");
+            }
+
+            var result = await _userManager.ResetPasswordAsync(user, model.Token, model.Password);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("ResetPasswordConfirmation");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return View(model);
+        }
+
+        // Confirmación después de restablecer la contraseña
+        public IActionResult ResetPasswordConfirmation()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<ActionResult> Activate2FA(bool twoFactor)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null) return View("Error");
+            var user = await _userManager.FindByIdAsync(userId);
+
+            user.TwoFactorEnabled = twoFactor;
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Paciente", "Index");
+            }
+
+            return View("Error");
+        }
+        [HttpGet]
+        public async Task< IActionResult>  Activate2FA()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null) return View("Error");
+            var user = await _userManager.FindByIdAsync(userId);
+            return View(user);
+        }
+
 
         public IActionResult Error()
         {
+           
             return View();
         }
     }

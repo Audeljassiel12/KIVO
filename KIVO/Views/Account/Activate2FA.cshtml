@@ -1,0 +1,7 @@
+﻿@model KIVO.Models.User
+
+<form asp-action="Activate2FA" method="post">
+    <label for="twoFactor">¿Deseas activar la verificación de dos factores?</label>
+    <input type="checkbox" id="twoFactor" name="twoFactor" @(Model.TwoFactorEnabled ? "checked" : "") />
+    <button type="submit">Actualizar</button>
+</form>
