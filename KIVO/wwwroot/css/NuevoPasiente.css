@@ -43,3 +43,6 @@
 a:hover img{
     fill:red;
 }
+.card{
+    border-radius: 500px;
+}
