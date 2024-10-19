@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas de Consulta</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #ced4da;
+            padding: 10px;
+            font-size: 14px;
+            resize: none; /* Deshabilitar el cambio de tamaño */
+        }
+
+        /* Estilo del contenedor principal */
+        .header-pasiente {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 5px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+
+        .form-group input, .form-group textarea, .form-group button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group button {
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+        }
+
+            .form-group button:hover {
+                background-color: #218838;
+            }
+
+        .plantillas {
+            margin-top: 30px;
+        }
+
+        .plantilla-item {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+            .plantilla-item h3 {
+                margin: 0 0 10px;
+            }
+
+            .plantilla-item p {
+                margin: 0;
+            }
+
+        /* Estilo de los datos del paciente */
+        .datos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 0.85em;
+        }
+
+        .imagen-paciente {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 2px;
+        }
+
+        .nombre {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .tipocita, .fechaCita, .edad, .otro, .email {
+            font-size: 0.8em;
+            color: #666;
+            margin: 1px 0;
+        }
+
+        .editar {
+            cursor: pointer;
+            margin-top: 2px;
+            display: flex;
+            align-items: center;
+        }
+
+            .editar svg {
+                width: 18px;
+                height: 18px;
+                fill: #007bff;
+                transition: transform 0.3s;
+            }
+
+                .editar svg:hover {
+                    transform: scale(1.1);
+                }
+
+        /* Estilo de opciones */
+        .masopciones {
+            display: flex;
+            align-items: end;
+            justify-content: end;
+        }
+
+        .diagnostico-tratamiento, .laboratorio-imagenologia {
+            margin: 20px 0; /* Espaciado superior e inferior */
+            padding: 15px; /* Relleno interno */
+            border: 1px solid #dee2e6; /* Borde */
+            border-radius: 5px; /* Esquinas redondeadas */
+            background-color: #f8f9fa; /* Color de fondo */
+        }
+
+            .diagnostico-tratamiento h2, .laboratorio-imagenologia h2 {
+                margin-bottom: 15px; /* Espaciado inferior del encabezado */
+            }
+
+        label {
+            font-weight: bold; /* Texto en negrita */
+            margin-top: 10px; /* Espaciado superior de las etiquetas */
+            display: block; /* Hacer que las etiquetas ocupen toda la línea */
+        }
+
+        textarea {
+            width: 100%; /* Ancho completo */
+            border-radius: 4px; /* Esquinas redondeadas */
+            border: 1px solid #ced4da; /* Borde */
+            padding: 10px; /* Relleno interno */
+            font-size: 14px; /* Tamaño de fuente */
+            resize: vertical; /* Permitir cambiar el tamaño solo verticalmente */
+        }
+
+            /* Estilos para el área de texto en el foco */
+            textarea:focus {
+                border-color: #80bdff; /* Color del borde en foco */
+                outline: none; /* Quitar el contorno predeterminado */
+                box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Sombra de foco */
+            }
+
+        textarea {
+            width: 100%; /* Ancho completo */
+            border-radius: 4px; /* Esquinas redondeadas */
+            border: 1px solid #ced4da; /* Borde */
+            padding: 10px; /* Relleno interno */
+            font-size: 14px; /* Tamaño de fuente */
+            resize: none; /* Deshabilitar el cambio de tamaño */
+            overflow: hidden; /* Ocultar desbordamiento */
+            box-sizing: border-box; /* Incluir padding y border en el ancho */
+        }
+
+        .TerminarConsulta {
+            background-color: #007bff;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: background-color 0.3s;
+            margin-left: 400px;
+        }
+
+        .configuracion {
+            font-size: 20px;
+        }
+
+            .configuracion:hover, .TerminarConsulta:hover {
+                background-color: #979da3;
+            }
+
+        /* Estilo del menú de navegación */
+        .menu-navegacion {
+            margin-top: 5px;
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            grid-column: 1/-1;
+        }
+
+            .menu-navegacion li {
+                margin-right: 10px;
+                margin-bottom: 5px;
+            }
+
+            .menu-navegacion a {
+                text-decoration: none;
+                color: white;
+                background-color: #007bff;
+                padding: 6px 12px;
+                border-radius: 5px;
+                transition: background-color 0.3s, color 0.3s;
+                font-size: 0.75em;
+            }
+
+                .menu-navegacion a:hover {
+                    background-color: #0056b3;
+                    color: #ffffff;
+                }
+
+        /* Estilos para signos vitales */
+        .section {
+            margin-top: 10px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            font-size: 0.85em;
+            width: 30%;
+        }
+
+            .section h2 {
+                margin-bottom: 10px;
+                font-size: 1.1em;
+                color: #007bff;
+            }
+
+            .section label {
+                display: block;
+                margin: 5px 0 3px;
+                font-weight: bold;
+                color: #333;
+            }
+
+            .section input {
+                width: calc(100% - 10px);
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 0.85em;
+            }
+
+            .section .guardar {
+                background-color: #28a745;
+                color: white;
+                padding: 6px 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                font-size: 0.85em;
+            }
+
+                .section .guardar:hover {
+                    background-color: #218838;
+                }
+
+        /* Estilos para las secciones adicionales */
+        .notas-consulta, .cargos {
+            margin-top: 20px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .notas-consulta h2, .cargos h2 {
+                margin-bottom: 10px;
+                font-size: 1.1em;
+                color: #007bff;
+            }
+
+            .notas-consulta textarea {
+                width: calc(100% - 10px);
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 0.85em;
+                margin-bottom: 10px;
+            }
+
+            .cargos input {
+                width: auto;
+                margin-right: 10px;
+                display: inline-block;
+                padding: 6px;
+                font-size: 0.85em;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .cargos .total {
+                font-weight: bold;
+                font-size: 1em;
+                margin-top: 10px;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="header-pasiente">
+        <div class="datos paciente">
+            <div class="imagen-paciente">
+                <img src="/KIVO_SVG/hombre.svg" alt="Foto" class="img-fluid rounded-circle" id="foto-perfil">
+            </div>
+            <div class="nombre">Nombre del Paciente</div>
+            <div class="tipocita">Tipo de Cita</div>
+            <div class="fechaCita">Fecha de Cita</div>
+            <div class="edad">Edad</div>
+            <div class="otro">Otro dato</div>
+            <div class="email">email@ejemplo.com</div>
+            <div class="editar">
+                <svg enable-background="new 0 0 64 64" id="Layer_1" version="1.1" viewBox="0 0 64 64" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                <path d="M55.736,13.636l-4.368-4.362c-0.451-0.451-1.044-0.677-1.636-0.677c-0.592,0-1.184,0.225-1.635,0.676l-3.494,3.484l7.639,7.626l3.494-3.483C56.639,15.998,56.639,14.535,55.736,13.636z" />
+                <polygon points="21.922,35.396 29.562,43.023 50.607,22.017 42.967,14.39" />
+                <polygon points="20.273,37.028 18.642,46.28 27.913,44.654" />
+                <path d="M41.393,50.403H12.587V21.597h20.329l5.01-5H10.82c-1.779,0-3.234,1.455-3.234,3.234v32.339c0,1.779,1.455,3.234,3.234,3.234h32.339c1.779,0,3.234-1.455,3.234-3.234V29.049l-5,4.991V50.403z" />
+                </g>
+                </svg>
+            </div>
+        </div>
+        <div class="masopciones">
+            <div class="TerminarConsulta">Terminar Consulta</div>
+        </div>
+        <ul class="menu-navegacion">
+            <li><a href="#historial">Historial</a></li>
+            <li><a href="#notas-de-consulta">Notas de Consulta</a></li>
+            <li><a href="#diagnostico-y-tratamiento">Diagnóstico y Tratamiento</a></li>
+            <li><a href="#laboratorio-e-imagenes">Laboratorio e Imágenes</a></li>
+            <li><a href="#receta">Receta</a></li>
+        </ul>
+    </div>
+
+    <!-- Sección de Signos Vitales -->
+    <div class="section">
+        <h2>Signos Vitales</h2>
+        <label for="temperatura">Temperatura (°C)</label>
+        <input type="text" id="temperatura" placeholder="°C">
+        <label for="pulso">Pulso (lpm)</label>
+        <input type="text" id="pulso" placeholder="lpm">
+        <label for="respiracion">Respiración (rpm)</label>
+        <input type="text" id="respiracion" placeholder="rpm">
+        <label for="presion">Presión Arterial (mmHg)</label>
+        <input type="text" id="presion" placeholder="mmHg">
+        <button class="guardar">Guardar</button>
+    </div>
+
+    <!-- Sección de Notas de Consulta -->
+    <div class="notas-consulta" id="notas-de-consulta">
+        <h2>Notas de Consulta</h2>
+        <textarea rows="5" placeholder="Escribe tus notas aquí..."></textarea>
+        <button class="guardar">Guardar</button>
+    </div>
+
+    <div class="diagnostico-tratamiento">
+        <h2>Diagnóstico y Tratamiento</h2>
+        <label for="diagnostico">Diagnóstico:</label>
+        <textarea id="diagnostico" rows="3" placeholder="Escribe el diagnóstico aquí..."></textarea>
+
+        <label for="tratamiento">Tratamiento:</label>
+        <textarea id="tratamiento" rows="3" placeholder="Escribe el tratamiento aquí..."></textarea>
+    </div>
+
+    <div class="laboratorio-imagenologia">
+        <h2>Estudios de Laboratorio e Imagenología</h2>
+        <label for="laboratorio">Resultados de Laboratorio:</label>
+        <textarea id="laboratorio" rows="3" placeholder="Escribe los resultados aquí..."></textarea>
+
+        <label for="imagenologia">Resultados de Imagenología:</label>
+        <textarea id="imagenologia" rows="3" placeholder="Escribe los resultados aquí..."></textarea>
+    </div>
+
+    <!-- Sección de Cargos -->
+    <div class="cargos">
+        <h2>Cargos</h2>
+        <label for="cargos">Cargos de la consulta:</label>
+        <input type="text" id="cargos" placeholder="Buscar cargos">
+        <label for="subtotal">Subtotal:</label>
+        <input type="text" id="subtotal" value="$0.00" readonly>
+        <label for="descuento">Descuento:</label>
+        <input type="text" id="descuento" value="- $0.00" readonly>
+        <label for="impuesto">Impuesto trasladado:</label>
+        <input type="text" id="impuesto" value="$0.00" readonly>
+        <div class="total">Total: $0.00</div>
+        <button class="guardar">Guardar</button>
+    </div>
+
+</body>
+</html>

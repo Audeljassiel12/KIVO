@@ -314,19 +314,205 @@ namespace KIVO.Migrations
                         {
                             Id = 1,
                             DepartamentoId = 1,
-                            Nombre = "Ciudad 1"
+                            Nombre = "Managua"
                         },
                         new
                         {
                             Id = 2,
-                            DepartamentoId = 2,
-                            Nombre = "Ciudad 2"
+                            DepartamentoId = 1,
+                            Nombre = "Tipitapa"
                         },
                         new
                         {
                             Id = 3,
+                            DepartamentoId = 1,
+                            Nombre = "Ciudad Sandino"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DepartamentoId = 2,
+                            Nombre = "León"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DepartamentoId = 2,
+                            Nombre = "El Sauce"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DepartamentoId = 2,
+                            Nombre = "La Paz Centro"
+                        },
+                        new
+                        {
+                            Id = 7,
                             DepartamentoId = 3,
-                            Nombre = "Ciudad 3"
+                            Nombre = "Granada"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            DepartamentoId = 3,
+                            Nombre = "Nandaime"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            DepartamentoId = 4,
+                            Nombre = "Masaya"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            DepartamentoId = 4,
+                            Nombre = "Nindirí"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            DepartamentoId = 5,
+                            Nombre = "Chinandega"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            DepartamentoId = 5,
+                            Nombre = "Corinto"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            DepartamentoId = 6,
+                            Nombre = "Matagalpa"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            DepartamentoId = 6,
+                            Nombre = "Jinotega"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            DepartamentoId = 7,
+                            Nombre = "Estelí"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            DepartamentoId = 7,
+                            Nombre = "Condega"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            DepartamentoId = 8,
+                            Nombre = "Rivas"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            DepartamentoId = 8,
+                            Nombre = "San Juan del Sur"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            DepartamentoId = 9,
+                            Nombre = "Jinotega"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            DepartamentoId = 9,
+                            Nombre = "San Rafael del Norte"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            DepartamentoId = 10,
+                            Nombre = "Diriamba"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            DepartamentoId = 10,
+                            Nombre = "Jinotepe"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            DepartamentoId = 11,
+                            Nombre = "Boaco"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            DepartamentoId = 11,
+                            Nombre = "Camoapa"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            DepartamentoId = 12,
+                            Nombre = "Juigalpa"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            DepartamentoId = 12,
+                            Nombre = "Acoyapa"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            DepartamentoId = 13,
+                            Nombre = "San Carlos"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            DepartamentoId = 13,
+                            Nombre = "El Castillo"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            DepartamentoId = 14,
+                            Nombre = "Ocotal"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            DepartamentoId = 14,
+                            Nombre = "Jalapa"
+                        },
+                        new
+                        {
+                            Id = 31,
+                            DepartamentoId = 15,
+                            Nombre = "Bilwi"
+                        },
+                        new
+                        {
+                            Id = 32,
+                            DepartamentoId = 15,
+                            Nombre = "Waspam"
+                        },
+                        new
+                        {
+                            Id = 33,
+                            DepartamentoId = 16,
+                            Nombre = "Bluefields"
+                        },
+                        new
+                        {
+                            Id = 34,
+                            DepartamentoId = 16,
+                            Nombre = "Laguna de Perlas"
                         });
                 });
 
@@ -350,17 +536,82 @@ namespace KIVO.Migrations
                         new
                         {
                             Id = 1,
-                            Nombre = "Departamento 1"
+                            Nombre = "Managua"
                         },
                         new
                         {
                             Id = 2,
-                            Nombre = "Departamento 2"
+                            Nombre = "León"
                         },
                         new
                         {
                             Id = 3,
-                            Nombre = "Departamento 3"
+                            Nombre = "Granada"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nombre = "Masaya"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Nombre = "Chinandega"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Nombre = "Matagalpa"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Nombre = "Estelí"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Nombre = "Rivas"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Nombre = "Jinotega"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Nombre = "Carazo"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Nombre = "Boaco"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Nombre = "Chontales"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Nombre = "Río San Juan"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Nombre = "Nueva Segovia"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Nombre = "RAAN"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Nombre = "RAAS"
                         });
                 });
 

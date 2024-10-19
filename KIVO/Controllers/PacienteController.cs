@@ -29,6 +29,10 @@ namespace KIVO.Controllers
             this.pacienteService = pacienteService;
             this.departamentoRepository = departamentoRepository;
         }
+        public IActionResult Cita()
+        {
+            return View();
+        }
 
         public IPasienteRepository _pacienteRepository { get; }
    

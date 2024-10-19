@@ -158,16 +158,77 @@ namespace KIVO.Models.Data
   );
 
             modelBuilder.Entity<Departamento>().HasData(
-                new Departamento { Id = 1, Nombre = "Departamento 1" },
-                new Departamento { Id = 2, Nombre = "Departamento 2" },
-                new Departamento { Id = 3, Nombre = "Departamento 3" }
-            );
+     new Departamento { Id = 1, Nombre = "Managua" },
+     new Departamento { Id = 2, Nombre = "León" },
+     new Departamento { Id = 3, Nombre = "Granada" },
+     new Departamento { Id = 4, Nombre = "Masaya" },
+     new Departamento { Id = 5, Nombre = "Chinandega" },
+     new Departamento { Id = 6, Nombre = "Matagalpa" },
+     new Departamento { Id = 7, Nombre = "Estelí" },
+     new Departamento { Id = 8, Nombre = "Rivas" },
+     new Departamento { Id = 9, Nombre = "Jinotega" },
+     new Departamento { Id = 10, Nombre = "Carazo" },
+     new Departamento { Id = 11, Nombre = "Boaco" },
+     new Departamento { Id = 12, Nombre = "Chontales" },
+     new Departamento { Id = 13, Nombre = "Río San Juan" },
+     new Departamento { Id = 14, Nombre = "Nueva Segovia" },
+     new Departamento { Id = 15, Nombre = "RAAN" },
+     new Departamento { Id = 16, Nombre = "RAAS" }
+ );
 
             modelBuilder.Entity<Cuidad>().HasData(
-                new Cuidad { Id = 1, Nombre = "Ciudad 1"  ,DepartamentoId=1},
-                new Cuidad { Id = 2, Nombre = "Ciudad 2" ,DepartamentoId=2},
-                new Cuidad { Id = 3, Nombre = "Ciudad 3" , DepartamentoId = 3 }
+                // Managua
+                new Cuidad { Id = 1, Nombre = "Managua", DepartamentoId = 1 },
+                new Cuidad { Id = 2, Nombre = "Tipitapa", DepartamentoId = 1 },
+                new Cuidad { Id = 3, Nombre = "Ciudad Sandino", DepartamentoId = 1 },
+                // León
+                new Cuidad { Id = 4, Nombre = "León", DepartamentoId = 2 },
+                new Cuidad { Id = 5, Nombre = "El Sauce", DepartamentoId = 2 },
+                new Cuidad { Id = 6, Nombre = "La Paz Centro", DepartamentoId = 2 },
+                // Granada
+                new Cuidad { Id = 7, Nombre = "Granada", DepartamentoId = 3 },
+                new Cuidad { Id = 8, Nombre = "Nandaime", DepartamentoId = 3 },
+                // Masaya
+                new Cuidad { Id = 9, Nombre = "Masaya", DepartamentoId = 4 },
+                new Cuidad { Id = 10, Nombre = "Nindirí", DepartamentoId = 4 },
+                // Chinandega
+                new Cuidad { Id = 11, Nombre = "Chinandega", DepartamentoId = 5 },
+                new Cuidad { Id = 12, Nombre = "Corinto", DepartamentoId = 5 },
+                // Matagalpa
+                new Cuidad { Id = 13, Nombre = "Matagalpa", DepartamentoId = 6 },
+                new Cuidad { Id = 14, Nombre = "Jinotega", DepartamentoId = 6 },
+                // Estelí
+                new Cuidad { Id = 15, Nombre = "Estelí", DepartamentoId = 7 },
+                new Cuidad { Id = 16, Nombre = "Condega", DepartamentoId = 7 },
+                // Rivas
+                new Cuidad { Id = 17, Nombre = "Rivas", DepartamentoId = 8 },
+                new Cuidad { Id = 18, Nombre = "San Juan del Sur", DepartamentoId = 8 },
+                // Jinotega
+                new Cuidad { Id = 19, Nombre = "Jinotega", DepartamentoId = 9 },
+                new Cuidad { Id = 20, Nombre = "San Rafael del Norte", DepartamentoId = 9 },
+                // Carazo
+                new Cuidad { Id = 21, Nombre = "Diriamba", DepartamentoId = 10 },
+                new Cuidad { Id = 22, Nombre = "Jinotepe", DepartamentoId = 10 },
+                // Boaco
+                new Cuidad { Id = 23, Nombre = "Boaco", DepartamentoId = 11 },
+                new Cuidad { Id = 24, Nombre = "Camoapa", DepartamentoId = 11 },
+                // Chontales
+                new Cuidad { Id = 25, Nombre = "Juigalpa", DepartamentoId = 12 },
+                new Cuidad { Id = 26, Nombre = "Acoyapa", DepartamentoId = 12 },
+                // Río San Juan
+                new Cuidad { Id = 27, Nombre = "San Carlos", DepartamentoId = 13 },
+                new Cuidad { Id = 28, Nombre = "El Castillo", DepartamentoId = 13 },
+                // Nueva Segovia
+                new Cuidad { Id = 29, Nombre = "Ocotal", DepartamentoId = 14 },
+                new Cuidad { Id = 30, Nombre = "Jalapa", DepartamentoId = 14 },
+                // RAAN
+                new Cuidad { Id = 31, Nombre = "Bilwi", DepartamentoId = 15 },
+                new Cuidad { Id = 32, Nombre = "Waspam", DepartamentoId = 15 },
+                // RAAS
+                new Cuidad { Id = 33, Nombre = "Bluefields", DepartamentoId = 16 },
+                new Cuidad { Id = 34, Nombre = "Laguna de Perlas", DepartamentoId = 16 }
             );
+
         }
     }
 }

@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Stripe;
@@ -165,7 +166,7 @@ namespace KIVO.Controllers
         {
             return View(pagosDto);
         }
-       
+
         [HttpPost("CrearSesionPago")]
         public async Task<IActionResult> CrearSesionPago([FromBody] PagoRequestDto request)
         {
@@ -183,8 +184,8 @@ namespace KIVO.Controllers
                 total += (request.UserCount - 1) * additionalUserPrice;
             }
 
-            // Calcular el descuento (por ejemplo, un 10% de descuento)
-            decimal discountPercentage = 0.94m; // 10% de descuento
+            // Calcular el descuento (por ejemplo, un 6% de descuento)
+            decimal discountPercentage = 0.94m; // 6% de descuento
             decimal discountAmount = total * discountPercentage;
             total -= discountAmount; // Aplicar el descuento al total
 
@@ -203,28 +204,40 @@ namespace KIVO.Controllers
                     Currency = "usd",
                     ProductData = new SessionLineItemPriceDataProductDataOptions
                     {
-                        Name = "Suscripción  " +
-                        "KIVO PRO BUNDLE", // Nombre del producto
+                        Name = "Suscripción KIVO PRO BUNDLE", // Nombre del producto
                     },
                 },
                 Quantity = 1, // Solo una línea de producto
             },
         },
                 Mode = "payment",
-                SuccessUrl = "http://tu_dominio.com/success?session_id={CHECKOUT_SESSION_ID}",
-                CancelUrl = "https://localhost:7212/Configuracion",
+                SuccessUrl = "https://localhost:7212/Configuracion/Succes", // Temporalmente vacío
+                CancelUrl = Url.Action("Pago", "Configuracion", null, Request.Scheme), // URL de cancelación
             };
 
             var sessionService = new SessionService();
             var session = await sessionService.CreateAsync(sessionOptions);
 
-            return Ok(new { sessionId = session.Id, total, discountAmount }); // Devuelve también el total y el descuento aplicado
+            // Ahora que tienes el `session.Id`, puedes crear la URL de éxito correctamente
+            sessionOptions.SuccessUrl = Url.Action("PagoExitoso", "Configuracion", new { session_id = session.Id }, Request.Scheme);
+
+            // Actualiza la sesión con la URL de éxito correcta (opcional si es necesario modificarla)
+            // Stripe recomienda que se configure bien antes de crear la sesión, pero aquí sería opcional.
+
+            // Devuelve el ID de la sesión junto con otros detalles
+            return Ok(new { sessionId = session.Id, total, discountAmount });
         }
+
         [HttpGet("step-four")]
         public IActionResult OpcionesPricipal()
         {
 
             return View("step-four");
+        }
+        [HttpGet("Succes")]
+        public IActionResult Succes()
+        {
+            return View();
         }
         // Método para obtener la lista de departamentos como SelectListItem
         private async Task<List<SelectListItem>> GetDepartamentosSelectList()
@@ -239,5 +252,22 @@ namespace KIVO.Controllers
             var especialidades = await unityOfWork.espesialidadRepository.GetAllAsync();
             return especialidades.Select(a => new SelectListItem { Value = a.Id.ToString(), Text = a.Nombre }).ToList();
         }
+         [HttpGet("PagoExitoso")]
+        public async Task<IActionResult> PagoExitoso(string session_id)
+        {
+            // Verificar la sesión de pago con Stripe
+            var sessionService = new SessionService();
+            var session = await sessionService.GetAsync(session_id);
+
+            if (session == null || session.PaymentStatus != "paid")
+            {
+                return BadRequest("Pago no completado.");
+            }
+
+            // Aquí puedes registrar el pago en tu base de datos si es necesario
+
+            return View("PagoExitoso", session); // Muestra la vista con detalles del pago
+        }
     }
-}
+    }
+

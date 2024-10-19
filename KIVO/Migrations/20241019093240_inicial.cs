@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace KIVO.Migrations
 {
     /// <inheritdoc />
-    public partial class incial : Migration
+    public partial class inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -300,6 +300,7 @@ namespace KIVO.Migrations
                     Nombres = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     HaConfiguradoOrganizacion = table.Column<bool>(type: "bit", nullable: false),
                     SelecionoPlan = table.Column<bool>(type: "bit", nullable: false),
+                    TwoFactorEnabled = table.Column<bool>(type: "bit", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -310,7 +311,6 @@ namespace KIVO.Migrations
                     ConcurrencyStamp = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PhoneNumberConfirmed = table.Column<bool>(type: "bit", nullable: false),
-                    TwoFactorEnabled = table.Column<bool>(type: "bit", nullable: false),
                     LockoutEnd = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true),
                     LockoutEnabled = table.Column<bool>(type: "bit", nullable: false),
                     AccessFailedCount = table.Column<int>(type: "int", nullable: false)
@@ -994,9 +994,22 @@ namespace KIVO.Migrations
                 columns: new[] { "Id", "Nombre" },
                 values: new object[,]
                 {
-                    { 1, "Departamento 1" },
-                    { 2, "Departamento 2" },
-                    { 3, "Departamento 3" }
+                    { 1, "Managua" },
+                    { 2, "León" },
+                    { 3, "Granada" },
+                    { 4, "Masaya" },
+                    { 5, "Chinandega" },
+                    { 6, "Matagalpa" },
+                    { 7, "Estelí" },
+                    { 8, "Rivas" },
+                    { 9, "Jinotega" },
+                    { 10, "Carazo" },
+                    { 11, "Boaco" },
+                    { 12, "Chontales" },
+                    { 13, "Río San Juan" },
+                    { 14, "Nueva Segovia" },
+                    { 15, "RAAN" },
+                    { 16, "RAAS" }
                 });
 
             migrationBuilder.InsertData(
@@ -1040,9 +1053,40 @@ namespace KIVO.Migrations
                 columns: new[] { "Id", "DepartamentoId", "Nombre" },
                 values: new object[,]
                 {
-                    { 1, 1, "Ciudad 1" },
-                    { 2, 2, "Ciudad 2" },
-                    { 3, 3, "Ciudad 3" }
+                    { 1, 1, "Managua" },
+                    { 2, 1, "Tipitapa" },
+                    { 3, 1, "Ciudad Sandino" },
+                    { 4, 2, "León" },
+                    { 5, 2, "El Sauce" },
+                    { 6, 2, "La Paz Centro" },
+                    { 7, 3, "Granada" },
+                    { 8, 3, "Nandaime" },
+                    { 9, 4, "Masaya" },
+                    { 10, 4, "Nindirí" },
+                    { 11, 5, "Chinandega" },
+                    { 12, 5, "Corinto" },
+                    { 13, 6, "Matagalpa" },
+                    { 14, 6, "Jinotega" },
+                    { 15, 7, "Estelí" },
+                    { 16, 7, "Condega" },
+                    { 17, 8, "Rivas" },
+                    { 18, 8, "San Juan del Sur" },
+                    { 19, 9, "Jinotega" },
+                    { 20, 9, "San Rafael del Norte" },
+                    { 21, 10, "Diriamba" },
+                    { 22, 10, "Jinotepe" },
+                    { 23, 11, "Boaco" },
+                    { 24, 11, "Camoapa" },
+                    { 25, 12, "Juigalpa" },
+                    { 26, 12, "Acoyapa" },
+                    { 27, 13, "San Carlos" },
+                    { 28, 13, "El Castillo" },
+                    { 29, 14, "Ocotal" },
+                    { 30, 14, "Jalapa" },
+                    { 31, 15, "Bilwi" },
+                    { 32, 15, "Waspam" },
+                    { 33, 16, "Bluefields" },
+                    { 34, 16, "Laguna de Perlas" }
                 });
 
             migrationBuilder.CreateIndex(
